@@ -6,6 +6,7 @@ RAW_DATA_FILE = "data/WtoData_20220406190501.csv"
 PROCESSED_DATA_FILE = "data/visualization_input.csv"
 RAW_DATA_FILE_PATH = os.path.join(ROOT_PATH, RAW_DATA_FILE)
 PROCESSED_DATA_FILE_PATH = os.path.join(ROOT_PATH, PROCESSED_DATA_FILE)
+OUTPUT_HTML_PATH = os.path.join(ROOT_PATH, 'output')
 
 
 if __name__ == '__main__':

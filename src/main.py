@@ -1,9 +1,9 @@
-from click import style
+import os
 import pandas as pd
 import geopandas
 import folium
 from folium.plugins import TimeSliderChoropleth
-from config.constants import PROCESSED_DATA_FILE_PATH
+from config.constants import PROCESSED_DATA_FILE_PATH, OUTPUT_HTML_PATH
 import json
 import branca.colormap as cm
 from branca.colormap import linear
@@ -20,7 +20,7 @@ def main():
     inputDf = inputDf.drop(['Reporting Economy', 'Product/Sector'], axis=1)
     print(inputDf.columns)
     # create a folium map, min_zoom/max_bounds ensures the user can only see one copy of the map
-    world_map = folium.Map([0, 0], min_zoom=2, max_bounds=True)
+    world_map = folium.Map(min_zoom=2, max_bounds=True)
     # choropleth maps use changes in color to represent data
     # TimeSliderChoropleth needs two parameters, the geo data and the style dict
     # https://notebook.community/ocefpaf/folium/examples/TimeSliderChoropleth
@@ -35,14 +35,14 @@ def main():
     inputDf.rename(columns={time: dt_index[i] for i, time in enumerate(times)}, inplace=True)
 
     styledict = {}
-    for idx, row in inputDf.iterrows():
-        newStyleEntry = {}
+    for location_idx, row in inputDf.iterrows():
+        newLocationStyleEntry = {}
         for period in dt_index:
-            newStyleEntry[period] = {
+            newLocationStyleEntry[period] = {
                 'color': row[period],
                 'opacity': 0.7,
             }
-        styledict[idx] = newStyleEntry
+        styledict[location_idx] = newLocationStyleEntry
 
     max_color, min_color, max_opacity, min_opacity = 0, 0, 0, 0
 
@@ -72,7 +72,6 @@ def main():
         styledict=styledict,
     ).add_to(world_map)
 
-    inputDf.to_csv('test.csv')
     """
     Choropleth(
         geo_data=inputDf,
@@ -88,7 +87,7 @@ def main():
     """
 
     # save the map in html format
-    world_map.save('test.html')
+    world_map.save(os.path.join(OUTPUT_HTML_PATH, 'test.html'))
 
 
 if __name__ == '__main__':
