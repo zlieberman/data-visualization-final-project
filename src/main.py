@@ -24,7 +24,7 @@ def main():
     # choropleth maps use changes in color to represent data
     # TimeSliderChoropleth needs two parameters, the geo data and the style dict
     # https://notebook.community/ocefpaf/folium/examples/TimeSliderChoropleth
-    times = inputDf.columns[9:]
+    times = inputDf.columns[7:]
     earliest_time = times[0]
     n_periods = len(times)
 
@@ -32,15 +32,17 @@ def main():
     dt_index_epochs = datetime_index.astype(int) // 10 ** 9
     dt_index = dt_index_epochs.astype("U10")  
 
+    inputDf.rename(columns={time: dt_index[i] for i, time in enumerate(times)}, inplace=True)
+
     styledict = {}
-    for _idx, row in inputDf.iterrows():
+    for idx, row in inputDf.iterrows():
         newStyleEntry = {}
-        for i, period in enumerate(dt_index):
+        for period in dt_index:
             newStyleEntry[period] = {
-                'color': row[times[i]],
+                'color': row[period],
                 'opacity': 0.7,
             }
-        styledict[row['name']] = newStyleEntry
+        styledict[idx] = newStyleEntry
 
     max_color, min_color, max_opacity, min_opacity = 0, 0, 0, 0
 
@@ -63,15 +65,14 @@ def main():
         for timestamp, timestamp_data in data.items():
             timestamp_data['color'] = cmap(timestamp_data['color'])[:7]
 
-    inputDf.set_index('name', inplace=True)
     print(inputDf)
-    print(json.dumps(inputDf.to_json(), indent=2))
 
     TimeSliderChoropleth(
         inputDf.to_json(),
         styledict=styledict,
     ).add_to(world_map)
 
+    inputDf.to_csv('test.csv')
     """
     Choropleth(
         geo_data=inputDf,
