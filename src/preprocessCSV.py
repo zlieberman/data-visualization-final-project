@@ -6,10 +6,10 @@ from config.constants import RAW_DATA_FILE_PATH, PROCESSED_DATA_FILE_PATH
 
 def preprocessCSV(infile: str, outfile: str, numHeaderRows: int=0, indexCol: Optional[str]=None, customFilter: Optional[Callable[[pd.DataFrame], None]]=None):
     originalCSV = pd.read_csv(infile, skiprows=numHeaderRows)
-    print(originalCSV)
+
     if customFilter is not None:
         customFilter(originalCSV)
-    print(originalCSV)
+        
     if indexCol is not None:
         originalCSV.set_index(indexCol, inplace=True)
 
@@ -20,7 +20,7 @@ def preprocessCSV(infile: str, outfile: str, numHeaderRows: int=0, indexCol: Opt
 Input data specific filters for preprocesCSV()
 """
 
-
+# https://stats.wto.org/
 def getWTODataFilter(criteria: dict):
     def customFilter(df: pd.DataFrame):
         for col, value in criteria.items():
