@@ -29,10 +29,8 @@ def input_to_geodata(input_file: str):
 
 def main_plotly():
     inputDf = input_to_geodata(PROCESSED_DATA_FILE_PATH)
-   
-    # min year in your dataset
+
     times = inputDf.columns[7:]
-    earliest_time = times[0]
 
     # your color-scale
     scl = [[0.0, '#ffffff'],[0.2, '#b4a8ce'],[0.4, '#8573a9'],
@@ -40,15 +38,13 @@ def main_plotly():
 
     data_slider = []
     for year in times:
-        # inputDf[year] = inputDf[year].astype(str)
-
         data_each_yr = dict(
             type='choropleth',
             locations = inputDf['name'],
             z=inputDf[year].astype(float),
             locationmode='country names',
             colorscale = scl,
-            colorbar= {'title':'# Market Exports'}
+            colorbar= {'title':'Market Exports'}
         )
 
         data_slider.append(data_each_yr)
@@ -63,7 +59,7 @@ def main_plotly():
 
     sliders = [dict(active=0, pad={"t": 1}, steps=steps)]
 
-    layout = dict(title ='Total exports by country since 2014', geo=dict(scope='world'),
+    layout = dict(title ='Total exports by country since 2015', geo=dict(scope='world'),
                 sliders=sliders)
 
     fig = dict(data=data_slider, layout=layout)
