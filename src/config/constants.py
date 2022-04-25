@@ -7,6 +7,7 @@ PROCESSED_DATA_FILE = "data/visualization_input.csv"
 RAW_DATA_FILE_PATH = os.path.join(ROOT_PATH, RAW_DATA_FILE)
 PROCESSED_DATA_FILE_PATH = os.path.join(ROOT_PATH, PROCESSED_DATA_FILE)
 OUTPUT_HTML_PATH = os.path.join(ROOT_PATH, 'output')
+NODES_FILE_PATH = os.path.join(ROOT_PATH, 'data/top5.csv')
 
 
 if __name__ == '__main__':
