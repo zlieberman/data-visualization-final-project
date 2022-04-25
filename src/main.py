@@ -22,7 +22,6 @@ def input_to_geodata(input_file: str):
     inputDf = world.merge(inputDf, how='left', left_on=['name'], right_on=['Reporting Economy'])
     inputDf = inputDf.dropna(subset=['Reporting Economy'])
     inputDf = inputDf.drop(['Reporting Economy', 'Product/Sector'], axis=1)
-    print(inputDf.columns)
 
     return inputDf
 
@@ -32,19 +31,22 @@ def main_plotly():
 
     times = inputDf.columns[7:]
 
-    # your color-scale
+    # https://support.sisense.com/kb/en/article/plotly-choropleth-with-slider-map-charts-over-time
+    # color-scale to use for the plot
     scl = [[0.0, '#ffffff'],[0.2, '#b4a8ce'],[0.4, '#8573a9'],
         [0.6, '#7159a3'],[0.8, '#5732a1'],[1.0, '#2c0579']] # purples
 
     data_slider = []
     for year in times:
+        inputDf[f'{year}_text'] = inputDf['name'] + ' chum'
         data_each_yr = dict(
             type='choropleth',
             locations = inputDf['name'],
             z=inputDf[year].astype(float),
             locationmode='country names',
             colorscale = scl,
-            colorbar= {'title':'Market Exports'}
+            colorbar= {'title':'Market Exports'},
+            text=inputDf[f'{year}_text'],
         )
 
         data_slider.append(data_each_yr)
