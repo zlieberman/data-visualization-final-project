@@ -38,7 +38,7 @@ def main_plotly():
 
     data_slider = []
     for year in times:
-        inputDf[f'{year}_text'] = inputDf['name'] + ' chum'
+        inputDf[f'{year}_text'] = inputDf['name'] + f' {year}'
         data_each_yr = dict(
             type='choropleth',
             locations = inputDf['name'],
