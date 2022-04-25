@@ -32,10 +32,6 @@ def main_plotly():
     times = inputDf.columns[7:]
 
     # https://support.sisense.com/kb/en/article/plotly-choropleth-with-slider-map-charts-over-time
-    # color-scale to use for the plot
-    scl = [[0.0, '#ffffff'],[0.2, '#b4a8ce'],[0.4, '#8573a9'],
-        [0.6, '#7159a3'],[0.8, '#5732a1'],[1.0, '#2c0579']] # purples
-
     data_slider = []
     for year in times:
         inputDf[f'{year}_text'] = inputDf['name'] + f' {year}'
@@ -44,7 +40,7 @@ def main_plotly():
             locations = inputDf['name'],
             z=inputDf[year].astype(float),
             locationmode='country names',
-            colorscale = scl,
+            colorscale = 'greens',
             colorbar= {'title':'Market Exports'},
             text=inputDf[f'{year}_text'],
         )
