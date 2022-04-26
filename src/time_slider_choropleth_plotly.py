@@ -1,9 +1,49 @@
 import plotly
+import plotly.express as px
+import pandas as pd
+
+from config.constants import RAW_DATA_FILE
 from get_input import input_to_geodata, get_connections_data
-import plotly.graph_objects as go
+
+SUPPORTED_MAP_TYPES = ['country names']
+SUPPORTED_PLOT_TYPES = ['scatter']
 
 
-def time_slider_choropleth_plotly(data_path: str, connections_path: str):
+def draw_plot(data_path: str, connections_path: str, plotType: str):
+    if plotType in SUPPORTED_MAP_TYPES:
+        time_slider_choropleth_plotly(data_path, connections_path, plotType)
+    elif plotType in SUPPORTED_PLOT_TYPES:
+        dynamic_node_graph_plotly(data_path, connections_path, plotType)
+    else:
+        raise ValueError(f'type {plotType} is not in {SUPPORTED_MAP_TYPES} or {SUPPORTED_PLOT_TYPES}, please enter a supported type and try again')
+        
+
+def dynamic_node_graph_plotly(data_path: str, connections_path: str, plotType: str):
+    inputDf = pd.read_csv(RAW_DATA_FILE)
+
+    times = ['2000', '2005', '2010', '2015']
+
+    # read in connections data
+    if connections_path is not None:
+        # connectionsDf = get_connections_data(connections_path, inputDf['name'])
+        pass
+
+    maxX = inputDf['Value'].max()
+    minX = inputDf['Value'].min()
+    maxY = inputDf['rankx'].max()
+    minY = inputDf['rankx'].min()
+
+    fig = px.scatter(
+        inputDf, x="Value", y="rankx", animation_frame="Year", animation_group="Reporting_Economy",
+        size="Value", color="Reporting_Economy", hover_name="Reporting_Economy",
+        log_x=True, size_max=55, range_x=[minX,maxX], range_y=[minY,maxY]
+    )
+
+    fig["layout"].pop("updatemenus") # optional, drop animation buttons
+    fig.show()
+
+
+def time_slider_choropleth_plotly(data_path: str, connections_path: str, mapType: str):
     inputDf = input_to_geodata(data_path)
 
     times = ['2000', '2005', '2010', '2015']
@@ -27,8 +67,8 @@ def time_slider_choropleth_plotly(data_path: str, connections_path: str):
             type='choropleth',
             locations = inputDf['name'],
             z=inputDf[year].astype(float),
-            locationmode='country names',
-            colorscale = 'greens',
+            locationmode=mapType,
+            colorscale = 'greys',
             colorbar= {'title':'Petroleum Exports Value in USD'},
             text=inputDf[f'{year}_text'],
         )
@@ -59,7 +99,7 @@ def time_slider_choropleth_plotly(data_path: str, connections_path: str):
 
     sliders = [dict(active=0, pad={"t": 1}, steps=steps)]
 
-    layout = dict(title ='Petroleum exports by country since 2015', geo=dict(scope='world'),
+    layout = dict(title ='Petroleum exports by country since 2000', geo=dict(scope='world'),
                 sliders=sliders)
 
     fig = dict(data=data_slider, layout=layout)
