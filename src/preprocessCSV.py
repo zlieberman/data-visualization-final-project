@@ -43,6 +43,10 @@ def getWTODataFilter(criteria: dict):
     return customFilter
 
 
+def petroleumDataFilter():
+    pass
+
+
 if __name__ == '__main__':
     
     criteria = { "Product/Sector": "SI3_AGG - TO - Total merchandise" }
