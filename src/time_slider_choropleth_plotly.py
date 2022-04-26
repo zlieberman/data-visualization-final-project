@@ -31,7 +31,6 @@ def time_slider_choropleth_plotly(data_path: str, connections_path: str):
             colorscale = 'greens',
             colorbar= {'title':'Petroleum Exports Value in USD'},
             text=inputDf[f'{year}_text'],
-            projection='orthographic'
         )
 
         """
