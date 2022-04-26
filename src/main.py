@@ -66,7 +66,7 @@ def main_plotly():
     data_slider = []
     print(inputDf)
     for year in times:
-        inputDf[f'{year}_text'] = connectionsDf[year]
+        inputDf[f'{year}_text'] = connectionsDf[year].values
         data_each_yr = dict(
             type='choropleth',
             locations = inputDf['name'],
