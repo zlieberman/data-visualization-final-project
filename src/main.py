@@ -21,6 +21,11 @@ def input_to_geodata(input_file: str):
 
     # get geographic data from geopandas so we know where to draw each country
     world = geopandas.read_file(geopandas.datasets.get_path('naturalearth_lowres'))
+    """
+    for i in range(world.shape[0]):
+        print(world.loc[i]['name'])
+    return
+    """
 
     # merge the two dataframes so we have the data we want as well as each country's shape
     inputDf = world.merge(inputDf, how='left', left_on=['name'], right_on=['Reporting_Economy'])
@@ -33,7 +38,6 @@ def input_to_geodata(input_file: str):
 def get_connections_data(connections_file_path: str, countries: List[str]):
     inputDf = pd.read_csv(connections_file_path)
     connectionsDf = pd.DataFrame(index=countries)
-    # print(connectionsDf)
 
     years = ['2000', '2005', '2010', '2015']
     num_countries = len(countries)
@@ -73,7 +77,7 @@ def main_plotly():
             z=inputDf[year].astype(float),
             locationmode='country names',
             colorscale = 'greens',
-            colorbar= {'title':'Petroleum Exports'},
+            colorbar= {'title':'Petroleum Exports Value in USD'},
             text=inputDf[f'{year}_text'],
         )
 
@@ -89,7 +93,7 @@ def main_plotly():
 
     sliders = [dict(active=0, pad={"t": 1}, steps=steps)]
 
-    layout = dict(title ='Total exports by country since 2015', geo=dict(scope='world'),
+    layout = dict(title ='Petroleum exports by country since 2015', geo=dict(scope='world'),
                 sliders=sliders)
 
     fig = dict(data=data_slider, layout=layout)
