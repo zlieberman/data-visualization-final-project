@@ -1,4 +1,4 @@
-Reporting Economy,Partner Economy,Year,Value
+Reporting_Economy,Partner_Economy,Year,Value
 Angola,World,2015,1262406445
 Angola,Austria,2015,663
 Angola,Belgium,2015,15897437
@@ -17,7 +17,7 @@ Angola,"Hong Kong, China",2015,100
 Angola,India,2015,6442380
 Angola,Israel,2015,590466
 Angola,Italy,2015,2500784
-Angola,Côte d'Ivoire,2015,73489179
+Angola,Cï¿½te d'Ivoire,2015,73489179
 Angola,Japan,2015,56350
 Angola,Jordan,2015,101214
 Angola,"Korea, Republic of",2015,97801928
@@ -249,7 +249,7 @@ Gabon,India,2011,2756
 Gabon,Iran,2011,15192
 Gabon,Israel,2011,278
 Gabon,Italy,2011,56910
-Gabon,Côte d'Ivoire,2011,10
+Gabon,Cï¿½te d'Ivoire,2011,10
 Gabon,Japan,2011,29482
 Gabon,"Korea, Republic of",2011,511
 Gabon,Lebanese Republic,2011,13251
@@ -355,7 +355,7 @@ Mali,"Hong Kong, China",2003,24987
 Mali,India,2003,34788
 Mali,Iran,2003,99001
 Mali,Italy,2003,203717
-Mali,Côte d'Ivoire,2003,7160601
+Mali,Cï¿½te d'Ivoire,2003,7160601
 Mali,Lithuania,2003,22428
 Mali,Netherlands,2003,264197
 Mali,Niger,2003,5504
@@ -437,7 +437,7 @@ Australia,India,2011,82755341
 Australia,Indonesia,2011,2852368116
 Australia,Israel,2011,264152
 Australia,Italy,2011,968317
-Australia,Côte d'Ivoire,2011,9423405
+Australia,Cï¿½te d'Ivoire,2011,9423405
 Australia,Japan,2011,2103408252
 Australia,"Korea, Republic of",2011,1581256689
 Australia,Libya,2011,205480613
@@ -1275,7 +1275,7 @@ Malaysia,Malta,2013,24399633
 Malaysia,Mexico,2013,20093760
 Malaysia,Oman,2013,161378389
 Malaysia,Netherlands,2013,302734414
-Malaysia,Curaçao,2013,110165
+Malaysia,Curaï¿½ao,2013,110165
 Malaysia,New Zealand,2013,258161
 Malaysia,Norway,2013,50090
 Malaysia,Pakistan,2013,314
@@ -1347,7 +1347,7 @@ Mali,Guinea,2004,3377887
 Mali,India,2004,120754
 Mali,Iran,2004,54950
 Mali,Italy,2004,187097
-Mali,Côte d'Ivoire,2004,26184115
+Mali,Cï¿½te d'Ivoire,2004,26184115
 Mali,"Kuwait, the State of",2004,229145
 Mali,Lebanese Republic,2004,23316
 Mali,Latvia,2004,230020
@@ -1440,7 +1440,7 @@ Niger,Germany,2004,114246
 Niger,Ghana,2004,647973
 Niger,Indonesia,2004,945
 Niger,Italy,2004,356498
-Niger,Côte d'Ivoire,2004,25493249
+Niger,Cï¿½te d'Ivoire,2004,25493249
 Niger,Japan,2004,2320
 Niger,"Kuwait, the State of",2004,1946380
 Niger,Mali,2004,2038
@@ -1596,7 +1596,7 @@ Peru,"Korea, Republic of",2014,72604
 Peru,Lithuania,2014,274
 Peru,Mexico,2014,15325317
 Peru,Netherlands,2014,445236
-Peru,Curaçao,2014,480
+Peru,Curaï¿½ao,2014,480
 Peru,New Zealand,2014,88
 Peru,Nigeria,2014,526280090
 Peru,Norway,2014,113
@@ -1889,7 +1889,7 @@ Canada,Indonesia,2016,1074022
 Canada,Ireland,2016,535
 Canada,Israel,2016,327422
 Canada,Italy,2016,412797
-Canada,Côte d'Ivoire,2016,179917344
+Canada,Cï¿½te d'Ivoire,2016,179917344
 Canada,Japan,2016,1919738
 Canada,Kazakhstan,2016,352374574
 Canada,Jordan,2016,22
@@ -1903,7 +1903,7 @@ Canada,Mexico,2016,277943705
 Canada,Morocco,2016,17933
 Canada,Oman,2016,1964
 Canada,Netherlands,2016,1252823318
-Canada,Curaçao,2016,2447441
+Canada,Curaï¿½ao,2016,2447441
 Canada,New Zealand,2016,1325
 Canada,Nigeria,2016,1143712013
 Canada,Norway,2016,743229394
@@ -2047,7 +2047,7 @@ Gabon,Indonesia,2012,29444
 Gabon,Ireland,2012,467349
 Gabon,Israel,2012,360
 Gabon,Italy,2012,152656
-Gabon,Côte d'Ivoire,2012,20606977
+Gabon,Cï¿½te d'Ivoire,2012,20606977
 Gabon,Japan,2012,4540
 Gabon,"Korea, Republic of",2012,38
 Gabon,Lebanese Republic,2012,20657
@@ -2136,7 +2136,7 @@ Ghana,Iran,2011,2022806
 Ghana,Ireland,2011,22519
 Ghana,Israel,2011,630348
 Ghana,Italy,2011,246834
-Ghana,Côte d'Ivoire,2011,3034
+Ghana,Cï¿½te d'Ivoire,2011,3034
 Ghana,Japan,2011,45734
 Ghana,Jordan,2011,2112
 Ghana,"Korea, Republic of",2011,884103
@@ -2183,7 +2183,7 @@ Guinea,The Gambia,2019,1130
 Guinea,Germany,2019,509762
 Guinea,India,2019,1768154
 Guinea,Italy,2019,3101864
-Guinea,Côte d'Ivoire,2019,301038
+Guinea,Cï¿½te d'Ivoire,2019,301038
 Guinea,"Korea, Republic of",2019,13516
 Guinea,"Kuwait, the State of",2019,636854
 Guinea,Lebanese Republic,2019,12747
@@ -2436,7 +2436,7 @@ Mali,"Hong Kong, China",2005,9002
 Mali,India,2005,14300
 Mali,Iran,2005,318562
 Mali,Italy,2005,79266
-Mali,Côte d'Ivoire,2005,43634166
+Mali,Cï¿½te d'Ivoire,2005,43634166
 Mali,Japan,2005,9
 Mali,Mauritania,2005,5149
 Mali,Morocco,2005,464
@@ -2503,7 +2503,7 @@ Niger,Germany,2005,3675
 Niger,Ghana,2005,1306963
 Niger,India,2005,2275239
 Niger,Italy,2005,917159
-Niger,Côte d'Ivoire,2005,27130708
+Niger,Cï¿½te d'Ivoire,2005,27130708
 Niger,"Kuwait, the State of",2005,802832
 Niger,Mali,2005,1183
 Niger,Netherlands,2005,4359442
@@ -2536,7 +2536,7 @@ Niger,Ghana,2006,1566361
 Niger,India,2006,11815048
 Niger,Indonesia,2006,1044207
 Niger,Italy,2006,849633
-Niger,Côte d'Ivoire,2006,16010129
+Niger,Cï¿½te d'Ivoire,2006,16010129
 Niger,Lebanese Republic,2006,0
 Niger,Mali,2006,601
 Niger,Netherlands,2006,13023343
@@ -2588,7 +2588,7 @@ Nigeria,"Hong Kong, China",2011,264643
 Nigeria,India,2011,274038815
 Nigeria,Israel,2011,400629
 Nigeria,Italy,2011,169663552
-Nigeria,Côte d'Ivoire,2011,114319389
+Nigeria,Cï¿½te d'Ivoire,2011,114319389
 Nigeria,Japan,2011,709
 Nigeria,"Korea, Republic of",2011,231404
 Nigeria,Lebanese Republic,2011,3091
@@ -2779,7 +2779,7 @@ Peru,"Korea, Republic of",2015,19100161
 Peru,Luxembourg,2015,213
 Peru,Mexico,2015,5715590
 Peru,Netherlands,2015,16373276
-Peru,Curaçao,2015,93051
+Peru,Curaï¿½ao,2015,93051
 Peru,Nigeria,2015,53383406
 Peru,Norway,2015,234
 Peru,Panama,2015,81643100
@@ -2962,7 +2962,7 @@ Senegal,Greece,2019,8336147
 Senegal,India,2019,8931501
 Senegal,Indonesia,2019,2870428
 Senegal,Italy,2019,6745816
-Senegal,Côte d'Ivoire,2019,34525
+Senegal,Cï¿½te d'Ivoire,2019,34525
 Senegal,Japan,2019,10969
 Senegal,"Korea, Republic of",2019,319465
 Senegal,Mauritania,2019,6412
@@ -3010,7 +3010,7 @@ Switzerland,"Korea, Republic of",2018,1501348
 Switzerland,Libya,2018,394561166
 Switzerland,Malaysia,2018,66568
 Switzerland,Mexico,2018,568
-Switzerland,Curaçao,2018,28823
+Switzerland,Curaï¿½ao,2018,28823
 Switzerland,New Zealand,2018,956
 Switzerland,Nigeria,2018,626339492
 Switzerland,Norway,2018,14947
@@ -3030,7 +3030,7 @@ Switzerland,Egypt,2018,8971
 Switzerland,United States of America,2018,47681327
 Switzerland,"Venezuela, Bolivarian Republic of",2018,155
 Switzerland,European Union (partner code),2018,4688710536
-Thailand,Curaçao,2016,884
+Thailand,Curaï¿½ao,2016,884
 Thailand,New Zealand,2016,20926870
 Thailand,Nigeria,2016,38748735
 Thailand,Norway,2016,4968
@@ -3193,7 +3193,7 @@ European Union,Indonesia,2003,4040363
 European Union,Iran,2003,6821276367
 European Union,Iraq,2003,1752844244
 European Union,Israel,2003,137881964
-European Union,Côte d'Ivoire,2003,126352186
+European Union,Cï¿½te d'Ivoire,2003,126352186
 European Union,Japan,2003,11704684
 European Union,Kazakhstan,2003,3267564300
 European Union,Jordan,2003,328
@@ -3576,7 +3576,7 @@ Ecuador,Japan,2012,74740670
 Ecuador,"Korea, Republic of",2012,1377060
 Ecuador,Mexico,2012,2530060
 Ecuador,Netherlands,2012,814750
-Ecuador,Curaçao,2012,980
+Ecuador,Curaï¿½ao,2012,980
 Ecuador,Niger,2012,153010
 Ecuador,Panama,2012,769978650
 Ecuador,Peru,2012,33947330
@@ -3610,7 +3610,7 @@ Gabon,Ghana,2014,20033090
 Gabon,India,2014,27794382
 Gabon,Indonesia,2014,20199
 Gabon,Italy,2014,2185703
-Gabon,Côte d'Ivoire,2014,30333498
+Gabon,Cï¿½te d'Ivoire,2014,30333498
 Gabon,Japan,2014,15095
 Gabon,Kenya,2014,30
 Gabon,Lebanese Republic,2014,17981
@@ -3659,7 +3659,7 @@ Ghana,Iran,2012,349300
 Ghana,Ireland,2012,567
 Ghana,Israel,2012,433546
 Ghana,Italy,2012,12752434
-Ghana,Côte d'Ivoire,2012,208808
+Ghana,Cï¿½te d'Ivoire,2012,208808
 Ghana,Japan,2012,29649
 Ghana,"Korea, Republic of",2012,195129
 Ghana,Lebanese Republic,2012,47310
@@ -3753,7 +3753,7 @@ India,Iraq,2011,18848262272
 India,Ireland,2011,100486
 India,Israel,2011,67911883
 India,Italy,2011,10596739
-India,Côte d'Ivoire,2011,163847173
+India,Cï¿½te d'Ivoire,2011,163847173
 India,Japan,2011,156340803
 India,Kazakhstan,2011,990293
 India,Kenya,2011,31145
@@ -3957,7 +3957,7 @@ Mali,Ghana,2006,33178325
 Mali,Guinea,2006,1591085
 Mali,India,2006,19719
 Mali,Iran,2006,323535
-Mali,Côte d'Ivoire,2006,61773673
+Mali,Cï¿½te d'Ivoire,2006,61773673
 Mali,Japan,2006,227
 Mali,Lithuania,2006,19080
 Mali,Luxembourg,2006,8957
@@ -4294,7 +4294,7 @@ Peru,Luxembourg,2016,67
 Peru,Malaysia,2016,17606825
 Peru,Mexico,2016,23155127
 Peru,Netherlands,2016,1178672
-Peru,Curaçao,2016,179995
+Peru,Curaï¿½ao,2016,179995
 Peru,Nigeria,2016,47587048
 Peru,Norway,2016,1249
 Peru,Panama,2016,79455217
@@ -4394,7 +4394,7 @@ Singapore,Iraq,2019,3941385225
 Singapore,Ireland,2019,4018099
 Singapore,Israel,2019,1064908
 Singapore,Italy,2019,181102909
-Singapore,Côte d'Ivoire,2019,10
+Singapore,Cï¿½te d'Ivoire,2019,10
 Singapore,Japan,2019,693943212
 Singapore,Kazakhstan,2019,195596275
 Singapore,Jordan,2019,53969312
@@ -5047,7 +5047,7 @@ Canada,Iraq,2017,54378394
 Canada,Ireland,2017,82546031
 Canada,Israel,2017,344437
 Canada,Italy,2017,7156870
-Canada,Côte d'Ivoire,2017,76568656
+Canada,Cï¿½te d'Ivoire,2017,76568656
 Canada,Jamaica,2017,3025
 Canada,Japan,2017,2245844
 Canada,Kazakhstan,2017,281003595
@@ -5065,7 +5065,7 @@ Canada,Morocco,2017,4690
 Canada,Oman,2017,204579
 Canada,Namibia,2017,21
 Canada,Netherlands,2017,1287275083
-Canada,Curaçao,2017,704968
+Canada,Curaï¿½ao,2017,704968
 Canada,New Zealand,2017,5036
 Canada,Niger,2017,858
 Canada,Nigeria,2017,758384482
@@ -5482,7 +5482,7 @@ Gabon,India,2015,4031080
 Gabon,Indonesia,2015,17830
 Gabon,Israel,2015,250
 Gabon,Italy,2015,570899
-Gabon,Côte d'Ivoire,2015,15863183
+Gabon,Cï¿½te d'Ivoire,2015,15863183
 Gabon,Japan,2015,18034
 Gabon,"Korea, Republic of",2015,18690
 Gabon,Lebanese Republic,2015,11533
@@ -5561,59 +5561,59 @@ Honduras,Trinidad and Tobago,2003,55613921
 Honduras,United Kingdom,2003,65
 Honduras,United States of America,2003,266397970
 Honduras,"Venezuela, Bolivarian Republic of",2003,62069678
-Côte d'Ivoire,Australia,2007,778
-Côte d'Ivoire,Austria,2007,1403
-Côte d'Ivoire,Bangladesh,2007,47
-Côte d'Ivoire,Belgium,2007,15489176
-Côte d'Ivoire,Brazil,2007,25461
-Côte d'Ivoire,Cameroon,2007,3925832
-Côte d'Ivoire,Canada,2007,160821
-Côte d'Ivoire,Chile,2007,1461885
-Côte d'Ivoire,China,2007,236203
-Côte d'Ivoire,Chinese Taipei,2007,20636
-Côte d'Ivoire,Colombia,2007,108582
-Côte d'Ivoire,Congo,2007,4843964
-Côte d'Ivoire,Benin,2007,16006
-Côte d'Ivoire,World,2007,1990471363
-Côte d'Ivoire,Argentina,2007,1961185
-Côte d'Ivoire,Equatorial Guinea,2007,104960108
-Côte d'Ivoire,France,2007,8754376
-Côte d'Ivoire,Gabon,2007,188
-Côte d'Ivoire,Germany,2007,499733
-Côte d'Ivoire,Ghana,2007,44028
-Côte d'Ivoire,India,2007,938456
-Côte d'Ivoire,Iran,2007,2087876
-Côte d'Ivoire,Ireland,2007,736
-Côte d'Ivoire,Israel,2007,996
-Côte d'Ivoire,Italy,2007,10080054
-Côte d'Ivoire,Japan,2007,7108
-Côte d'Ivoire,"Korea, Republic of",2007,620
-Côte d'Ivoire,Lebanese Republic,2007,2778
-Côte d'Ivoire,Lithuania,2007,63164
-Côte d'Ivoire,Malaysia,2007,2208
-Côte d'Ivoire,Netherlands,2007,2743804
-Côte d'Ivoire,Nigeria,2007,1600469937
-Côte d'Ivoire,Norway,2007,2128
-Côte d'Ivoire,Pakistan,2007,9067
-Côte d'Ivoire,Poland,2007,366451
-Côte d'Ivoire,Portugal,2007,2332867
-Côte d'Ivoire,Russian Federation,2007,16704
-Côte d'Ivoire,"Saudi Arabia, Kingdom of",2007,75541
-Côte d'Ivoire,Senegal,2007,825
-Côte d'Ivoire,Singapore,2007,230011
-Côte d'Ivoire,South Africa,2007,571378
-Côte d'Ivoire,Spain,2007,3011105
-Côte d'Ivoire,Sweden,2007,446432
-Côte d'Ivoire,Switzerland,2007,57770
-Côte d'Ivoire,Syrian Arab Republic,2007,104345
-Côte d'Ivoire,Trinidad and Tobago,2007,6032601
-Côte d'Ivoire,United Arab Emirates,2007,3425597
-Côte d'Ivoire,Tunisia,2007,7811
-Côte d'Ivoire,Turkey,2007,12445
-Côte d'Ivoire,Egypt,2007,213761
-Côte d'Ivoire,United Kingdom,2007,241536
-Côte d'Ivoire,United States of America,2007,833106
-Côte d'Ivoire,"Venezuela, Bolivarian Republic of",2007,213517539
+Cï¿½te d'Ivoire,Australia,2007,778
+Cï¿½te d'Ivoire,Austria,2007,1403
+Cï¿½te d'Ivoire,Bangladesh,2007,47
+Cï¿½te d'Ivoire,Belgium,2007,15489176
+Cï¿½te d'Ivoire,Brazil,2007,25461
+Cï¿½te d'Ivoire,Cameroon,2007,3925832
+Cï¿½te d'Ivoire,Canada,2007,160821
+Cï¿½te d'Ivoire,Chile,2007,1461885
+Cï¿½te d'Ivoire,China,2007,236203
+Cï¿½te d'Ivoire,Chinese Taipei,2007,20636
+Cï¿½te d'Ivoire,Colombia,2007,108582
+Cï¿½te d'Ivoire,Congo,2007,4843964
+Cï¿½te d'Ivoire,Benin,2007,16006
+Cï¿½te d'Ivoire,World,2007,1990471363
+Cï¿½te d'Ivoire,Argentina,2007,1961185
+Cï¿½te d'Ivoire,Equatorial Guinea,2007,104960108
+Cï¿½te d'Ivoire,France,2007,8754376
+Cï¿½te d'Ivoire,Gabon,2007,188
+Cï¿½te d'Ivoire,Germany,2007,499733
+Cï¿½te d'Ivoire,Ghana,2007,44028
+Cï¿½te d'Ivoire,India,2007,938456
+Cï¿½te d'Ivoire,Iran,2007,2087876
+Cï¿½te d'Ivoire,Ireland,2007,736
+Cï¿½te d'Ivoire,Israel,2007,996
+Cï¿½te d'Ivoire,Italy,2007,10080054
+Cï¿½te d'Ivoire,Japan,2007,7108
+Cï¿½te d'Ivoire,"Korea, Republic of",2007,620
+Cï¿½te d'Ivoire,Lebanese Republic,2007,2778
+Cï¿½te d'Ivoire,Lithuania,2007,63164
+Cï¿½te d'Ivoire,Malaysia,2007,2208
+Cï¿½te d'Ivoire,Netherlands,2007,2743804
+Cï¿½te d'Ivoire,Nigeria,2007,1600469937
+Cï¿½te d'Ivoire,Norway,2007,2128
+Cï¿½te d'Ivoire,Pakistan,2007,9067
+Cï¿½te d'Ivoire,Poland,2007,366451
+Cï¿½te d'Ivoire,Portugal,2007,2332867
+Cï¿½te d'Ivoire,Russian Federation,2007,16704
+Cï¿½te d'Ivoire,"Saudi Arabia, Kingdom of",2007,75541
+Cï¿½te d'Ivoire,Senegal,2007,825
+Cï¿½te d'Ivoire,Singapore,2007,230011
+Cï¿½te d'Ivoire,South Africa,2007,571378
+Cï¿½te d'Ivoire,Spain,2007,3011105
+Cï¿½te d'Ivoire,Sweden,2007,446432
+Cï¿½te d'Ivoire,Switzerland,2007,57770
+Cï¿½te d'Ivoire,Syrian Arab Republic,2007,104345
+Cï¿½te d'Ivoire,Trinidad and Tobago,2007,6032601
+Cï¿½te d'Ivoire,United Arab Emirates,2007,3425597
+Cï¿½te d'Ivoire,Tunisia,2007,7811
+Cï¿½te d'Ivoire,Turkey,2007,12445
+Cï¿½te d'Ivoire,Egypt,2007,213761
+Cï¿½te d'Ivoire,United Kingdom,2007,241536
+Cï¿½te d'Ivoire,United States of America,2007,833106
+Cï¿½te d'Ivoire,"Venezuela, Bolivarian Republic of",2007,213517539
 Malawi,World,2016,261256995
 Malawi,Austria,2016,373
 Malawi,Belgium,2016,4792
@@ -5706,7 +5706,7 @@ Malaysia,Malta,2014,8255317
 Malaysia,Mexico,2014,40863304
 Malaysia,Oman,2014,9360839
 Malaysia,Netherlands,2014,734923958
-Malaysia,Curaçao,2014,184428
+Malaysia,Curaï¿½ao,2014,184428
 Malaysia,New Zealand,2014,449753
 Nepal,World,2014,900870856
 Nepal,Algeria,2014,120003
@@ -5756,7 +5756,7 @@ Niger,Gabon,2007,41833
 Niger,Ghana,2007,1395844
 Niger,India,2007,274611
 Niger,Italy,2007,153976
-Niger,Côte d'Ivoire,2007,3437938
+Niger,Cï¿½te d'Ivoire,2007,3437938
 Niger,Jamaica,2007,42967
 Niger,"Kuwait, the State of",2007,41738
 Niger,Mali,2007,2705
@@ -6154,7 +6154,7 @@ United States of America,Iraq,2005,4193542717
 United States of America,Ireland,2005,74951079
 United States of America,Israel,2005,125171756
 United States of America,Italy,2005,1071359656
-United States of America,Côte d'Ivoire,2005,353216406
+United States of America,Cï¿½te d'Ivoire,2005,353216406
 United States of America,Jamaica,2005,4245
 United States of America,Japan,2005,305929353
 United States of America,Kazakhstan,2005,670324771
@@ -6232,7 +6232,7 @@ Australia,Indonesia,2012,2846595492
 Australia,Ireland,2012,14303
 Australia,Israel,2012,271151
 Australia,Italy,2012,744933
-Australia,Côte d'Ivoire,2012,22127567
+Australia,Cï¿½te d'Ivoire,2012,22127567
 Australia,Japan,2012,1558785583
 Australia,"Korea, Republic of",2012,2620415243
 Australia,"Kuwait, the State of",2012,264453
@@ -6353,7 +6353,7 @@ Cabo Verde,France,2016,1765
 Cabo Verde,Georgia,2016,11278776
 Cabo Verde,Greece,2016,4691490
 Cabo Verde,Italy,2016,58007
-Cabo Verde,Côte d'Ivoire,2016,778374
+Cabo Verde,Cï¿½te d'Ivoire,2016,778374
 Cabo Verde,Morocco,2016,1640092
 Cabo Verde,Netherlands,2016,21698323
 Cabo Verde,Portugal,2016,2001281
@@ -6406,7 +6406,7 @@ Chad,Germany,2015,22679
 Chad,Greece,2015,8178
 Chad,India,2015,4496
 Chad,Italy,2015,2767
-Chad,Côte d'Ivoire,2015,8992
+Chad,Cï¿½te d'Ivoire,2015,8992
 Chad,Japan,2015,3625
 Chad,Jordan,2015,13606
 Chad,Lebanese Republic,2015,1690
@@ -6561,7 +6561,7 @@ Colombia,Liberia,2015,9072
 Colombia,Luxembourg,2015,232
 Colombia,Mexico,2015,113937825
 Colombia,Netherlands,2015,47687303
-Colombia,Curaçao,2015,18190771
+Colombia,Curaï¿½ao,2015,18190771
 Colombia,Panama,2015,50793502
 Colombia,Peru,2015,193064822
 Colombia,Poland,2015,25055
@@ -6603,7 +6603,7 @@ Benin,Ghana,2011,27925
 Benin,India,2011,74215
 Benin,Israel,2011,2902289
 Benin,Italy,2011,108233
-Benin,Côte d'Ivoire,2011,19558302
+Benin,Cï¿½te d'Ivoire,2011,19558302
 Benin,Lebanese Republic,2011,58450
 Benin,Morocco,2011,22787
 Benin,Netherlands,2011,11654123
@@ -6769,7 +6769,7 @@ Gabon,France,2016,8609070
 Gabon,Germany,2016,286582
 Gabon,India,2016,12007795
 Gabon,Italy,2016,625533
-Gabon,Côte d'Ivoire,2016,347
+Gabon,Cï¿½te d'Ivoire,2016,347
 Gabon,Japan,2016,5716
 Gabon,"Kuwait, the State of",2016,407598
 Gabon,Lebanese Republic,2016,238
@@ -6806,7 +6806,7 @@ Ghana,Iran,2016,33192
 Ghana,Ireland,2016,93613
 Ghana,Israel,2016,479180
 Ghana,Italy,2016,13843855
-Ghana,Côte d'Ivoire,2016,169772
+Ghana,Cï¿½te d'Ivoire,2016,169772
 Ghana,Japan,2016,36034
 Ghana,Kenya,2016,294
 Ghana,"Korea, Republic of",2016,159687
@@ -7092,54 +7092,54 @@ Israel,Turkey,2013,29412000
 Israel,Ukraine,2013,22000
 Israel,United Kingdom,2013,4206000
 Israel,United States of America,2013,332315000
-Côte d'Ivoire,World,2008,2788080185
-Côte d'Ivoire,Angola,2008,982694
-Côte d'Ivoire,Australia,2008,27183
-Côte d'Ivoire,Austria,2008,2832
-Côte d'Ivoire,Bangladesh,2008,1200
-Côte d'Ivoire,Belgium,2008,1803773
-Côte d'Ivoire,Brazil,2008,80
-Côte d'Ivoire,Canada,2008,121517
-Côte d'Ivoire,China,2008,127480
-Côte d'Ivoire,Chinese Taipei,2008,922
-Côte d'Ivoire,Colombia,2008,92458614
-Côte d'Ivoire,Congo,2008,6614960
-Côte d'Ivoire,Benin,2008,12222441
-Côte d'Ivoire,Denmark,2008,1843
-Côte d'Ivoire,Equatorial Guinea,2008,28539942
-Côte d'Ivoire,France,2008,14034240
-Côte d'Ivoire,Germany,2008,554968
-Côte d'Ivoire,Ghana,2008,68975
-Côte d'Ivoire,Guinea,2008,116858
-Côte d'Ivoire,India,2008,1833976
-Côte d'Ivoire,Iran,2008,889087
-Côte d'Ivoire,Israel,2008,3666
-Côte d'Ivoire,Italy,2008,7737460
-Côte d'Ivoire,Japan,2008,23629
-Côte d'Ivoire,Lebanese Republic,2008,539
-Côte d'Ivoire,Lithuania,2008,62807
-Côte d'Ivoire,Morocco,2008,5630357
-Côte d'Ivoire,Netherlands,2008,2316341
-Côte d'Ivoire,Nigeria,2008,2300835352
-Côte d'Ivoire,Pakistan,2008,247
-Côte d'Ivoire,Poland,2008,4508076
-Côte d'Ivoire,Portugal,2008,174
-Côte d'Ivoire,Russian Federation,2008,65229
-Côte d'Ivoire,"Saudi Arabia, Kingdom of",2008,91068
-Côte d'Ivoire,Senegal,2008,167546
-Côte d'Ivoire,Singapore,2008,2798018
-Côte d'Ivoire,South Africa,2008,730946
-Côte d'Ivoire,Spain,2008,4026886
-Côte d'Ivoire,Sweden,2008,292059
-Côte d'Ivoire,Switzerland,2008,107544
-Côte d'Ivoire,Syrian Arab Republic,2008,57234
-Côte d'Ivoire,Togo,2008,37764
-Côte d'Ivoire,United Arab Emirates,2008,3128099
-Côte d'Ivoire,Turkey,2008,17122
-Côte d'Ivoire,Egypt,2008,621999
-Côte d'Ivoire,United Kingdom,2008,444432
-Côte d'Ivoire,United States of America,2008,9165118
-Côte d'Ivoire,"Venezuela, Bolivarian Republic of",2008,284147602
+Cï¿½te d'Ivoire,World,2008,2788080185
+Cï¿½te d'Ivoire,Angola,2008,982694
+Cï¿½te d'Ivoire,Australia,2008,27183
+Cï¿½te d'Ivoire,Austria,2008,2832
+Cï¿½te d'Ivoire,Bangladesh,2008,1200
+Cï¿½te d'Ivoire,Belgium,2008,1803773
+Cï¿½te d'Ivoire,Brazil,2008,80
+Cï¿½te d'Ivoire,Canada,2008,121517
+Cï¿½te d'Ivoire,China,2008,127480
+Cï¿½te d'Ivoire,Chinese Taipei,2008,922
+Cï¿½te d'Ivoire,Colombia,2008,92458614
+Cï¿½te d'Ivoire,Congo,2008,6614960
+Cï¿½te d'Ivoire,Benin,2008,12222441
+Cï¿½te d'Ivoire,Denmark,2008,1843
+Cï¿½te d'Ivoire,Equatorial Guinea,2008,28539942
+Cï¿½te d'Ivoire,France,2008,14034240
+Cï¿½te d'Ivoire,Germany,2008,554968
+Cï¿½te d'Ivoire,Ghana,2008,68975
+Cï¿½te d'Ivoire,Guinea,2008,116858
+Cï¿½te d'Ivoire,India,2008,1833976
+Cï¿½te d'Ivoire,Iran,2008,889087
+Cï¿½te d'Ivoire,Israel,2008,3666
+Cï¿½te d'Ivoire,Italy,2008,7737460
+Cï¿½te d'Ivoire,Japan,2008,23629
+Cï¿½te d'Ivoire,Lebanese Republic,2008,539
+Cï¿½te d'Ivoire,Lithuania,2008,62807
+Cï¿½te d'Ivoire,Morocco,2008,5630357
+Cï¿½te d'Ivoire,Netherlands,2008,2316341
+Cï¿½te d'Ivoire,Nigeria,2008,2300835352
+Cï¿½te d'Ivoire,Pakistan,2008,247
+Cï¿½te d'Ivoire,Poland,2008,4508076
+Cï¿½te d'Ivoire,Portugal,2008,174
+Cï¿½te d'Ivoire,Russian Federation,2008,65229
+Cï¿½te d'Ivoire,"Saudi Arabia, Kingdom of",2008,91068
+Cï¿½te d'Ivoire,Senegal,2008,167546
+Cï¿½te d'Ivoire,Singapore,2008,2798018
+Cï¿½te d'Ivoire,South Africa,2008,730946
+Cï¿½te d'Ivoire,Spain,2008,4026886
+Cï¿½te d'Ivoire,Sweden,2008,292059
+Cï¿½te d'Ivoire,Switzerland,2008,107544
+Cï¿½te d'Ivoire,Syrian Arab Republic,2008,57234
+Cï¿½te d'Ivoire,Togo,2008,37764
+Cï¿½te d'Ivoire,United Arab Emirates,2008,3128099
+Cï¿½te d'Ivoire,Turkey,2008,17122
+Cï¿½te d'Ivoire,Egypt,2008,621999
+Cï¿½te d'Ivoire,United Kingdom,2008,444432
+Cï¿½te d'Ivoire,United States of America,2008,9165118
+Cï¿½te d'Ivoire,"Venezuela, Bolivarian Republic of",2008,284147602
 Malaysia,Sweden,2014,7976019
 Malaysia,Switzerland,2014,462229
 Malaysia,Thailand,2014,309246038
@@ -7667,7 +7667,7 @@ Burkina Faso,India,2019,21210429
 Burkina Faso,Indonesia,2019,91908
 Burkina Faso,Iran,2019,1756515
 Burkina Faso,Italy,2019,6610791
-Burkina Faso,Côte d'Ivoire,2019,197948691
+Burkina Faso,Cï¿½te d'Ivoire,2019,197948691
 Burkina Faso,Japan,2019,119087
 Burkina Faso,"Korea, Republic of",2019,18932722
 Burkina Faso,Lebanese Republic,2019,2846
@@ -7792,7 +7792,7 @@ Cameroon,Greece,2003,18020
 Cameroon,Guinea,2003,15
 Cameroon,Iran,2003,40064
 Cameroon,Italy,2003,113060
-Cameroon,Côte d'Ivoire,2003,12751139
+Cameroon,Cï¿½te d'Ivoire,2003,12751139
 Cameroon,Japan,2003,1673
 Cameroon,"Korea, Republic of",2003,11927
 Cameroon,Lebanese Republic,2003,4572
@@ -7843,7 +7843,7 @@ Canada,Iraq,2006,1470625580
 Canada,Ireland,2006,17605
 Canada,Israel,2006,29280408
 Canada,Italy,2006,249777980
-Canada,Côte d'Ivoire,2006,61731253
+Canada,Cï¿½te d'Ivoire,2006,61731253
 Canada,Japan,2006,72605429
 Canada,Kazakhstan,2006,10
 Canada,Kenya,2006,22811
@@ -8064,7 +8064,7 @@ Colombia,Malaysia,2016,60703
 Colombia,Malta,2016,332
 Colombia,Mexico,2016,185679637
 Colombia,Netherlands,2016,82687043
-Colombia,Curaçao,2016,13621035
+Colombia,Curaï¿½ao,2016,13621035
 Colombia,Norway,2016,145
 Colombia,Panama,2016,4496419
 Colombia,Peru,2016,14163134
@@ -8155,7 +8155,7 @@ Benin,Germany,2012,186123
 Benin,Ghana,2012,119035
 Benin,Iran,2012,5429
 Benin,Italy,2012,434544
-Benin,Côte d'Ivoire,2012,73914235
+Benin,Cï¿½te d'Ivoire,2012,73914235
 Benin,Lebanese Republic,2012,60
 Benin,Lithuania,2012,35948
 Benin,Netherlands,2012,17138556
@@ -9164,7 +9164,7 @@ European Union,Indonesia,2020,114475105
 European Union,Iran,2020,53863
 European Union,Iraq,2020,7199972051
 European Union,Israel,2020,588619940
-European Union,Côte d'Ivoire,2020,125222313
+European Union,Cï¿½te d'Ivoire,2020,125222313
 European Union,Jamaica,2020,4745505
 European Union,Japan,2020,18102602
 European Union,Kazakhstan,2020,12920299533
@@ -9190,7 +9190,7 @@ European Union,Morocco,2020,2761022
 European Union,Mozambique,2020,101
 European Union,Oman,2020,58920121
 European Union,Namibia,2020,2069
-European Union,Curaçao,2020,861
+European Union,Curaï¿½ao,2020,861
 European Union,New Zealand,2020,2504
 European Union,Nicaragua,2020,96
 European Union,Niger,2020,9874251
@@ -9308,7 +9308,7 @@ Cameroon,Germany,2004,118439
 Cameroon,Greece,2004,21761
 Cameroon,Iran,2004,22233
 Cameroon,Italy,2004,173605
-Cameroon,Côte d'Ivoire,2004,16499497
+Cameroon,Cï¿½te d'Ivoire,2004,16499497
 Cameroon,Japan,2004,3665
 Cameroon,"Korea, Republic of",2004,471
 Cameroon,Lebanese Republic,2004,30955
@@ -9378,7 +9378,7 @@ Canada,Indonesia,2018,110
 Canada,Ireland,2018,159667825
 Canada,Israel,2018,619965
 Canada,Italy,2018,66710104
-Canada,Côte d'Ivoire,2018,147131997
+Canada,Cï¿½te d'Ivoire,2018,147131997
 Canada,Jamaica,2018,11440
 Canada,Japan,2018,118770059
 Canada,Kazakhstan,2018,180419111
@@ -9585,7 +9585,7 @@ Benin,Germany,2013,35021
 Benin,Ghana,2013,138495
 Benin,India,2013,42727
 Benin,Italy,2013,2641871
-Benin,Côte d'Ivoire,2013,23008692
+Benin,Cï¿½te d'Ivoire,2013,23008692
 Benin,Malaysia,2013,847196
 Benin,Morocco,2013,409455
 Benin,Netherlands,2013,41482954
@@ -9615,7 +9615,7 @@ Benin,"Hong Kong, China",2014,404
 Benin,India,2014,50297
 Benin,Israel,2014,3919503
 Benin,Italy,2014,697
-Benin,Côte d'Ivoire,2014,10421378
+Benin,Cï¿½te d'Ivoire,2014,10421378
 Benin,Lebanese Republic,2014,16765
 Benin,Liechtenstein,2014,29821
 Benin,Malaysia,2014,11942
@@ -9654,7 +9654,7 @@ Dominican Republic,France,2003,178786
 Dominican Republic,Germany,2003,160463
 Dominican Republic,Haiti,2003,50767
 Dominican Republic,Italy,2003,15888
-Dominican Republic,Côte d'Ivoire,2003,17614
+Dominican Republic,Cï¿½te d'Ivoire,2003,17614
 Dominican Republic,Japan,2003,54370
 Dominican Republic,Mexico,2003,844111
 Dominican Republic,Netherlands,2003,63012
@@ -9689,7 +9689,7 @@ Dominican Republic,"Korea, Republic of",2004,20
 Dominican Republic,Mexico,2004,911957
 Dominican Republic,Netherlands,2004,1035
 Dominican Republic,Panama,2004,1026814
-Dominican Republic,Sao Tomé and Principe,2004,861
+Dominican Republic,Sao Tomï¿½ and Principe,2004,861
 Dominican Republic,Spain,2004,638304
 Dominican Republic,Sweden,2004,2611
 Dominican Republic,Switzerland,2004,95456
@@ -10278,7 +10278,7 @@ Niger,Guinea,2008,97973
 Niger,India,2008,2567231
 Niger,Iran,2008,1311
 Niger,Italy,2008,2387168
-Niger,Côte d'Ivoire,2008,13976971
+Niger,Cï¿½te d'Ivoire,2008,13976971
 Niger,Japan,2008,835
 Niger,"Kuwait, the State of",2008,15663
 Niger,Malaysia,2008,27899
@@ -10928,7 +10928,7 @@ Cameroon,Greece,2005,22533
 Cameroon,Indonesia,2005,257
 Cameroon,Iran,2005,18260
 Cameroon,Italy,2005,420421
-Cameroon,Côte d'Ivoire,2005,12060916
+Cameroon,Cï¿½te d'Ivoire,2005,12060916
 Cameroon,Japan,2005,26284
 Cameroon,"Korea, Republic of",2005,153
 Cameroon,Lebanese Republic,2005,764
@@ -10990,7 +10990,7 @@ Canada,Iraq,2012,4006843295
 Canada,Ireland,2012,5434
 Canada,Israel,2012,54235907
 Canada,Italy,2012,774100
-Canada,Côte d'Ivoire,2012,258890698
+Canada,Cï¿½te d'Ivoire,2012,258890698
 Canada,Jamaica,2012,9056
 Canada,Japan,2012,52610288
 Canada,Kazakhstan,2012,2853000617
@@ -11035,7 +11035,7 @@ Canada,"Venezuela, Bolivarian Republic of",2012,205105540
 Canada,Yemen,2012,20
 Cabo Verde,Israel,2017,4767862
 Cabo Verde,Italy,2017,22091986
-Cabo Verde,Côte d'Ivoire,2017,5838629
+Cabo Verde,Cï¿½te d'Ivoire,2017,5838629
 Cabo Verde,"Korea, Republic of",2017,2691937
 Cabo Verde,Morocco,2017,1642892
 Cabo Verde,Netherlands,2017,6739687
@@ -11297,7 +11297,7 @@ Colombia,"Korea, Republic of",2017,10434771
 Colombia,Malaysia,2017,576
 Colombia,Mexico,2017,178318333
 Colombia,Netherlands,2017,61579308
-Colombia,Curaçao,2017,18510467
+Colombia,Curaï¿½ao,2017,18510467
 Colombia,Norway,2017,6602
 Colombia,Panama,2017,23789512
 Colombia,Peru,2017,4016041
@@ -11440,7 +11440,7 @@ Benin,"Hong Kong, China",2015,331
 Benin,India,2015,133714
 Benin,Indonesia,2015,17672
 Benin,Italy,2015,108390
-Benin,Côte d'Ivoire,2015,24885994
+Benin,Cï¿½te d'Ivoire,2015,24885994
 Benin,Lebanese Republic,2015,46386
 Benin,Lithuania,2015,13557
 Benin,Malaysia,2015,5438479
@@ -11686,7 +11686,7 @@ Ghana,India,2001,28
 Ghana,Iran,2001,11377932
 Ghana,Israel,2001,21563
 Ghana,Italy,2001,235563
-Ghana,Côte d'Ivoire,2001,12394377
+Ghana,Cï¿½te d'Ivoire,2001,12394377
 Ghana,"Korea, Republic of",2001,4
 Ghana,Liberia,2001,12164380
 Ghana,Malta,2001,5710513
@@ -11829,7 +11829,7 @@ Mauritius,United Kingdom,2016,148711
 Mauritius,United States of America,2016,70295
 Nigeria,Israel,2014,146106843
 Nigeria,Italy,2014,118684385
-Nigeria,Côte d'Ivoire,2014,15843052
+Nigeria,Cï¿½te d'Ivoire,2014,15843052
 Nigeria,Japan,2014,11505
 Nigeria,Jordan,2014,997629
 Nigeria,"Korea, Republic of",2014,62967
@@ -12125,7 +12125,7 @@ Togo,Ghana,2014,7320302
 Togo,India,2014,1996138
 Togo,Indonesia,2014,6090177
 Togo,Israel,2014,6714359
-Togo,Côte d'Ivoire,2014,50313723
+Togo,Cï¿½te d'Ivoire,2014,50313723
 Togo,Japan,2014,32337
 Togo,Kazakhstan,2014,4892952
 Togo,Kenya,2014,5412
@@ -12429,7 +12429,7 @@ Cameroon,India,2006,40578
 Cameroon,Indonesia,2006,5506
 Cameroon,Iran,2006,67012
 Cameroon,Italy,2006,3691676
-Cameroon,Côte d'Ivoire,2006,51337145
+Cameroon,Cï¿½te d'Ivoire,2006,51337145
 Cameroon,Japan,2006,8509
 Cameroon,"Korea, Republic of",2006,1481
 Cameroon,Lebanese Republic,2006,987
@@ -12476,7 +12476,7 @@ Chinese Taipei,Iran,2006,2658281854
 Chinese Taipei,Iraq,2006,876755956
 Chinese Taipei,Israel,2006,180781
 Chinese Taipei,Italy,2006,7108727
-Chinese Taipei,Côte d'Ivoire,2006,16910239
+Chinese Taipei,Cï¿½te d'Ivoire,2006,16910239
 Chinese Taipei,Japan,2006,170468353
 Chinese Taipei,"Korea, Republic of",2006,205184562
 Chinese Taipei,"Kuwait, the State of",2006,4907058713
@@ -12609,7 +12609,7 @@ Benin,India,2017,9355417
 Benin,Iran,2017,172676
 Benin,Israel,2017,5715762
 Benin,Italy,2017,50332
-Benin,Côte d'Ivoire,2017,14564298
+Benin,Cï¿½te d'Ivoire,2017,14564298
 Benin,"Korea, Republic of",2017,14252534
 Benin,"Kuwait, the State of",2017,22609
 Benin,Lebanese Republic,2017,18133
@@ -13026,7 +13026,7 @@ Niger,Guinea,2009,451170
 Niger,"Hong Kong, China",2009,16590
 Niger,India,2009,7848534
 Niger,Italy,2009,2231505
-Niger,Côte d'Ivoire,2009,21868936
+Niger,Cï¿½te d'Ivoire,2009,21868936
 Niger,Japan,2009,555
 Niger,"Kuwait, the State of",2009,393147
 Niger,Mali,2009,1768
@@ -13247,7 +13247,7 @@ Senegal,Guinea,2006,25198
 Senegal,India,2006,2679060
 Senegal,Iran,2006,219127
 Senegal,Italy,2006,21314920
-Senegal,Côte d'Ivoire,2006,25672091
+Senegal,Cï¿½te d'Ivoire,2006,25672091
 Senegal,Japan,2006,132716
 Senegal,Lithuania,2006,43649
 Senegal,Malta,2006,19898336
@@ -13306,7 +13306,7 @@ Singapore,Indonesia,2008,3339784218
 Singapore,Iran,2008,1487783445
 Singapore,Israel,2008,35072914
 Singapore,Italy,2008,247178633
-Singapore,Côte d'Ivoire,2008,232028
+Singapore,Cï¿½te d'Ivoire,2008,232028
 Singapore,Japan,2008,3296140967
 Singapore,Panama,2008,62
 Singapore,Papua New Guinea,2008,514
@@ -13474,7 +13474,7 @@ Togo,Iceland,2015,6252
 Togo,India,2015,13673707
 Togo,Israel,2015,27042
 Togo,Italy,2015,122568
-Togo,Côte d'Ivoire,2015,19634149
+Togo,Cï¿½te d'Ivoire,2015,19634149
 Togo,Japan,2015,21362
 Togo,"Korea, Republic of",2015,5060086
 Togo,Lebanese Republic,2015,6862
@@ -13630,7 +13630,7 @@ Angola,India,2016,124477953
 Angola,Indonesia,2016,50757839
 Angola,Israel,2016,26740
 Angola,Italy,2016,44029575
-Angola,Côte d'Ivoire,2016,1138
+Angola,Cï¿½te d'Ivoire,2016,1138
 Angola,Japan,2016,11739
 Angola,"Korea, Republic of",2016,297533493
 Angola,Lebanese Republic,2016,3082
@@ -13824,7 +13824,7 @@ Cameroon,India,2007,107523
 Cameroon,Indonesia,2007,2386
 Cameroon,Iran,2007,759648
 Cameroon,Italy,2007,4230229
-Cameroon,Côte d'Ivoire,2007,14326263
+Cameroon,Cï¿½te d'Ivoire,2007,14326263
 Cameroon,Japan,2007,110291
 Cameroon,"Korea, Republic of",2007,16050
 Cameroon,Lebanese Republic,2007,141
@@ -13877,7 +13877,7 @@ Canada,Iran,2000,41605731
 Canada,Iraq,2000,460745733
 Canada,Israel,2000,6277049
 Canada,Italy,2000,14634354
-Canada,Côte d'Ivoire,2000,10077478
+Canada,Cï¿½te d'Ivoire,2000,10077478
 Canada,Japan,2000,15739816
 Canada,"Korea, Republic of",2000,52278418
 Canada,"Kuwait, the State of",2000,50
@@ -13934,7 +13934,7 @@ Cabo Verde,Iceland,2018,78
 Cabo Verde,India,2018,9072111
 Cabo Verde,Israel,2018,3415443
 Cabo Verde,Italy,2018,4638784
-Cabo Verde,Côte d'Ivoire,2018,656337
+Cabo Verde,Cï¿½te d'Ivoire,2018,656337
 Cabo Verde,"Korea, Republic of",2018,22
 Cabo Verde,Morocco,2018,1582222
 Cabo Verde,Netherlands,2018,21229600
@@ -14029,7 +14029,7 @@ China,Iraq,2017,13812852179
 China,Ireland,2017,386
 China,Israel,2017,752891
 China,Italy,2017,27926498
-China,Côte d'Ivoire,2017,49382475
+China,Cï¿½te d'Ivoire,2017,49382475
 China,Japan,2017,614372547
 China,Kazakhstan,2017,888921812
 China,"Korea, Republic of",2017,4565985034
@@ -14219,7 +14219,7 @@ Benin,India,2018,15708812
 Benin,Iran,2018,508251
 Benin,Israel,2018,134603
 Benin,Italy,2018,3109517
-Benin,Côte d'Ivoire,2018,3860405
+Benin,Cï¿½te d'Ivoire,2018,3860405
 Benin,"Korea, Republic of",2018,53783780
 Benin,"Kuwait, the State of",2018,25911
 Benin,Lebanese Republic,2018,5343
@@ -14475,7 +14475,7 @@ Mozambique,Malta,2018,15740228
 Mozambique,Oman,2018,122008657
 Mozambique,Namibia,2018,1386992
 Mozambique,Netherlands,2018,1229341
-Mozambique,Curaçao,2018,27698
+Mozambique,Curaï¿½ao,2018,27698
 Mozambique,Panama,2018,2420438
 Mozambique,Poland,2018,753
 Mozambique,Portugal,2018,7715378
@@ -14555,7 +14555,7 @@ Senegal,Germany,2007,20488767
 Senegal,India,2007,6876619
 Senegal,Iran,2007,97696
 Senegal,Italy,2007,4111673
-Senegal,Côte d'Ivoire,2007,41093857
+Senegal,Cï¿½te d'Ivoire,2007,41093857
 Senegal,Jordan,2007,12741
 Senegal,Lithuania,2007,13988
 Senegal,Mali,2007,39131
@@ -14665,7 +14665,7 @@ Togo,Ghana,2016,3859862
 Togo,India,2016,11418504
 Togo,Ireland,2016,852
 Togo,Italy,2016,47596
-Togo,Côte d'Ivoire,2016,13601711
+Togo,Cï¿½te d'Ivoire,2016,13601711
 Togo,"Korea, Republic of",2016,2234056
 Togo,Lebanese Republic,2016,3259
 Togo,Latvia,2016,24429534
@@ -14874,7 +14874,7 @@ United States of America,Iraq,2006,5897595656
 United States of America,Ireland,2006,30502277
 United States of America,Israel,2006,129457363
 United States of America,Italy,2006,1573550067
-United States of America,Côte d'Ivoire,2006,163587781
+United States of America,Cï¿½te d'Ivoire,2006,163587781
 United States of America,Jamaica,2006,16989
 United States of America,Japan,2006,753718595
 United States of America,Kazakhstan,2006,221697693
@@ -14954,7 +14954,7 @@ European Union,Indonesia,2004,6176587
 European Union,Iran,2004,8718445398
 European Union,Iraq,2004,3137661430
 European Union,Israel,2004,291040286
-European Union,Côte d'Ivoire,2004,106190170
+European Union,Cï¿½te d'Ivoire,2004,106190170
 European Union,Japan,2004,11736360
 European Union,Kazakhstan,2004,6338836941
 European Union,Jordan,2004,112
@@ -15100,7 +15100,7 @@ Belize,Honduras,2014,2890702
 Belize,Italy,2014,2197
 Belize,Japan,2014,3060
 Belize,Mexico,2014,602089
-Belize,Curaçao,2014,123411442
+Belize,Curaï¿½ao,2014,123411442
 Belize,Switzerland,2014,36
 Belize,United Kingdom,2014,320
 Belize,United States of America,2014,5555825
@@ -15136,7 +15136,7 @@ Cameroon,India,2008,325589
 Cameroon,Indonesia,2008,13695
 Cameroon,Iran,2008,601924
 Cameroon,Italy,2008,611988
-Cameroon,Côte d'Ivoire,2008,3363761
+Cameroon,Cï¿½te d'Ivoire,2008,3363761
 Cameroon,Japan,2008,65172
 Cameroon,"Korea, Republic of",2008,1861
 Cameroon,Lebanese Republic,2008,3579
@@ -15185,7 +15185,7 @@ Canada,Iraq,2007,1411183135
 Canada,Ireland,2007,971
 Canada,Israel,2007,181864
 Canada,Italy,2007,175680192
-Canada,Côte d'Ivoire,2007,172192958
+Canada,Cï¿½te d'Ivoire,2007,172192958
 Canada,Jamaica,2007,34005
 Canada,Japan,2007,153437594
 Canada,Kazakhstan,2007,11527661
@@ -15889,7 +15889,7 @@ Malaysia,Iran,2015,194568
 Malaysia,Iraq,2015,102957695
 Malaysia,Ireland,2015,11633
 Malaysia,Italy,2015,31390571
-Malaysia,Côte d'Ivoire,2015,7
+Malaysia,Cï¿½te d'Ivoire,2015,7
 Malaysia,Jamaica,2015,23166
 Malaysia,Japan,2015,68747279
 Malaysia,"Korea, Republic of",2015,974521983
@@ -15900,7 +15900,7 @@ Malaysia,Mexico,2015,48049472
 Malaysia,Mozambique,2015,20
 Malaysia,Oman,2015,36647615
 Malaysia,Netherlands,2015,437523375
-Malaysia,Curaçao,2015,390390
+Malaysia,Curaï¿½ao,2015,390390
 Malaysia,New Zealand,2015,296956
 Malaysia,Norway,2015,50788
 Malaysia,Pakistan,2015,28671
@@ -15994,7 +15994,7 @@ Nigeria,Indonesia,2013,318997
 Nigeria,Ireland,2013,61114357
 Nigeria,Israel,2013,87819799
 Nigeria,Italy,2013,62890360
-Nigeria,Côte d'Ivoire,2013,15011494
+Nigeria,Cï¿½te d'Ivoire,2013,15011494
 Nigeria,Jordan,2013,260689
 Nigeria,Kenya,2013,1497
 Nigeria,"Korea, Republic of",2013,250707
@@ -16227,7 +16227,7 @@ Thailand,Mexico,2018,28391
 Thailand,Oman,2018,67319447
 Thailand,Nepal,2018,24
 Thailand,Netherlands,2018,4906638
-Thailand,Curaçao,2018,2704
+Thailand,Curaï¿½ao,2018,2704
 Thailand,Vanuatu,2018,570
 Thailand,New Zealand,2018,24859529
 Thailand,Nigeria,2018,431808437
@@ -16359,7 +16359,7 @@ European Union,Indonesia,2012,57701954
 European Union,Iran,2012,5926384537
 European Union,Iraq,2012,15932221972
 European Union,Israel,2012,1098655986
-European Union,Côte d'Ivoire,2012,692628572
+European Union,Cï¿½te d'Ivoire,2012,692628572
 European Union,Jamaica,2012,7532
 European Union,Japan,2012,138175500
 European Union,Kazakhstan,2012,25995371260
@@ -16542,7 +16542,7 @@ Argentina,Iran,2000,102
 Argentina,Ireland,2000,904
 Argentina,Israel,2000,3863
 Argentina,Italy,2000,27143130
-Argentina,Côte d'Ivoire,2000,48688069
+Argentina,Cï¿½te d'Ivoire,2000,48688069
 Argentina,Japan,2000,80349
 Argentina,Kazakhstan,2000,1242
 Argentina,"Korea, Republic of",2000,5158362
@@ -16635,7 +16635,7 @@ Belize,Guatemala,2015,978589
 Belize,Honduras,2015,435720
 Belize,Japan,2015,20981
 Belize,Mexico,2015,379829
-Belize,Curaçao,2015,90283043
+Belize,Curaï¿½ao,2015,90283043
 Belize,Panama,2015,50
 Belize,United Kingdom,2015,5604
 Belize,United States of America,2015,8045122
@@ -16651,7 +16651,7 @@ Cabo Verde,France,2019,64425
 Cabo Verde,Germany,2019,1634413
 Cabo Verde,India,2019,10699
 Cabo Verde,Italy,2019,5640888
-Cabo Verde,Côte d'Ivoire,2019,55683
+Cabo Verde,Cï¿½te d'Ivoire,2019,55683
 Cabo Verde,Japan,2019,13
 Cabo Verde,Morocco,2019,1541846
 Cabo Verde,Netherlands,2019,70128693
@@ -16735,7 +16735,7 @@ China,Mexico,2018,375006756
 China,Mongolia,2018,378558568
 China,Oman,2018,17415729109
 China,Netherlands,2018,325316333
-China,Curaçao,2018,10245
+China,Curaï¿½ao,2018,10245
 China,New Zealand,2018,30872
 China,Niger,2018,969
 China,Nigeria,2018,250063105
@@ -17469,7 +17469,7 @@ Senegal,Ghana,2008,18507
 Senegal,Guinea,2008,95387
 Senegal,India,2008,801409
 Senegal,Italy,2008,25815972
-Senegal,Côte d'Ivoire,2008,52385348
+Senegal,Cï¿½te d'Ivoire,2008,52385348
 Senegal,"Kuwait, the State of",2008,14344
 Senegal,Mali,2008,3716
 Senegal,Malta,2008,39606
@@ -17490,7 +17490,7 @@ Senegal,Greece,2009,10802586
 Senegal,India,2009,914329
 Senegal,Iran,2009,147981
 Senegal,Italy,2009,11602667
-Senegal,Côte d'Ivoire,2009,58996304
+Senegal,Cï¿½te d'Ivoire,2009,58996304
 Senegal,"Korea, Republic of",2009,4643922
 Senegal,Mali,2009,1111
 Senegal,Mauritania,2009,595
@@ -18118,7 +18118,7 @@ Cameroon,Greece,2010,54893
 Cameroon,India,2010,593831
 Cameroon,Iran,2010,405065
 Cameroon,Italy,2010,5043337
-Cameroon,Côte d'Ivoire,2010,18296392
+Cameroon,Cï¿½te d'Ivoire,2010,18296392
 Cameroon,Japan,2010,18934
 Cameroon,Lebanese Republic,2010,731
 Cameroon,Latvia,2010,67235
@@ -18315,7 +18315,7 @@ Colombia,Liberia,2018,2268
 Colombia,Malaysia,2018,2106
 Colombia,Mexico,2018,226494550
 Colombia,Netherlands,2018,311656
-Colombia,Curaçao,2018,29541705
+Colombia,Curaï¿½ao,2018,29541705
 Colombia,New Zealand,2018,18
 Colombia,Nigeria,2018,190
 Colombia,Norway,2018,5419
@@ -18410,7 +18410,7 @@ Benin,India,2019,43843688
 Benin,Indonesia,2019,2139447
 Benin,Israel,2019,277621
 Benin,Italy,2019,2845359
-Benin,Côte d'Ivoire,2019,8237807
+Benin,Cï¿½te d'Ivoire,2019,8237807
 Benin,"Korea, Republic of",2019,11622348
 Benin,"Kuwait, the State of",2019,47688
 Georgia,World,2017,717877523
@@ -18775,7 +18775,7 @@ Mali,Ghana,2007,32124439
 Mali,Guinea,2007,722598
 Mali,Iran,2007,607969
 Mali,Italy,2007,1291
-Mali,Côte d'Ivoire,2007,69442901
+Mali,Cï¿½te d'Ivoire,2007,69442901
 Mali,Japan,2007,1313
 Mali,Mauritania,2007,142364
 Mali,Netherlands,2007,303652
@@ -18812,7 +18812,7 @@ Mali,Guinea,2008,907875
 Mali,India,2008,119187
 Mali,Iran,2008,146999
 Mali,Italy,2008,10823
-Mali,Côte d'Ivoire,2008,147560768
+Mali,Cï¿½te d'Ivoire,2008,147560768
 Mali,Japan,2008,57200
 Mali,Malaysia,2008,23242
 Mali,Mauritania,2008,1249585
@@ -18868,7 +18868,7 @@ Mexico,"Korea, Republic of",2012,156572877
 Mexico,Latvia,2012,3154081
 Mexico,Malaysia,2012,298
 Mexico,Netherlands,2012,2557614171
-Mexico,Curaçao,2012,24222461
+Mexico,Curaï¿½ao,2012,24222461
 Mexico,New Zealand,2012,2320
 Mexico,Nicaragua,2012,164871
 Mexico,Nigeria,2012,4349455
@@ -18989,7 +18989,7 @@ Niger,Guinea,2010,40080
 Niger,"Hong Kong, China",2010,27721
 Niger,India,2010,204036
 Niger,Italy,2010,3626025
-Niger,Côte d'Ivoire,2010,21311669
+Niger,Cï¿½te d'Ivoire,2010,21311669
 Niger,"Korea, Republic of",2010,183250
 Niger,Malaysia,2010,4634324
 Niger,Mali,2010,19239
@@ -19146,7 +19146,7 @@ Togo,"Hong Kong, China",2017,87073
 Togo,India,2017,5440952
 Togo,Iran,2017,20878
 Togo,Italy,2017,82068
-Togo,Côte d'Ivoire,2017,3329401
+Togo,Cï¿½te d'Ivoire,2017,3329401
 Togo,Japan,2017,1381
 Togo,"Korea, Republic of",2017,12648153
 Togo,Latvia,2017,1866367
@@ -19264,7 +19264,7 @@ United States of America,Iraq,2007,5888801264
 United States of America,Ireland,2007,83276859
 United States of America,Israel,2007,78678855
 United States of America,Italy,2007,1741786253
-United States of America,Côte d'Ivoire,2007,33476480
+United States of America,Cï¿½te d'Ivoire,2007,33476480
 United States of America,Jamaica,2007,53355
 United States of America,Japan,2007,972651528
 United States of America,Kazakhstan,2007,266382243
@@ -19368,7 +19368,7 @@ United States of America,Iraq,2020,2736277727
 United States of America,Ireland,2020,4074339
 United States of America,Israel,2020,15204279
 United States of America,Italy,2020,676876122
-United States of America,Côte d'Ivoire,2020,1528095
+United States of America,Cï¿½te d'Ivoire,2020,1528095
 United States of America,Jamaica,2020,15115
 United States of America,Japan,2020,341560083
 United States of America,Kazakhstan,2020,348765856
@@ -19749,7 +19749,7 @@ Canada,Iraq,2001,564345606
 Canada,Ireland,2001,631
 Canada,Israel,2001,15665251
 Canada,Italy,2001,43675218
-Canada,Côte d'Ivoire,2001,3
+Canada,Cï¿½te d'Ivoire,2001,3
 Canada,Jamaica,2001,2718
 Canada,Japan,2001,9515045
 Canada,Jordan,2001,50
@@ -20654,7 +20654,7 @@ Senegal,Iceland,2010,5660115
 Senegal,India,2010,1107239
 Senegal,Iran,2010,162067
 Senegal,Italy,2010,221701
-Senegal,Côte d'Ivoire,2010,11979834
+Senegal,Cï¿½te d'Ivoire,2010,11979834
 Senegal,Mali,2010,1364
 Senegal,Mauritania,2010,3006
 Senegal,Morocco,2010,3538810
@@ -20810,7 +20810,7 @@ South Africa,Indonesia,2012,44075729
 South Africa,Iran,2012,1202900802
 South Africa,Israel,2012,354983
 South Africa,Italy,2012,238363115
-South Africa,Côte d'Ivoire,2012,504
+South Africa,Cï¿½te d'Ivoire,2012,504
 South Africa,Japan,2012,2941052
 South Africa,Kenya,2012,120
 South Africa,"Korea, Republic of",2012,191907158
@@ -21025,7 +21025,7 @@ Burkina Faso,Ghana,2001,44676
 Burkina Faso,Iran,2001,405
 Burkina Faso,Israel,2001,7384000
 Burkina Faso,Italy,2001,1492985
-Burkina Faso,Côte d'Ivoire,2001,40175138
+Burkina Faso,Cï¿½te d'Ivoire,2001,40175138
 Burkina Faso,Japan,2001,176
 Burkina Faso,"Korea, Republic of",2001,26138
 Burkina Faso,"Kuwait, the State of",2001,752334
@@ -21075,7 +21075,7 @@ Albania,Poland,2011,12169
 Albania,Portugal,2011,198195
 Albania,Romania,2011,39107
 Albania,Russian Federation,2011,18931161
-Albania,Sao Tomé and Principe,2011,56
+Albania,Sao Tomï¿½ and Principe,2011,56
 Albania,Slovenia,2011,156453
 Albania,Spain,2011,84159
 Albania,Sweden,2011,19410
@@ -21520,53 +21520,53 @@ India,United States of America,2006,70920129
 India,Uzbekistan,2006,249750
 India,"Venezuela, Bolivarian Republic of",2006,707334641
 India,Yemen,2006,1997788527
-Côte d'Ivoire,World,2009,1699422984
-Côte d'Ivoire,Australia,2009,15431
-Côte d'Ivoire,Austria,2009,10214
-Côte d'Ivoire,Belgium,2009,1383318
-Côte d'Ivoire,Brazil,2009,164
-Côte d'Ivoire,Cameroon,2009,27748264
-Côte d'Ivoire,Canada,2009,4121
-Côte d'Ivoire,Chile,2009,811884
-Côte d'Ivoire,China,2009,63342
-Côte d'Ivoire,Colombia,2009,69734273
-Côte d'Ivoire,Congo,2009,1956953
-Côte d'Ivoire,Benin,2009,7311814
-Côte d'Ivoire,Equatorial Guinea,2009,1245891
-Côte d'Ivoire,France,2009,16419259
-Côte d'Ivoire,Germany,2009,193397
-Côte d'Ivoire,Ghana,2009,128298
-Côte d'Ivoire,Guinea,2009,45342
-Côte d'Ivoire,India,2009,2393478
-Côte d'Ivoire,Iran,2009,984533
-Côte d'Ivoire,Israel,2009,8867
-Côte d'Ivoire,Italy,2009,10691045
-Côte d'Ivoire,Japan,2009,5898
-Côte d'Ivoire,"Korea, Republic of",2009,1485
-Côte d'Ivoire,Lebanese Republic,2009,4643
-Côte d'Ivoire,Malaysia,2009,6451
-Côte d'Ivoire,Mauritius,2009,93423
-Côte d'Ivoire,Mexico,2009,17818
-Côte d'Ivoire,Morocco,2009,4953338
-Côte d'Ivoire,Netherlands,2009,4574604
-Côte d'Ivoire,Nigeria,2009,1408947923
-Côte d'Ivoire,Portugal,2009,419
-Côte d'Ivoire,Senegal,2009,161210
-Côte d'Ivoire,Singapore,2009,139286
-Côte d'Ivoire,South Africa,2009,251357
-Côte d'Ivoire,Spain,2009,3045901
-Côte d'Ivoire,Sweden,2009,116045
-Côte d'Ivoire,Switzerland,2009,16333
-Côte d'Ivoire,Syrian Arab Republic,2009,302542
-Côte d'Ivoire,Trinidad and Tobago,2009,2619883
-Côte d'Ivoire,United Arab Emirates,2009,4148314
-Côte d'Ivoire,Tunisia,2009,80774
-Côte d'Ivoire,Turkey,2009,20214
-Côte d'Ivoire,Ukraine,2009,4821
-Côte d'Ivoire,Egypt,2009,349209
-Côte d'Ivoire,United Kingdom,2009,258136
-Côte d'Ivoire,United States of America,2009,817067
-Côte d'Ivoire,"Venezuela, Bolivarian Republic of",2009,126468466
+Cï¿½te d'Ivoire,World,2009,1699422984
+Cï¿½te d'Ivoire,Australia,2009,15431
+Cï¿½te d'Ivoire,Austria,2009,10214
+Cï¿½te d'Ivoire,Belgium,2009,1383318
+Cï¿½te d'Ivoire,Brazil,2009,164
+Cï¿½te d'Ivoire,Cameroon,2009,27748264
+Cï¿½te d'Ivoire,Canada,2009,4121
+Cï¿½te d'Ivoire,Chile,2009,811884
+Cï¿½te d'Ivoire,China,2009,63342
+Cï¿½te d'Ivoire,Colombia,2009,69734273
+Cï¿½te d'Ivoire,Congo,2009,1956953
+Cï¿½te d'Ivoire,Benin,2009,7311814
+Cï¿½te d'Ivoire,Equatorial Guinea,2009,1245891
+Cï¿½te d'Ivoire,France,2009,16419259
+Cï¿½te d'Ivoire,Germany,2009,193397
+Cï¿½te d'Ivoire,Ghana,2009,128298
+Cï¿½te d'Ivoire,Guinea,2009,45342
+Cï¿½te d'Ivoire,India,2009,2393478
+Cï¿½te d'Ivoire,Iran,2009,984533
+Cï¿½te d'Ivoire,Israel,2009,8867
+Cï¿½te d'Ivoire,Italy,2009,10691045
+Cï¿½te d'Ivoire,Japan,2009,5898
+Cï¿½te d'Ivoire,"Korea, Republic of",2009,1485
+Cï¿½te d'Ivoire,Lebanese Republic,2009,4643
+Cï¿½te d'Ivoire,Malaysia,2009,6451
+Cï¿½te d'Ivoire,Mauritius,2009,93423
+Cï¿½te d'Ivoire,Mexico,2009,17818
+Cï¿½te d'Ivoire,Morocco,2009,4953338
+Cï¿½te d'Ivoire,Netherlands,2009,4574604
+Cï¿½te d'Ivoire,Nigeria,2009,1408947923
+Cï¿½te d'Ivoire,Portugal,2009,419
+Cï¿½te d'Ivoire,Senegal,2009,161210
+Cï¿½te d'Ivoire,Singapore,2009,139286
+Cï¿½te d'Ivoire,South Africa,2009,251357
+Cï¿½te d'Ivoire,Spain,2009,3045901
+Cï¿½te d'Ivoire,Sweden,2009,116045
+Cï¿½te d'Ivoire,Switzerland,2009,16333
+Cï¿½te d'Ivoire,Syrian Arab Republic,2009,302542
+Cï¿½te d'Ivoire,Trinidad and Tobago,2009,2619883
+Cï¿½te d'Ivoire,United Arab Emirates,2009,4148314
+Cï¿½te d'Ivoire,Tunisia,2009,80774
+Cï¿½te d'Ivoire,Turkey,2009,20214
+Cï¿½te d'Ivoire,Ukraine,2009,4821
+Cï¿½te d'Ivoire,Egypt,2009,349209
+Cï¿½te d'Ivoire,United Kingdom,2009,258136
+Cï¿½te d'Ivoire,United States of America,2009,817067
+Cï¿½te d'Ivoire,"Venezuela, Bolivarian Republic of",2009,126468466
 Japan,World,2000,53251693774
 Japan,Algeria,2000,13762773
 Japan,Australia,2000,836643955
@@ -21850,7 +21850,7 @@ Mali,Guinea,2009,876944
 Mali,India,2009,10854
 Mali,Iran,2009,538756
 Mali,Italy,2009,36282
-Mali,Côte d'Ivoire,2009,133658948
+Mali,Cï¿½te d'Ivoire,2009,133658948
 Mali,Japan,2009,2477
 Mali,Lebanese Republic,2009,145
 Mali,Mauritania,2009,2192490
@@ -21885,7 +21885,7 @@ Mali,Guinea,2010,90220
 Mali,"Hong Kong, China",2010,8603
 Mali,Iran,2010,48672
 Mali,Italy,2010,9869
-Mali,Côte d'Ivoire,2010,172518793
+Mali,Cï¿½te d'Ivoire,2010,172518793
 Mali,Lebanese Republic,2010,213
 Mali,Malaysia,2010,8101
 Mali,Mauritania,2010,5111072
@@ -22239,7 +22239,7 @@ Senegal,Iceland,2011,9940279
 Senegal,India,2011,6389703
 Senegal,Iran,2011,149072
 Senegal,Italy,2011,52847220
-Senegal,Côte d'Ivoire,2011,30921539
+Senegal,Cï¿½te d'Ivoire,2011,30921539
 Senegal,Japan,2011,1159
 Senegal,Kenya,2011,5058060
 Senegal,Mali,2011,2441
@@ -22294,7 +22294,7 @@ Switzerland,Hungary,2011,23171246
 Switzerland,Ireland,2011,10002
 Switzerland,Israel,2011,4846
 Switzerland,Italy,2011,738632992
-Switzerland,Côte d'Ivoire,2011,80504794
+Switzerland,Cï¿½te d'Ivoire,2011,80504794
 Switzerland,Japan,2011,112994
 Switzerland,Kazakhstan,2011,1860100955
 Switzerland,Romania,2011,3303
@@ -22460,7 +22460,7 @@ Burkina Faso,Haiti,2002,47380
 Burkina Faso,India,2002,2946
 Burkina Faso,Israel,2002,281590
 Burkina Faso,Italy,2002,413274
-Burkina Faso,Côte d'Ivoire,2002,42796428
+Burkina Faso,Cï¿½te d'Ivoire,2002,42796428
 Burkina Faso,Jamaica,2002,8661
 Burkina Faso,Japan,2002,151
 Burkina Faso,"Kuwait, the State of",2002,50155
@@ -22532,7 +22532,7 @@ European Union,Indonesia,2013,42042814
 European Union,Iran,2013,44497849
 European Union,Iraq,2013,14053444533
 European Union,Israel,2013,1334336814
-European Union,Côte d'Ivoire,2013,757552996
+European Union,Cï¿½te d'Ivoire,2013,757552996
 European Union,Japan,2013,189934493
 European Union,Kazakhstan,2013,28857281952
 European Union,Jordan,2013,117716
@@ -22556,7 +22556,7 @@ European Union,Morocco,2013,506154422
 European Union,Mozambique,2013,19773015
 European Union,Oman,2013,355681005
 European Union,Namibia,2013,784
-European Union,Curaçao,2013,66207397
+European Union,Curaï¿½ao,2013,66207397
 European Union,New Zealand,2013,69205
 European Union,Nicaragua,2013,24250784
 European Union,Niger,2013,438
@@ -22569,7 +22569,7 @@ European Union,Peru,2013,1495
 European Union,Qatar,2013,1754445576
 European Union,Russian Federation,2013,1.79E+11
 European Union,Rwanda,2013,3174
-European Union,Sao Tomé and Principe,2013,34157
+European Union,Sao Tomï¿½ and Principe,2013,34157
 European Union,"Saudi Arabia, Kingdom of",2013,33045896321
 European Union,Senegal,2013,13037689
 European Union,Seychelles,2013,252
@@ -22659,7 +22659,7 @@ Australia,India,2013,9578217
 Australia,Indonesia,2013,2447405065
 Australia,Israel,2013,479678
 Australia,Italy,2013,1147995
-Australia,Côte d'Ivoire,2013,4826
+Australia,Cï¿½te d'Ivoire,2013,4826
 Australia,Japan,2013,3221663594
 Australia,"Korea, Republic of",2013,3188662086
 Australia,Libya,2013,735047451
@@ -22892,7 +22892,7 @@ Costa Rica,Mauritius,2017,931
 Costa Rica,Mexico,2017,4121298
 Costa Rica,Nepal,2017,2431
 Costa Rica,Netherlands,2017,464708
-Costa Rica,Curaçao,2017,41
+Costa Rica,Curaï¿½ao,2017,41
 Costa Rica,Nicaragua,2017,3885066
 Costa Rica,Panama,2017,6371525
 Costa Rica,Peru,2017,139065
@@ -22998,7 +22998,7 @@ Ghana,Iran,2018,86914
 Ghana,Ireland,2018,42011
 Ghana,Israel,2018,487308
 Ghana,Italy,2018,45056197
-Ghana,Côte d'Ivoire,2018,148410
+Ghana,Cï¿½te d'Ivoire,2018,148410
 Ghana,Japan,2018,13995
 Ghana,Kenya,2018,56
 Ghana,"Korea, Republic of",2018,479721
@@ -23099,58 +23099,58 @@ Iceland,France,2011,401296
 Iceland,Germany,2011,10964361
 Iceland,Ireland,2011,50
 Iceland,World,2011,648120432
-Côte d'Ivoire,World,2010,1795664758
-Côte d'Ivoire,Australia,2010,1755
-Côte d'Ivoire,Austria,2010,534
-Côte d'Ivoire,Belgium,2010,7502172
-Côte d'Ivoire,Canada,2010,7
-Côte d'Ivoire,Chile,2010,886859
-Côte d'Ivoire,China,2010,195995
-Côte d'Ivoire,Chinese Taipei,2010,459
-Côte d'Ivoire,Colombia,2010,248979306
-Côte d'Ivoire,Democratic Republic of the Congo,2010,26818478
-Côte d'Ivoire,Benin,2010,6867
-Côte d'Ivoire,Denmark,2010,614
-Côte d'Ivoire,Equatorial Guinea,2010,5726651
-Côte d'Ivoire,Finland,2010,452
-Côte d'Ivoire,France,2010,7157116
-Côte d'Ivoire,Germany,2010,319543
-Côte d'Ivoire,Ghana,2010,19022
-Côte d'Ivoire,Greece,2010,356
-Côte d'Ivoire,Indonesia,2010,349
-Côte d'Ivoire,Iran,2010,1417918
-Côte d'Ivoire,Israel,2010,2585
-Côte d'Ivoire,Italy,2010,8108054
-Côte d'Ivoire,Japan,2010,10676
-Côte d'Ivoire,Lebanese Republic,2010,10775
-Côte d'Ivoire,Lithuania,2010,23787
-Côte d'Ivoire,Malaysia,2010,26812
-Côte d'Ivoire,Mali,2010,5801
-Côte d'Ivoire,Mauritania,2010,91
-Côte d'Ivoire,Mexico,2010,3047
-Côte d'Ivoire,Morocco,2010,918596
-Côte d'Ivoire,Netherlands,2010,3102986
-Côte d'Ivoire,Nigeria,2010,1455509599
-Côte d'Ivoire,Poland,2010,626121
-Côte d'Ivoire,Portugal,2010,1403
-Côte d'Ivoire,"Saudi Arabia, Kingdom of",2010,65444
-Côte d'Ivoire,Senegal,2010,464350
-Côte d'Ivoire,Singapore,2010,296732
-Côte d'Ivoire,South Africa,2010,584290
-Côte d'Ivoire,Spain,2010,840201
-Côte d'Ivoire,Sweden,2010,376252
-Côte d'Ivoire,Switzerland,2010,350655
-Côte d'Ivoire,Syrian Arab Republic,2010,392067
-Côte d'Ivoire,Trinidad and Tobago,2010,9816921
-Côte d'Ivoire,United Arab Emirates,2010,3329809
-Côte d'Ivoire,Tunisia,2010,634544
-Côte d'Ivoire,Turkey,2010,12689
-Côte d'Ivoire,Ukraine,2010,31859
-Côte d'Ivoire,Egypt,2010,187311
-Côte d'Ivoire,United Kingdom,2010,3724287
-Côte d'Ivoire,United States of America,2010,1321073
-Côte d'Ivoire,Burkina Faso,2010,183
-Côte d'Ivoire,Yemen,2010,86910
+Cï¿½te d'Ivoire,World,2010,1795664758
+Cï¿½te d'Ivoire,Australia,2010,1755
+Cï¿½te d'Ivoire,Austria,2010,534
+Cï¿½te d'Ivoire,Belgium,2010,7502172
+Cï¿½te d'Ivoire,Canada,2010,7
+Cï¿½te d'Ivoire,Chile,2010,886859
+Cï¿½te d'Ivoire,China,2010,195995
+Cï¿½te d'Ivoire,Chinese Taipei,2010,459
+Cï¿½te d'Ivoire,Colombia,2010,248979306
+Cï¿½te d'Ivoire,Democratic Republic of the Congo,2010,26818478
+Cï¿½te d'Ivoire,Benin,2010,6867
+Cï¿½te d'Ivoire,Denmark,2010,614
+Cï¿½te d'Ivoire,Equatorial Guinea,2010,5726651
+Cï¿½te d'Ivoire,Finland,2010,452
+Cï¿½te d'Ivoire,France,2010,7157116
+Cï¿½te d'Ivoire,Germany,2010,319543
+Cï¿½te d'Ivoire,Ghana,2010,19022
+Cï¿½te d'Ivoire,Greece,2010,356
+Cï¿½te d'Ivoire,Indonesia,2010,349
+Cï¿½te d'Ivoire,Iran,2010,1417918
+Cï¿½te d'Ivoire,Israel,2010,2585
+Cï¿½te d'Ivoire,Italy,2010,8108054
+Cï¿½te d'Ivoire,Japan,2010,10676
+Cï¿½te d'Ivoire,Lebanese Republic,2010,10775
+Cï¿½te d'Ivoire,Lithuania,2010,23787
+Cï¿½te d'Ivoire,Malaysia,2010,26812
+Cï¿½te d'Ivoire,Mali,2010,5801
+Cï¿½te d'Ivoire,Mauritania,2010,91
+Cï¿½te d'Ivoire,Mexico,2010,3047
+Cï¿½te d'Ivoire,Morocco,2010,918596
+Cï¿½te d'Ivoire,Netherlands,2010,3102986
+Cï¿½te d'Ivoire,Nigeria,2010,1455509599
+Cï¿½te d'Ivoire,Poland,2010,626121
+Cï¿½te d'Ivoire,Portugal,2010,1403
+Cï¿½te d'Ivoire,"Saudi Arabia, Kingdom of",2010,65444
+Cï¿½te d'Ivoire,Senegal,2010,464350
+Cï¿½te d'Ivoire,Singapore,2010,296732
+Cï¿½te d'Ivoire,South Africa,2010,584290
+Cï¿½te d'Ivoire,Spain,2010,840201
+Cï¿½te d'Ivoire,Sweden,2010,376252
+Cï¿½te d'Ivoire,Switzerland,2010,350655
+Cï¿½te d'Ivoire,Syrian Arab Republic,2010,392067
+Cï¿½te d'Ivoire,Trinidad and Tobago,2010,9816921
+Cï¿½te d'Ivoire,United Arab Emirates,2010,3329809
+Cï¿½te d'Ivoire,Tunisia,2010,634544
+Cï¿½te d'Ivoire,Turkey,2010,12689
+Cï¿½te d'Ivoire,Ukraine,2010,31859
+Cï¿½te d'Ivoire,Egypt,2010,187311
+Cï¿½te d'Ivoire,United Kingdom,2010,3724287
+Cï¿½te d'Ivoire,United States of America,2010,1321073
+Cï¿½te d'Ivoire,Burkina Faso,2010,183
+Cï¿½te d'Ivoire,Yemen,2010,86910
 Jamaica,World,2001,568991566
 Jamaica,Austria,2001,7
 Jamaica,Barbados,2001,21622
@@ -23540,7 +23540,7 @@ Niger,Ghana,2011,898161
 Niger,India,2011,5431101
 Niger,Israel,2011,15152862
 Niger,Italy,2011,4067120
-Niger,Côte d'Ivoire,2011,24597751
+Niger,Cï¿½te d'Ivoire,2011,24597751
 Niger,Japan,2011,23021
 Niger,"Kuwait, the State of",2011,1513513
 Niger,Malaysia,2011,33922
@@ -23724,7 +23724,7 @@ South Africa,Iran,2006,2678907598
 South Africa,Iraq,2006,155963007
 South Africa,Israel,2006,4460220
 South Africa,Italy,2006,196661219
-South Africa,Côte d'Ivoire,2006,9
+South Africa,Cï¿½te d'Ivoire,2006,9
 South Africa,Japan,2006,36176570
 South Africa,Kenya,2006,93223
 South Africa,"Korea, Republic of",2006,180441108
@@ -24082,7 +24082,7 @@ Burkina Faso,Germany,2003,19082
 Burkina Faso,Ghana,2003,1885748
 Burkina Faso,India,2003,7941
 Burkina Faso,Italy,2003,63882
-Burkina Faso,Côte d'Ivoire,2003,3834576
+Burkina Faso,Cï¿½te d'Ivoire,2003,3834576
 Burkina Faso,Japan,2003,770
 Burkina Faso,Mali,2003,373524
 Burkina Faso,Netherlands,2003,119704
@@ -24108,7 +24108,7 @@ Burkina Faso,Ghana,2004,1639774
 Burkina Faso,Guinea,2004,19834
 Burkina Faso,India,2004,4732
 Burkina Faso,Italy,2004,111769
-Burkina Faso,Côte d'Ivoire,2004,28955868
+Burkina Faso,Cï¿½te d'Ivoire,2004,28955868
 Burkina Faso,Mali,2004,416954
 Burkina Faso,Morocco,2004,141
 Burkina Faso,Netherlands,2004,116374
@@ -24350,7 +24350,7 @@ Belize,Germany,2016,10
 Belize,Guatemala,2016,2345083
 Belize,Mexico,2016,447636
 Belize,Netherlands,2016,25
-Belize,Curaçao,2016,70711401
+Belize,Curaï¿½ao,2016,70711401
 Belize,Panama,2016,18
 Belize,Sweden,2016,127
 Belize,United Kingdom,2016,2452
@@ -24457,7 +24457,7 @@ Dominican Republic,"Korea, Republic of",2017,8075784
 Dominican Republic,Mexico,2017,160452715
 Dominican Republic,Nepal,2017,406
 Dominican Republic,Netherlands,2017,162155204
-Dominican Republic,Curaçao,2017,5606598
+Dominican Republic,Curaï¿½ao,2017,5606598
 Dominican Republic,Nigeria,2017,158628075
 Dominican Republic,Panama,2017,15849
 Dominican Republic,Peru,2017,4641
@@ -24488,7 +24488,7 @@ The Gambia,France,2012,917165
 The Gambia,Germany,2012,2196
 The Gambia,India,2012,3550
 The Gambia,Italy,2012,5136005
-The Gambia,Côte d'Ivoire,2012,90662090
+The Gambia,Cï¿½te d'Ivoire,2012,90662090
 The Gambia,Lebanese Republic,2012,596
 The Gambia,Morocco,2012,96
 The Gambia,Netherlands,2012,60889
@@ -24511,7 +24511,7 @@ The Gambia,Denmark,2013,262
 The Gambia,France,2013,1426353
 The Gambia,Germany,2013,40598
 The Gambia,India,2013,3826
-The Gambia,Côte d'Ivoire,2013,82288504
+The Gambia,Cï¿½te d'Ivoire,2013,82288504
 The Gambia,Lebanese Republic,2013,3906
 The Gambia,Netherlands,2013,40371
 The Gambia,Portugal,2013,169252
@@ -24547,7 +24547,7 @@ Ghana,India,2019,2066611
 Ghana,Ireland,2019,99798
 Ghana,Israel,2019,393843
 Ghana,Italy,2019,57814221
-Ghana,Côte d'Ivoire,2019,1285497
+Ghana,Cï¿½te d'Ivoire,2019,1285497
 Ghana,Japan,2019,3486
 Ghana,"Korea, Republic of",2019,453161
 Ghana,Lebanese Republic,2019,186
@@ -24795,56 +24795,56 @@ Israel,Turkey,2003,1122000
 Israel,Egypt,2003,736000
 Israel,United Kingdom,2003,3269000
 Israel,United States of America,2003,145440000
-Côte d'Ivoire,World,2011,1834529458
-Côte d'Ivoire,Algeria,2011,4183243
-Côte d'Ivoire,Australia,2011,24955
-Côte d'Ivoire,Austria,2011,3248
-Côte d'Ivoire,Belgium,2011,1070727
-Côte d'Ivoire,Cameroon,2011,694
-Côte d'Ivoire,Canada,2011,21791
-Côte d'Ivoire,Chad,2011,76
-Côte d'Ivoire,China,2011,45618
-Côte d'Ivoire,Colombia,2011,233449057
-Côte d'Ivoire,Democratic Republic of the Congo,2011,3298114
-Côte d'Ivoire,Equatorial Guinea,2011,14533972
-Côte d'Ivoire,Finland,2011,27742
-Côte d'Ivoire,France,2011,6508946
-Côte d'Ivoire,Germany,2011,319118
-Côte d'Ivoire,Ghana,2011,5885
-Côte d'Ivoire,Greece,2011,6293
-Côte d'Ivoire,India,2011,4826295
-Côte d'Ivoire,Iran,2011,644630
-Côte d'Ivoire,Israel,2011,587
-Côte d'Ivoire,Italy,2011,11336789
-Côte d'Ivoire,Japan,2011,8756
-Côte d'Ivoire,"Korea, Republic of",2011,267
-Côte d'Ivoire,Lebanese Republic,2011,10863
-Côte d'Ivoire,Malaysia,2011,11225
-Côte d'Ivoire,Mauritius,2011,1098
-Côte d'Ivoire,Mexico,2011,595
-Côte d'Ivoire,Morocco,2011,156207
-Côte d'Ivoire,Netherlands,2011,2939936
-Côte d'Ivoire,Nigeria,2011,1526182566
-Côte d'Ivoire,Poland,2011,831
-Côte d'Ivoire,Portugal,2011,5205494
-Côte d'Ivoire,Russian Federation,2011,936699
-Côte d'Ivoire,"Saudi Arabia, Kingdom of",2011,133492
-Côte d'Ivoire,Senegal,2011,728424
-Côte d'Ivoire,Singapore,2011,37216
-Côte d'Ivoire,South Africa,2011,103214
-Côte d'Ivoire,Spain,2011,5213132
-Côte d'Ivoire,Sweden,2011,45678
-Côte d'Ivoire,Switzerland,2011,10101
-Côte d'Ivoire,Syrian Arab Republic,2011,849479
-Côte d'Ivoire,Togo,2011,419039
-Côte d'Ivoire,Trinidad and Tobago,2011,2845741
-Côte d'Ivoire,United Arab Emirates,2011,4033087
-Côte d'Ivoire,Tunisia,2011,218590
-Côte d'Ivoire,Turkey,2011,139339
-Côte d'Ivoire,Egypt,2011,94949
-Côte d'Ivoire,United Kingdom,2011,193720
-Côte d'Ivoire,United States of America,2011,2205718
-Côte d'Ivoire,Yemen,2011,249442
+Cï¿½te d'Ivoire,World,2011,1834529458
+Cï¿½te d'Ivoire,Algeria,2011,4183243
+Cï¿½te d'Ivoire,Australia,2011,24955
+Cï¿½te d'Ivoire,Austria,2011,3248
+Cï¿½te d'Ivoire,Belgium,2011,1070727
+Cï¿½te d'Ivoire,Cameroon,2011,694
+Cï¿½te d'Ivoire,Canada,2011,21791
+Cï¿½te d'Ivoire,Chad,2011,76
+Cï¿½te d'Ivoire,China,2011,45618
+Cï¿½te d'Ivoire,Colombia,2011,233449057
+Cï¿½te d'Ivoire,Democratic Republic of the Congo,2011,3298114
+Cï¿½te d'Ivoire,Equatorial Guinea,2011,14533972
+Cï¿½te d'Ivoire,Finland,2011,27742
+Cï¿½te d'Ivoire,France,2011,6508946
+Cï¿½te d'Ivoire,Germany,2011,319118
+Cï¿½te d'Ivoire,Ghana,2011,5885
+Cï¿½te d'Ivoire,Greece,2011,6293
+Cï¿½te d'Ivoire,India,2011,4826295
+Cï¿½te d'Ivoire,Iran,2011,644630
+Cï¿½te d'Ivoire,Israel,2011,587
+Cï¿½te d'Ivoire,Italy,2011,11336789
+Cï¿½te d'Ivoire,Japan,2011,8756
+Cï¿½te d'Ivoire,"Korea, Republic of",2011,267
+Cï¿½te d'Ivoire,Lebanese Republic,2011,10863
+Cï¿½te d'Ivoire,Malaysia,2011,11225
+Cï¿½te d'Ivoire,Mauritius,2011,1098
+Cï¿½te d'Ivoire,Mexico,2011,595
+Cï¿½te d'Ivoire,Morocco,2011,156207
+Cï¿½te d'Ivoire,Netherlands,2011,2939936
+Cï¿½te d'Ivoire,Nigeria,2011,1526182566
+Cï¿½te d'Ivoire,Poland,2011,831
+Cï¿½te d'Ivoire,Portugal,2011,5205494
+Cï¿½te d'Ivoire,Russian Federation,2011,936699
+Cï¿½te d'Ivoire,"Saudi Arabia, Kingdom of",2011,133492
+Cï¿½te d'Ivoire,Senegal,2011,728424
+Cï¿½te d'Ivoire,Singapore,2011,37216
+Cï¿½te d'Ivoire,South Africa,2011,103214
+Cï¿½te d'Ivoire,Spain,2011,5213132
+Cï¿½te d'Ivoire,Sweden,2011,45678
+Cï¿½te d'Ivoire,Switzerland,2011,10101
+Cï¿½te d'Ivoire,Syrian Arab Republic,2011,849479
+Cï¿½te d'Ivoire,Togo,2011,419039
+Cï¿½te d'Ivoire,Trinidad and Tobago,2011,2845741
+Cï¿½te d'Ivoire,United Arab Emirates,2011,4033087
+Cï¿½te d'Ivoire,Tunisia,2011,218590
+Cï¿½te d'Ivoire,Turkey,2011,139339
+Cï¿½te d'Ivoire,Egypt,2011,94949
+Cï¿½te d'Ivoire,United Kingdom,2011,193720
+Cï¿½te d'Ivoire,United States of America,2011,2205718
+Cï¿½te d'Ivoire,Yemen,2011,249442
 Kazakhstan,Germany,2016,16243387
 Kazakhstan,Hungary,2016,130375
 Kazakhstan,India,2016,732
@@ -24924,7 +24924,7 @@ Mali,Guinea,2011,271913
 Mali,India,2011,70
 Mali,Iran,2011,12205
 Mali,Italy,2011,520
-Mali,Côte d'Ivoire,2011,145629207
+Mali,Cï¿½te d'Ivoire,2011,145629207
 Mali,Japan,2011,8535
 Mali,Lebanese Republic,2011,60
 Mali,Mauritania,2011,5860268
@@ -25262,7 +25262,7 @@ Niger,Iceland,2012,705
 Niger,India,2012,1667453
 Niger,Iran,2012,29746
 Niger,Italy,2012,420600
-Niger,Côte d'Ivoire,2012,3691653
+Niger,Cï¿½te d'Ivoire,2012,3691653
 Niger,Japan,2012,1335
 Niger,"Korea, Republic of",2012,745877
 Niger,Libya,2012,5704
@@ -25279,7 +25279,7 @@ Niger,China,2013,1384758
 Niger,France,2013,2102163
 Niger,Germany,2013,367802
 Niger,Ghana,2013,1432526
-Niger,Côte d'Ivoire,2013,7063758
+Niger,Cï¿½te d'Ivoire,2013,7063758
 Niger,Japan,2013,23478
 Niger,"Korea, Republic of",2013,1270642
 Niger,Libya,2013,972
@@ -25406,7 +25406,7 @@ Senegal,India,2012,1872023
 Senegal,Iran,2012,47039
 Senegal,Israel,2012,20863127
 Senegal,Italy,2012,119981
-Senegal,Côte d'Ivoire,2012,11774571
+Senegal,Cï¿½te d'Ivoire,2012,11774571
 Senegal,Japan,2012,1781
 Senegal,Latvia,2012,12764352
 Senegal,Mali,2012,1356
@@ -25506,7 +25506,7 @@ Togo,"Hong Kong, China",2018,148219
 Togo,India,2018,24575403
 Togo,Iran,2018,30063
 Togo,Italy,2018,229247
-Togo,Côte d'Ivoire,2018,18074
+Togo,Cï¿½te d'Ivoire,2018,18074
 Togo,Japan,2018,28732
 Togo,"Korea, Republic of",2018,1432779
 Togo,Latvia,2018,159293
@@ -26032,7 +26032,7 @@ Cameroon,India,2011,954997
 Cameroon,Iran,2011,206719
 Cameroon,Israel,2011,21202
 Cameroon,Italy,2011,802685
-Cameroon,Côte d'Ivoire,2011,2028
+Cameroon,Cï¿½te d'Ivoire,2011,2028
 Cameroon,Japan,2011,22261
 Cameroon,"Korea, Republic of",2011,66161
 Cameroon,Lebanese Republic,2011,42863
@@ -26172,7 +26172,7 @@ Dominican Republic,Luxembourg,2018,67
 Dominican Republic,Malaysia,2018,21628
 Dominican Republic,Mexico,2018,5005305
 Dominican Republic,Netherlands,2018,244317365
-Dominican Republic,Curaçao,2018,4435853
+Dominican Republic,Curaï¿½ao,2018,4435853
 Dominican Republic,Nigeria,2018,412124114
 Dominican Republic,Panama,2018,17387776
 Dominican Republic,Peru,2018,145797
@@ -26285,63 +26285,63 @@ Honduras,Turkey,2009,194887
 Honduras,United Kingdom,2009,638
 Honduras,United States of America,2009,436731800
 Honduras,"Venezuela, Bolivarian Republic of",2009,119573132
-Côte d'Ivoire,Mali,2012,2056
-Côte d'Ivoire,Mexico,2012,1432
-Côte d'Ivoire,Morocco,2012,1550865
-Côte d'Ivoire,Netherlands,2012,12457564
-Côte d'Ivoire,Nigeria,2012,2414837292
-Côte d'Ivoire,Norway,2012,30583
-Côte d'Ivoire,Poland,2012,335843
-Côte d'Ivoire,Russian Federation,2012,116125
-Côte d'Ivoire,"Saudi Arabia, Kingdom of",2012,75002
-Côte d'Ivoire,Senegal,2012,1061748
-Côte d'Ivoire,Singapore,2012,104926
-Côte d'Ivoire,South Africa,2012,335248
-Côte d'Ivoire,Spain,2012,5960018
-Côte d'Ivoire,World,2012,2902055479
-Côte d'Ivoire,Algeria,2012,1742707
-Côte d'Ivoire,Australia,2012,163017
-Côte d'Ivoire,Austria,2012,1434
-Côte d'Ivoire,Bangladesh,2012,16
-Côte d'Ivoire,Belgium,2012,2077409
-Côte d'Ivoire,Brazil,2012,528
-Côte d'Ivoire,Cameroon,2012,5731
-Côte d'Ivoire,Canada,2012,61989
-Côte d'Ivoire,China,2012,142058
-Côte d'Ivoire,Chinese Taipei,2012,3602
-Côte d'Ivoire,Colombia,2012,343184859
-Côte d'Ivoire,Congo,2012,7577682
-Côte d'Ivoire,Democratic Republic of the Congo,2012,2370
-Côte d'Ivoire,Czech Republic,2012,1512
-Côte d'Ivoire,Denmark,2012,72385
-Côte d'Ivoire,Equatorial Guinea,2012,12081383
-Côte d'Ivoire,France,2012,25590377
-Côte d'Ivoire,Germany,2012,439487
-Côte d'Ivoire,Ghana,2012,15008231
-Côte d'Ivoire,Greece,2012,5074
-Côte d'Ivoire,India,2012,5363267
-Côte d'Ivoire,Iran,2012,713227
-Côte d'Ivoire,Israel,2012,3666
-Côte d'Ivoire,Italy,2012,1829638
-Côte d'Ivoire,Japan,2012,13345
-Côte d'Ivoire,"Korea, Republic of",2012,2182
-Côte d'Ivoire,Lebanese Republic,2012,14197
-Côte d'Ivoire,Luxembourg,2012,1750
-Côte d'Ivoire,Malaysia,2012,2992
-Côte d'Ivoire,Sweden,2012,830687
-Côte d'Ivoire,Switzerland,2012,51386
-Côte d'Ivoire,Syrian Arab Republic,2012,291076
-Côte d'Ivoire,Togo,2012,27691115
-Côte d'Ivoire,Trinidad and Tobago,2012,1194024
-Côte d'Ivoire,United Arab Emirates,2012,5683508
-Côte d'Ivoire,Tunisia,2012,544897
-Côte d'Ivoire,Turkey,2012,306011
-Côte d'Ivoire,Ukraine,2012,36724
-Côte d'Ivoire,Egypt,2012,198277
-Côte d'Ivoire,United Kingdom,2012,10651692
-Côte d'Ivoire,Tanzania,2012,406
-Côte d'Ivoire,United States of America,2012,1395931
-Côte d'Ivoire,Burkina Faso,2012,204926
+Cï¿½te d'Ivoire,Mali,2012,2056
+Cï¿½te d'Ivoire,Mexico,2012,1432
+Cï¿½te d'Ivoire,Morocco,2012,1550865
+Cï¿½te d'Ivoire,Netherlands,2012,12457564
+Cï¿½te d'Ivoire,Nigeria,2012,2414837292
+Cï¿½te d'Ivoire,Norway,2012,30583
+Cï¿½te d'Ivoire,Poland,2012,335843
+Cï¿½te d'Ivoire,Russian Federation,2012,116125
+Cï¿½te d'Ivoire,"Saudi Arabia, Kingdom of",2012,75002
+Cï¿½te d'Ivoire,Senegal,2012,1061748
+Cï¿½te d'Ivoire,Singapore,2012,104926
+Cï¿½te d'Ivoire,South Africa,2012,335248
+Cï¿½te d'Ivoire,Spain,2012,5960018
+Cï¿½te d'Ivoire,World,2012,2902055479
+Cï¿½te d'Ivoire,Algeria,2012,1742707
+Cï¿½te d'Ivoire,Australia,2012,163017
+Cï¿½te d'Ivoire,Austria,2012,1434
+Cï¿½te d'Ivoire,Bangladesh,2012,16
+Cï¿½te d'Ivoire,Belgium,2012,2077409
+Cï¿½te d'Ivoire,Brazil,2012,528
+Cï¿½te d'Ivoire,Cameroon,2012,5731
+Cï¿½te d'Ivoire,Canada,2012,61989
+Cï¿½te d'Ivoire,China,2012,142058
+Cï¿½te d'Ivoire,Chinese Taipei,2012,3602
+Cï¿½te d'Ivoire,Colombia,2012,343184859
+Cï¿½te d'Ivoire,Congo,2012,7577682
+Cï¿½te d'Ivoire,Democratic Republic of the Congo,2012,2370
+Cï¿½te d'Ivoire,Czech Republic,2012,1512
+Cï¿½te d'Ivoire,Denmark,2012,72385
+Cï¿½te d'Ivoire,Equatorial Guinea,2012,12081383
+Cï¿½te d'Ivoire,France,2012,25590377
+Cï¿½te d'Ivoire,Germany,2012,439487
+Cï¿½te d'Ivoire,Ghana,2012,15008231
+Cï¿½te d'Ivoire,Greece,2012,5074
+Cï¿½te d'Ivoire,India,2012,5363267
+Cï¿½te d'Ivoire,Iran,2012,713227
+Cï¿½te d'Ivoire,Israel,2012,3666
+Cï¿½te d'Ivoire,Italy,2012,1829638
+Cï¿½te d'Ivoire,Japan,2012,13345
+Cï¿½te d'Ivoire,"Korea, Republic of",2012,2182
+Cï¿½te d'Ivoire,Lebanese Republic,2012,14197
+Cï¿½te d'Ivoire,Luxembourg,2012,1750
+Cï¿½te d'Ivoire,Malaysia,2012,2992
+Cï¿½te d'Ivoire,Sweden,2012,830687
+Cï¿½te d'Ivoire,Switzerland,2012,51386
+Cï¿½te d'Ivoire,Syrian Arab Republic,2012,291076
+Cï¿½te d'Ivoire,Togo,2012,27691115
+Cï¿½te d'Ivoire,Trinidad and Tobago,2012,1194024
+Cï¿½te d'Ivoire,United Arab Emirates,2012,5683508
+Cï¿½te d'Ivoire,Tunisia,2012,544897
+Cï¿½te d'Ivoire,Turkey,2012,306011
+Cï¿½te d'Ivoire,Ukraine,2012,36724
+Cï¿½te d'Ivoire,Egypt,2012,198277
+Cï¿½te d'Ivoire,United Kingdom,2012,10651692
+Cï¿½te d'Ivoire,Tanzania,2012,406
+Cï¿½te d'Ivoire,United States of America,2012,1395931
+Cï¿½te d'Ivoire,Burkina Faso,2012,204926
 Lao People's Democratic Republic,World,2019,737608980
 Lao People's Democratic Republic,Australia,2019,308041
 Lao People's Democratic Republic,Austria,2019,384828
@@ -26768,7 +26768,7 @@ Namibia,Germany,2015,137835
 Namibia,India,2015,87559887
 Namibia,Israel,2015,201
 Namibia,Italy,2015,59459842
-Namibia,Côte d'Ivoire,2015,2
+Namibia,Cï¿½te d'Ivoire,2015,2
 Namibia,Japan,2015,83
 Namibia,Kenya,2015,1003
 Namibia,"Korea, Republic of",2015,3942006
@@ -26977,7 +26977,7 @@ Zimbabwe,Mauritius,2017,20225
 Zimbabwe,Mozambique,2017,29065304
 Zimbabwe,Namibia,2017,884302
 Zimbabwe,Netherlands,2017,634
-Zimbabwe,Curaçao,2017,104269
+Zimbabwe,Curaï¿½ao,2017,104269
 Zimbabwe,Singapore,2017,1087571867
 Zimbabwe,South Africa,2017,83912228
 Zimbabwe,Spain,2017,1760
@@ -27180,7 +27180,7 @@ United States of America,Iraq,2000,3058637313
 United States of America,Ireland,2000,62938109
 United States of America,Israel,2000,45995801
 United States of America,Italy,2000,483493509
-United States of America,Côte d'Ivoire,2000,76744215
+United States of America,Cï¿½te d'Ivoire,2000,76744215
 United States of America,Japan,2000,95214295
 United States of America,Kazakhstan,2000,5345352
 United States of America,"Korea, Republic of",2000,327419250
@@ -27239,7 +27239,7 @@ Burkina Faso,"Hong Kong, China",2005,342
 Burkina Faso,India,2005,49482
 Burkina Faso,Indonesia,2005,22749
 Burkina Faso,Italy,2005,17797
-Burkina Faso,Côte d'Ivoire,2005,79274758
+Burkina Faso,Cï¿½te d'Ivoire,2005,79274758
 Burkina Faso,Mali,2005,19014
 Burkina Faso,Netherlands,2005,21810
 Burkina Faso,Niger,2005,760526
@@ -27288,7 +27288,7 @@ Uruguay,United States of America,2003,1261262
 "Venezuela, Bolivarian Republic of",Ireland,2012,5800
 "Venezuela, Bolivarian Republic of",Italy,2012,7346
 "Venezuela, Bolivarian Republic of",Japan,2012,58941
-"Venezuela, Bolivarian Republic of",Curaçao,2012,18031958
+"Venezuela, Bolivarian Republic of",Curaï¿½ao,2012,18031958
 "Venezuela, Bolivarian Republic of",Panama,2012,3503
 "Venezuela, Bolivarian Republic of",Portugal,2012,2052
 "Venezuela, Bolivarian Republic of",Spain,2012,26167
@@ -27562,7 +27562,7 @@ Canada,Iraq,2013,3114579594
 Canada,Ireland,2013,3787
 Canada,Israel,2013,424327
 Canada,Italy,2013,400178
-Canada,Côte d'Ivoire,2013,319163827
+Canada,Cï¿½te d'Ivoire,2013,319163827
 Canada,Jamaica,2013,942
 Canada,Japan,2013,67795677
 Canada,Kazakhstan,2013,2156355461
@@ -28298,7 +28298,7 @@ Rwanda,Kenya,2016,2316220
 Rwanda,"Korea, Republic of",2016,2492
 Rwanda,Oman,2016,558362
 Rwanda,Netherlands,2016,1148929
-Rwanda,Curaçao,2016,56688
+Rwanda,Curaï¿½ao,2016,56688
 Rwanda,Niger,2016,379
 Rwanda,Nigeria,2016,29044
 Rwanda,Pakistan,2016,1904
@@ -28438,7 +28438,7 @@ South Africa,Iraq,2007,251848649
 South Africa,Ireland,2007,172
 South Africa,Israel,2007,31796971
 South Africa,Italy,2007,83922573
-South Africa,Côte d'Ivoire,2007,10
+South Africa,Cï¿½te d'Ivoire,2007,10
 South Africa,Japan,2007,85210921
 South Africa,Kenya,2007,2476999
 South Africa,"Korea, Republic of",2007,79225829
@@ -28573,7 +28573,7 @@ Togo,"Hong Kong, China",2019,85774
 Togo,India,2019,11032704
 Togo,Israel,2019,23901
 Togo,Italy,2019,710
-Togo,Côte d'Ivoire,2019,5381989
+Togo,Cï¿½te d'Ivoire,2019,5381989
 Togo,Japan,2019,51963
 Togo,"Korea, Republic of",2019,4353776
 Togo,Lebanese Republic,2019,3072
@@ -28806,7 +28806,7 @@ North Macedonia,Serbia,2016,4722938
 "Venezuela, Bolivarian Republic of",Japan,2013,111313
 "Venezuela, Bolivarian Republic of",Mexico,2013,328
 "Venezuela, Bolivarian Republic of",Netherlands,2013,757200
-"Venezuela, Bolivarian Republic of",Curaçao,2013,5183088
+"Venezuela, Bolivarian Republic of",Curaï¿½ao,2013,5183088
 "Venezuela, Bolivarian Republic of",Portugal,2013,14855
 "Venezuela, Bolivarian Republic of",Singapore,2013,2300
 "Venezuela, Bolivarian Republic of",Spain,2013,14743
@@ -28965,7 +28965,7 @@ Belize,Germany,2017,4379
 Belize,Guatemala,2017,3041714
 Belize,Japan,2017,10481
 Belize,Mexico,2017,505718
-Belize,Curaçao,2017,73901552
+Belize,Curaï¿½ao,2017,73901552
 Belize,Portugal,2017,423
 Belize,Turkey,2017,185
 Belize,United Kingdom,2017,54
@@ -29447,7 +29447,7 @@ Mali,India,2012,15855
 Mali,Indonesia,2012,5489
 Mali,Iran,2012,44094
 Mali,Italy,2012,493
-Mali,Côte d'Ivoire,2012,129208117
+Mali,Cï¿½te d'Ivoire,2012,129208117
 Mali,Japan,2012,465
 Mali,Lebanese Republic,2012,175
 Mali,Mauritania,2012,1659070
@@ -30228,7 +30228,7 @@ Togo,Germany,2020,262775
 Togo,Ghana,2020,1271034
 Togo,India,2020,1939255
 Togo,Italy,2020,34020968
-Togo,Côte d'Ivoire,2020,957545
+Togo,Cï¿½te d'Ivoire,2020,957545
 Togo,Japan,2020,14742
 Togo,"Korea, Republic of",2020,7385396
 Togo,Latvia,2020,6347582
@@ -30426,7 +30426,7 @@ European Union,Indonesia,2005,23912
 European Union,Iran,2005,12849978477
 European Union,Iraq,2005,4476914433
 European Union,Israel,2005,617630463
-European Union,Côte d'Ivoire,2005,103288367
+European Union,Cï¿½te d'Ivoire,2005,103288367
 European Union,Jamaica,2005,162
 European Union,Japan,2005,278140979
 European Union,Kazakhstan,2005,9406487110
@@ -30813,7 +30813,7 @@ Ghana,Indonesia,2002,411
 Ghana,Iran,2002,1810
 Ghana,Israel,2002,348
 Ghana,Italy,2002,13359598
-Ghana,Côte d'Ivoire,2002,1178
+Ghana,Cï¿½te d'Ivoire,2002,1178
 Ghana,Jamaica,2002,202912
 Ghana,Kenya,2002,2127
 Ghana,"Korea, Republic of",2002,16822
@@ -30862,7 +30862,7 @@ Guinea,India,2008,29138
 Guinea,Indonesia,2008,40207
 Guinea,Iran,2008,32883
 Guinea,Italy,2008,21453019
-Guinea,Côte d'Ivoire,2008,24045002
+Guinea,Cï¿½te d'Ivoire,2008,24045002
 Guinea,"Korea, Republic of",2008,82
 Guinea,Lebanese Republic,2008,1071
 Guinea,Liberia,2008,6789288
@@ -31023,64 +31023,64 @@ Indonesia,Ukraine,2012,7
 Indonesia,Egypt,2012,28517
 Indonesia,United Kingdom,2012,511542
 Indonesia,United States of America,2012,129085417
-Côte d'Ivoire,Ukraine,2013,2173
-Côte d'Ivoire,Egypt,2013,217939
-Côte d'Ivoire,United Kingdom,2013,51553
-Côte d'Ivoire,United States of America,2013,4358602
-Côte d'Ivoire,Burkina Faso,2013,18130
-Côte d'Ivoire,Yemen,2013,12620
-Côte d'Ivoire,World,2013,3079367271
-Côte d'Ivoire,Australia,2013,8613
-Côte d'Ivoire,Austria,2013,10290
-Côte d'Ivoire,Bangladesh,2013,71594
-Côte d'Ivoire,Belgium,2013,2409654
-Côte d'Ivoire,Brazil,2013,1172
-Côte d'Ivoire,Canada,2013,23517
-Côte d'Ivoire,China,2013,458724
-Côte d'Ivoire,Chinese Taipei,2013,164
-Côte d'Ivoire,Colombia,2013,141044266
-Côte d'Ivoire,Democratic Republic of the Congo,2013,232
-Côte d'Ivoire,Denmark,2013,6627
-Côte d'Ivoire,Ecuador,2013,174932
-Côte d'Ivoire,Equatorial Guinea,2013,22370553
-Côte d'Ivoire,Ethiopia,2013,3266
-Côte d'Ivoire,Finland,2013,516
-Côte d'Ivoire,France,2013,12311220
-Côte d'Ivoire,Germany,2013,446570
-Côte d'Ivoire,Ghana,2013,75063
-Côte d'Ivoire,Greece,2013,3800
-Côte d'Ivoire,India,2013,3938118
-Côte d'Ivoire,Iran,2013,374920
-Côte d'Ivoire,Italy,2013,15609658
-Côte d'Ivoire,Japan,2013,61915
-Côte d'Ivoire,"Korea, Republic of",2013,10863
-Côte d'Ivoire,Lebanese Republic,2013,7437
-Côte d'Ivoire,Latvia,2013,25641298
-Côte d'Ivoire,Liberia,2013,1454
-Côte d'Ivoire,Luxembourg,2013,1914
-Côte d'Ivoire,Malaysia,2013,44860
-Côte d'Ivoire,Mali,2013,20556
-Côte d'Ivoire,Mexico,2013,2650
-Côte d'Ivoire,Morocco,2013,2576338
-Côte d'Ivoire,Netherlands,2013,23787363
-Côte d'Ivoire,Niger,2013,300
-Côte d'Ivoire,Nigeria,2013,2795526910
-Côte d'Ivoire,Pakistan,2013,48012
-Côte d'Ivoire,Poland,2013,167494
-Côte d'Ivoire,Portugal,2013,25872
-Côte d'Ivoire,"Saudi Arabia, Kingdom of",2013,119185
-Côte d'Ivoire,Senegal,2013,670681
-Côte d'Ivoire,Singapore,2013,194725
-Côte d'Ivoire,Slovak Republic,2013,1313
-Côte d'Ivoire,South Africa,2013,142808
-Côte d'Ivoire,Spain,2013,1009825
-Côte d'Ivoire,Sweden,2013,734448
-Côte d'Ivoire,Switzerland,2013,11639
-Côte d'Ivoire,Togo,2013,17667667
-Côte d'Ivoire,Trinidad and Tobago,2013,1253504
-Côte d'Ivoire,United Arab Emirates,2013,5251349
-Côte d'Ivoire,Tunisia,2013,90712
-Côte d'Ivoire,Turkey,2013,255862
+Cï¿½te d'Ivoire,Ukraine,2013,2173
+Cï¿½te d'Ivoire,Egypt,2013,217939
+Cï¿½te d'Ivoire,United Kingdom,2013,51553
+Cï¿½te d'Ivoire,United States of America,2013,4358602
+Cï¿½te d'Ivoire,Burkina Faso,2013,18130
+Cï¿½te d'Ivoire,Yemen,2013,12620
+Cï¿½te d'Ivoire,World,2013,3079367271
+Cï¿½te d'Ivoire,Australia,2013,8613
+Cï¿½te d'Ivoire,Austria,2013,10290
+Cï¿½te d'Ivoire,Bangladesh,2013,71594
+Cï¿½te d'Ivoire,Belgium,2013,2409654
+Cï¿½te d'Ivoire,Brazil,2013,1172
+Cï¿½te d'Ivoire,Canada,2013,23517
+Cï¿½te d'Ivoire,China,2013,458724
+Cï¿½te d'Ivoire,Chinese Taipei,2013,164
+Cï¿½te d'Ivoire,Colombia,2013,141044266
+Cï¿½te d'Ivoire,Democratic Republic of the Congo,2013,232
+Cï¿½te d'Ivoire,Denmark,2013,6627
+Cï¿½te d'Ivoire,Ecuador,2013,174932
+Cï¿½te d'Ivoire,Equatorial Guinea,2013,22370553
+Cï¿½te d'Ivoire,Ethiopia,2013,3266
+Cï¿½te d'Ivoire,Finland,2013,516
+Cï¿½te d'Ivoire,France,2013,12311220
+Cï¿½te d'Ivoire,Germany,2013,446570
+Cï¿½te d'Ivoire,Ghana,2013,75063
+Cï¿½te d'Ivoire,Greece,2013,3800
+Cï¿½te d'Ivoire,India,2013,3938118
+Cï¿½te d'Ivoire,Iran,2013,374920
+Cï¿½te d'Ivoire,Italy,2013,15609658
+Cï¿½te d'Ivoire,Japan,2013,61915
+Cï¿½te d'Ivoire,"Korea, Republic of",2013,10863
+Cï¿½te d'Ivoire,Lebanese Republic,2013,7437
+Cï¿½te d'Ivoire,Latvia,2013,25641298
+Cï¿½te d'Ivoire,Liberia,2013,1454
+Cï¿½te d'Ivoire,Luxembourg,2013,1914
+Cï¿½te d'Ivoire,Malaysia,2013,44860
+Cï¿½te d'Ivoire,Mali,2013,20556
+Cï¿½te d'Ivoire,Mexico,2013,2650
+Cï¿½te d'Ivoire,Morocco,2013,2576338
+Cï¿½te d'Ivoire,Netherlands,2013,23787363
+Cï¿½te d'Ivoire,Niger,2013,300
+Cï¿½te d'Ivoire,Nigeria,2013,2795526910
+Cï¿½te d'Ivoire,Pakistan,2013,48012
+Cï¿½te d'Ivoire,Poland,2013,167494
+Cï¿½te d'Ivoire,Portugal,2013,25872
+Cï¿½te d'Ivoire,"Saudi Arabia, Kingdom of",2013,119185
+Cï¿½te d'Ivoire,Senegal,2013,670681
+Cï¿½te d'Ivoire,Singapore,2013,194725
+Cï¿½te d'Ivoire,Slovak Republic,2013,1313
+Cï¿½te d'Ivoire,South Africa,2013,142808
+Cï¿½te d'Ivoire,Spain,2013,1009825
+Cï¿½te d'Ivoire,Sweden,2013,734448
+Cï¿½te d'Ivoire,Switzerland,2013,11639
+Cï¿½te d'Ivoire,Togo,2013,17667667
+Cï¿½te d'Ivoire,Trinidad and Tobago,2013,1253504
+Cï¿½te d'Ivoire,United Arab Emirates,2013,5251349
+Cï¿½te d'Ivoire,Tunisia,2013,90712
+Cï¿½te d'Ivoire,Turkey,2013,255862
 Kenya,World,2005,1284907209
 Kenya,Afghanistan,2005,12504
 Kenya,Australia,2005,103198
@@ -31633,7 +31633,7 @@ Senegal,India,2013,1330286
 Senegal,Iran,2013,48434
 Senegal,Israel,2013,42480369
 Senegal,Italy,2013,8557779
-Senegal,Côte d'Ivoire,2013,2972089
+Senegal,Cï¿½te d'Ivoire,2013,2972089
 Senegal,Japan,2013,2373
 Senegal,"Korea, Republic of",2013,18890664
 Senegal,Latvia,2013,13009656
@@ -31767,7 +31767,7 @@ Egypt,Iran,2009,16974466
 Egypt,Ireland,2009,3882
 Egypt,Israel,2009,22526865
 Egypt,Italy,2009,138629937
-Egypt,Côte d'Ivoire,2009,785
+Egypt,Cï¿½te d'Ivoire,2009,785
 Egypt,Japan,2009,603227
 Egypt,"Korea, Republic of",2009,26001620
 Egypt,"Kuwait, the State of",2009,815327749
@@ -31837,7 +31837,7 @@ United States of America,Iraq,2008,12297246415
 United States of America,Ireland,2008,141729699
 United States of America,Israel,2008,235770046
 United States of America,Italy,2008,2280959029
-United States of America,Côte d'Ivoire,2008,359130742
+United States of America,Cï¿½te d'Ivoire,2008,359130742
 United States of America,Jamaica,2008,204089
 United States of America,Japan,2008,246272408
 United States of America,Kazakhstan,2008,482320964
@@ -31908,7 +31908,7 @@ Burkina Faso,Ghana,2006,20564193
 Burkina Faso,India,2006,7347707
 Burkina Faso,Iran,2006,50393
 Burkina Faso,Italy,2006,203191
-Burkina Faso,Côte d'Ivoire,2006,128688340
+Burkina Faso,Cï¿½te d'Ivoire,2006,128688340
 Burkina Faso,Japan,2006,1377
 Burkina Faso,Netherlands,2006,7785653
 Burkina Faso,Nigeria,2006,1455279
@@ -31940,7 +31940,7 @@ Burkina Faso,United States of America,2006,6520832
 "Venezuela, Bolivarian Republic of",Malaysia,2014,275640
 "Venezuela, Bolivarian Republic of",Mexico,2014,1583
 "Venezuela, Bolivarian Republic of",Netherlands,2014,11212758
-"Venezuela, Bolivarian Republic of",Curaçao,2014,490137
+"Venezuela, Bolivarian Republic of",Curaï¿½ao,2014,490137
 "Venezuela, Bolivarian Republic of",Panama,2014,22412
 "Venezuela, Bolivarian Republic of",Portugal,2014,1599
 "Venezuela, Bolivarian Republic of",Romania,2014,13567
@@ -31964,7 +31964,7 @@ Burkina Faso,United States of America,2006,6520832
 "Venezuela, Bolivarian Republic of",Italy,2015,78467419
 "Venezuela, Bolivarian Republic of",Japan,2015,10663
 "Venezuela, Bolivarian Republic of",Netherlands,2015,54224912
-"Venezuela, Bolivarian Republic of",Curaçao,2015,30816932
+"Venezuela, Bolivarian Republic of",Curaï¿½ao,2015,30816932
 "Venezuela, Bolivarian Republic of",Portugal,2015,2439165
 "Venezuela, Bolivarian Republic of",Spain,2015,2560479
 "Venezuela, Bolivarian Republic of",Switzerland,2015,21898419
@@ -32141,7 +32141,7 @@ Brazil,Malaysia,2016,10003964
 Brazil,Malta,2016,19960352
 Brazil,Mexico,2016,84495247
 Brazil,Netherlands,2016,765274205
-Brazil,Curaçao,2016,4502157
+Brazil,Curaï¿½ao,2016,4502157
 Brazil,New Zealand,2016,1059
 Brazil,Nigeria,2016,1008352243
 Brazil,Norway,2016,11691
@@ -32561,7 +32561,7 @@ Mauritania,Dominican Republic,2007,6837
 Mauritania,France,2007,15477536
 Mauritania,Germany,2007,89227
 Mauritania,Italy,2007,51084350
-Mauritania,Côte d'Ivoire,2007,18536428
+Mauritania,Cï¿½te d'Ivoire,2007,18536428
 Mauritania,Morocco,2007,676391
 Mauritania,Netherlands,2007,51843
 Mauritania,Norway,2007,20221
@@ -32646,7 +32646,7 @@ Mexico,Liechtenstein,2013,413
 Mexico,Luxembourg,2013,52
 Mexico,Malaysia,2013,111
 Mexico,Netherlands,2013,3270875632
-Mexico,Curaçao,2013,17325843
+Mexico,Curaï¿½ao,2013,17325843
 Mexico,New Zealand,2013,2011
 Mexico,Nicaragua,2013,222422
 Mexico,Nigeria,2013,349
@@ -32867,7 +32867,7 @@ Nigeria,Indonesia,2016,252628
 Nigeria,Iran,2016,792731
 Nigeria,Israel,2016,103700477
 Nigeria,Italy,2016,42459654
-Nigeria,Côte d'Ivoire,2016,178013399
+Nigeria,Cï¿½te d'Ivoire,2016,178013399
 Nigeria,Japan,2016,20560
 Nigeria,Jordan,2016,131334
 Nigeria,"Korea, Republic of",2016,429524
@@ -33480,7 +33480,7 @@ European Union,Indonesia,2014,88044892
 European Union,Iran,2014,229140826
 European Union,Iraq,2014,15279529422
 European Union,Israel,2014,1242601811
-European Union,Côte d'Ivoire,2014,388616520
+European Union,Cï¿½te d'Ivoire,2014,388616520
 European Union,Japan,2014,26398585
 European Union,Kazakhstan,2014,28673390462
 European Union,Jordan,2014,64425
@@ -33504,7 +33504,7 @@ European Union,Mozambique,2014,5373
 European Union,Oman,2014,240527182
 European Union,Namibia,2014,324
 European Union,Nepal,2014,52
-European Union,Curaçao,2014,22697139
+European Union,Curaï¿½ao,2014,22697139
 European Union,New Zealand,2014,41787
 European Union,Nicaragua,2014,62
 European Union,Niger,2014,293
@@ -33934,7 +33934,7 @@ India,Iraq,2008,7853187446
 India,Ireland,2008,7745
 India,Israel,2008,24665451
 India,Italy,2008,30790827
-India,Côte d'Ivoire,2008,46903726
+India,Cï¿½te d'Ivoire,2008,46903726
 India,Japan,2008,397337973
 India,Jordan,2008,125689832
 India,"Korea, Republic of",2008,653441077
@@ -34918,7 +34918,7 @@ United States of America,Iraq,2009,5093335403
 United States of America,Ireland,2009,12528
 United States of America,Israel,2009,80084271
 United States of America,Italy,2009,943467861
-United States of America,Côte d'Ivoire,2009,49796848
+United States of America,Cï¿½te d'Ivoire,2009,49796848
 United States of America,Japan,2009,185198873
 United States of America,Kazakhstan,2009,893803009
 United States of America,Jordan,2009,10000
@@ -35076,7 +35076,7 @@ European Union,Indonesia,2006,39223587
 European Union,Iran,2006,15656201032
 European Union,Iraq,2006,6308886923
 European Union,Israel,2006,724387983
-European Union,Côte d'Ivoire,2006,737075155
+European Union,Cï¿½te d'Ivoire,2006,737075155
 European Union,Jamaica,2006,314
 European Union,Japan,2006,410008249
 European Union,Kazakhstan,2006,12693396574
@@ -35229,7 +35229,7 @@ Brazil,Lithuania,2017,20450
 Brazil,Malaysia,2017,13773188
 Brazil,Mexico,2017,82894549
 Brazil,Netherlands,2017,791496842
-Brazil,Curaçao,2017,13040469
+Brazil,Curaï¿½ao,2017,13040469
 Brazil,New Zealand,2017,95
 Brazil,Nigeria,2017,486725440
 Brazil,Norway,2017,3924
@@ -35453,7 +35453,7 @@ Costa Rica,Latvia,2019,16746
 Costa Rica,Lithuania,2019,73360513
 Costa Rica,Mexico,2019,4582801
 Costa Rica,Netherlands,2019,148565640
-Costa Rica,Curaçao,2019,45
+Costa Rica,Curaï¿½ao,2019,45
 Costa Rica,Nicaragua,2019,2769814
 Costa Rica,Panama,2019,38206568
 Costa Rica,Paraguay,2019,1011
@@ -35559,7 +35559,7 @@ India,Iran,2009,10231902426
 India,Iraq,2009,6967623273
 India,Ireland,2009,2323
 India,Italy,2009,5845173
-India,Côte d'Ivoire,2009,48903695
+India,Cï¿½te d'Ivoire,2009,48903695
 India,Japan,2009,21751665
 India,Jordan,2009,19724
 India,"Korea, Republic of",2009,1080869977
@@ -35856,7 +35856,7 @@ Malaysia,Mexico,2016,8904767
 Malaysia,Oman,2016,34388258
 Malaysia,Namibia,2016,118
 Malaysia,Netherlands,2016,262643757
-Malaysia,Curaçao,2016,120148
+Malaysia,Curaï¿½ao,2016,120148
 Malaysia,New Zealand,2016,35477712
 Malaysia,Norway,2016,50716
 Malaysia,Papua New Guinea,2016,36401642
@@ -35945,7 +35945,7 @@ Mali,Guinea,2013,724316
 Mali,India,2013,10311
 Mali,Iran,2013,106056
 Mali,Italy,2013,1965
-Mali,Côte d'Ivoire,2013,169113110
+Mali,Cï¿½te d'Ivoire,2013,169113110
 Mali,Lebanese Republic,2013,289
 Mali,Morocco,2013,502447
 Mali,Netherlands,2013,275895
@@ -36067,7 +36067,7 @@ Mexico,Lithuania,2014,13952358
 Mexico,Malaysia,2014,1184
 Mexico,Mongolia,2014,290
 Mexico,Netherlands,2014,2568106151
-Mexico,Curaçao,2014,23633778
+Mexico,Curaï¿½ao,2014,23633778
 Mexico,New Zealand,2014,1468
 Mexico,Nicaragua,2014,322074
 Mexico,Nigeria,2014,1175548
@@ -36164,7 +36164,7 @@ Morocco,India,2009,63267442
 Morocco,Iran,2009,48058412
 Morocco,Iraq,2009,633082834
 Morocco,Italy,2009,173640854
-Morocco,Côte d'Ivoire,2009,130
+Morocco,Cï¿½te d'Ivoire,2009,130
 Morocco,Japan,2009,36483735
 Morocco,"Korea, Republic of",2009,106348985
 Morocco,"Kuwait, the State of",2009,13150056
@@ -36219,7 +36219,7 @@ Nigeria,"Hong Kong, China",2018,98
 Nigeria,India,2018,78839222
 Nigeria,Israel,2018,118659804
 Nigeria,Italy,2018,96090393
-Nigeria,Côte d'Ivoire,2018,33239796
+Nigeria,Cï¿½te d'Ivoire,2018,33239796
 Nigeria,Japan,2018,25932
 Nigeria,Jordan,2018,440586
 Nigeria,"Korea, Republic of",2018,435723088
@@ -36574,7 +36574,7 @@ Togo,Germany,2000,9440
 Togo,Ghana,2000,24035
 Togo,Israel,2000,1338566
 Togo,Italy,2000,4785805
-Togo,Côte d'Ivoire,2000,28853226
+Togo,Cï¿½te d'Ivoire,2000,28853226
 Togo,Malta,2000,2177495
 Togo,Netherlands,2000,5101365
 Togo,Niger,2000,1021
@@ -36700,7 +36700,7 @@ Burkina Faso,Ghana,2007,26477705
 Burkina Faso,India,2007,8453592
 Burkina Faso,Iran,2007,117652
 Burkina Faso,Italy,2007,35565
-Burkina Faso,Côte d'Ivoire,2007,143074480
+Burkina Faso,Cï¿½te d'Ivoire,2007,143074480
 Burkina Faso,"Kuwait, the State of",2007,5750405
 Burkina Faso,Lebanese Republic,2007,1018
 Burkina Faso,Libya,2007,1843
@@ -37386,7 +37386,7 @@ Malaysia,Lithuania,2017,24389
 Malaysia,Luxembourg,2017,2299
 Malaysia,Mexico,2017,95368
 Malaysia,Netherlands,2017,433628007
-Malaysia,Curaçao,2017,41041
+Malaysia,Curaï¿½ao,2017,41041
 Malaysia,New Zealand,2017,5364086
 Malaysia,Nigeria,2017,28561036
 Malaysia,Norway,2017,208717900
@@ -37530,7 +37530,7 @@ Mexico,Indonesia,2006,7035121
 Mexico,Ireland,2006,8285
 Mexico,Israel,2006,30129
 Mexico,Italy,2006,453768205
-Mexico,Côte d'Ivoire,2006,8388303
+Mexico,Cï¿½te d'Ivoire,2006,8388303
 Mexico,Japan,2006,46546345
 Mexico,"Korea, Republic of",2006,160829942
 Mexico,Latvia,2006,14767382
@@ -37590,7 +37590,7 @@ Mexico,Liechtenstein,2015,231
 Mexico,Luxembourg,2015,2135
 Mexico,Malaysia,2015,17692
 Mexico,Netherlands,2015,2020785640
-Mexico,Curaçao,2015,13018034
+Mexico,Curaï¿½ao,2015,13018034
 Mexico,New Zealand,2015,7316
 Mexico,Nicaragua,2015,344572
 Mexico,Norway,2015,7522278
@@ -37950,7 +37950,7 @@ Togo,"Hong Kong, China",2001,1398
 Togo,Indonesia,2001,174752
 Togo,Israel,2001,1754679
 Togo,Italy,2001,14863839
-Togo,Côte d'Ivoire,2001,10035992
+Togo,Cï¿½te d'Ivoire,2001,10035992
 Togo,Japan,2001,116
 Togo,"Kuwait, the State of",2001,271253
 Togo,Liberia,2001,3326
@@ -38128,7 +38128,7 @@ European Union,Indonesia,2007,3070
 European Union,Iran,2007,16652497319
 European Union,Iraq,2007,9283998971
 European Union,Israel,2007,878216167
-European Union,Côte d'Ivoire,2007,857550562
+European Union,Cï¿½te d'Ivoire,2007,857550562
 European Union,Jamaica,2007,3440
 European Union,Japan,2007,570421534
 European Union,Kazakhstan,2007,14393966673
@@ -39015,7 +39015,7 @@ Niger,France,2014,1400598
 Niger,Germany,2014,12441
 Niger,Ghana,2014,1732851
 Niger,Guinea,2014,2973
-Niger,Côte d'Ivoire,2014,5772070
+Niger,Cï¿½te d'Ivoire,2014,5772070
 Niger,Japan,2014,174
 Niger,"Korea, Republic of",2014,884347
 Niger,Lebanese Republic,2014,421
@@ -39053,7 +39053,7 @@ Niger,Ghana,2015,1294479
 Niger,Honduras,2015,1795
 Niger,India,2015,5187754
 Niger,Indonesia,2015,423
-Niger,Côte d'Ivoire,2015,9748208
+Niger,Cï¿½te d'Ivoire,2015,9748208
 Niger,Japan,2015,1014
 Niger,Jordan,2015,114823
 Niger,Kenya,2015,35943
@@ -39536,7 +39536,7 @@ United States of America,Iraq,2001,2561571963
 United States of America,Ireland,2001,24734163
 United States of America,Israel,2001,14648919
 United States of America,Italy,2001,524849161
-United States of America,Côte d'Ivoire,2001,67015110
+United States of America,Cï¿½te d'Ivoire,2001,67015110
 United States of America,Jamaica,2001,7440
 United States of America,Japan,2001,122462907
 United States of America,Kazakhstan,2001,5039367
@@ -39603,7 +39603,7 @@ Burkina Faso,Ghana,2008,46460162
 Burkina Faso,India,2008,10122483
 Burkina Faso,Iran,2008,252695
 Burkina Faso,Italy,2008,11536282
-Burkina Faso,Côte d'Ivoire,2008,143771549
+Burkina Faso,Cï¿½te d'Ivoire,2008,143771549
 Burkina Faso,Japan,2008,2643
 Burkina Faso,"Kuwait, the State of",2008,2565483
 Burkina Faso,Liberia,2008,2090490
@@ -39846,7 +39846,7 @@ Canada,Iran,2019,23
 Canada,Ireland,2019,57361505
 Canada,Israel,2019,365811
 Canada,Italy,2019,1133021
-Canada,Côte d'Ivoire,2019,193807901
+Canada,Cï¿½te d'Ivoire,2019,193807901
 Canada,Japan,2019,49705064
 Canada,Kazakhstan,2019,120775434
 Canada,Jordan,2019,794
@@ -40331,7 +40331,7 @@ India,Iraq,2015,10758454230
 India,Ireland,2015,2747
 India,Israel,2015,429914
 India,Italy,2015,3166757
-India,Côte d'Ivoire,2015,57682579
+India,Cï¿½te d'Ivoire,2015,57682579
 India,Japan,2015,112399813
 India,Kazakhstan,2015,261033447
 India,Jordan,2015,8013
@@ -40449,44 +40449,44 @@ Israel,United Kingdom,2017,135116000
 Israel,United States of America,2017,220936000
 Israel,Uzbekistan,2017,307000
 Israel,Serbia,2017,22000
-Côte d'Ivoire,Japan,2014,13723
-Côte d'Ivoire,"Korea, Republic of",2014,144016
-Côte d'Ivoire,Lebanese Republic,2014,69683
-Côte d'Ivoire,Libya,2014,61236
-Côte d'Ivoire,Luxembourg,2014,771
-Côte d'Ivoire,Malaysia,2014,8918
-Côte d'Ivoire,Mali,2014,29602
-Côte d'Ivoire,Morocco,2014,6163546
-Côte d'Ivoire,Oman,2014,18145
-Côte d'Ivoire,Netherlands,2014,5703610
-Côte d'Ivoire,Nigeria,2014,2369314906
-Côte d'Ivoire,Norway,2014,28
-Côte d'Ivoire,Pakistan,2014,66125
-Côte d'Ivoire,World,2014,2743558631
-Côte d'Ivoire,Algeria,2014,1349467
-Côte d'Ivoire,Angola,2014,2518315
-Côte d'Ivoire,Australia,2014,49467
-Côte d'Ivoire,Austria,2014,10378
-Côte d'Ivoire,Belgium,2014,2707504
-Côte d'Ivoire,Brazil,2014,1037
-Côte d'Ivoire,Canada,2014,76940
-Côte d'Ivoire,Chile,2014,347
-Côte d'Ivoire,China,2014,493669
-Côte d'Ivoire,Colombia,2014,184051929
-Côte d'Ivoire,Congo,2014,12958
-Côte d'Ivoire,Croatia,2014,12017
-Côte d'Ivoire,Czech Republic,2014,1159
-Côte d'Ivoire,Denmark,2014,56
-Côte d'Ivoire,Ecuador,2014,63791788
-Côte d'Ivoire,Equatorial Guinea,2014,12529431
-Côte d'Ivoire,Finland,2014,653250
-Côte d'Ivoire,France,2014,10938246
-Côte d'Ivoire,Germany,2014,520043
-Côte d'Ivoire,Ghana,2014,88018
-Côte d'Ivoire,Guinea,2014,13139
-Côte d'Ivoire,India,2014,6901891
-Côte d'Ivoire,Israel,2014,37897
-Côte d'Ivoire,Italy,2014,18250786
+Cï¿½te d'Ivoire,Japan,2014,13723
+Cï¿½te d'Ivoire,"Korea, Republic of",2014,144016
+Cï¿½te d'Ivoire,Lebanese Republic,2014,69683
+Cï¿½te d'Ivoire,Libya,2014,61236
+Cï¿½te d'Ivoire,Luxembourg,2014,771
+Cï¿½te d'Ivoire,Malaysia,2014,8918
+Cï¿½te d'Ivoire,Mali,2014,29602
+Cï¿½te d'Ivoire,Morocco,2014,6163546
+Cï¿½te d'Ivoire,Oman,2014,18145
+Cï¿½te d'Ivoire,Netherlands,2014,5703610
+Cï¿½te d'Ivoire,Nigeria,2014,2369314906
+Cï¿½te d'Ivoire,Norway,2014,28
+Cï¿½te d'Ivoire,Pakistan,2014,66125
+Cï¿½te d'Ivoire,World,2014,2743558631
+Cï¿½te d'Ivoire,Algeria,2014,1349467
+Cï¿½te d'Ivoire,Angola,2014,2518315
+Cï¿½te d'Ivoire,Australia,2014,49467
+Cï¿½te d'Ivoire,Austria,2014,10378
+Cï¿½te d'Ivoire,Belgium,2014,2707504
+Cï¿½te d'Ivoire,Brazil,2014,1037
+Cï¿½te d'Ivoire,Canada,2014,76940
+Cï¿½te d'Ivoire,Chile,2014,347
+Cï¿½te d'Ivoire,China,2014,493669
+Cï¿½te d'Ivoire,Colombia,2014,184051929
+Cï¿½te d'Ivoire,Congo,2014,12958
+Cï¿½te d'Ivoire,Croatia,2014,12017
+Cï¿½te d'Ivoire,Czech Republic,2014,1159
+Cï¿½te d'Ivoire,Denmark,2014,56
+Cï¿½te d'Ivoire,Ecuador,2014,63791788
+Cï¿½te d'Ivoire,Equatorial Guinea,2014,12529431
+Cï¿½te d'Ivoire,Finland,2014,653250
+Cï¿½te d'Ivoire,France,2014,10938246
+Cï¿½te d'Ivoire,Germany,2014,520043
+Cï¿½te d'Ivoire,Ghana,2014,88018
+Cï¿½te d'Ivoire,Guinea,2014,13139
+Cï¿½te d'Ivoire,India,2014,6901891
+Cï¿½te d'Ivoire,Israel,2014,37897
+Cï¿½te d'Ivoire,Italy,2014,18250786
 Jamaica,World,2007,2210168298
 Jamaica,Antigua and Barbuda,2007,1042
 Jamaica,Belgium,2007,133
@@ -40691,7 +40691,7 @@ Mali,Germany,2014,360226
 Mali,Ghana,2014,35242767
 Mali,Guinea,2014,1143061
 Mali,India,2014,68305
-Mali,Côte d'Ivoire,2014,207698777
+Mali,Cï¿½te d'Ivoire,2014,207698777
 Mali,"Kuwait, the State of",2014,17796
 Mali,Lebanese Republic,2014,782
 Mali,Morocco,2014,1647931
@@ -40752,7 +40752,7 @@ Niger,Ghana,2016,4975445
 Niger,India,2016,8134419
 Niger,Indonesia,2016,18778
 Niger,Italy,2016,218
-Niger,Côte d'Ivoire,2016,1270406
+Niger,Cï¿½te d'Ivoire,2016,1270406
 Niger,Japan,2016,1344
 Niger,Kenya,2016,221234
 Niger,"Korea, Republic of",2016,685081
@@ -40797,7 +40797,7 @@ Nigeria,India,2019,340123463
 Nigeria,Indonesia,2019,6987860
 Nigeria,Israel,2019,20016634
 Nigeria,Italy,2019,17950416
-Nigeria,Côte d'Ivoire,2019,46012856
+Nigeria,Cï¿½te d'Ivoire,2019,46012856
 Nigeria,Japan,2019,569732
 Nigeria,"Korea, Republic of",2019,289949629
 Nigeria,"Kuwait, the State of",2019,3140
@@ -40886,7 +40886,7 @@ Papua New Guinea,Norway,2003,3348
 Papua New Guinea,Philippines,2003,185672
 Papua New Guinea,Russian Federation,2003,2966275
 Papua New Guinea,Saint Vincent and the Grenadines,2003,936
-Papua New Guinea,Sao Tomé and Principe,2003,1654
+Papua New Guinea,Sao Tomï¿½ and Principe,2003,1654
 Papua New Guinea,"Saudi Arabia, Kingdom of",2003,5569
 Papua New Guinea,Singapore,2003,23419226
 Papua New Guinea,Slovenia,2003,12350
@@ -41082,7 +41082,7 @@ Tanzania,Indonesia,2011,48500
 Tanzania,Iran,2011,10659729
 Tanzania,Ireland,2011,2833
 Tanzania,Italy,2011,5549
-Tanzania,Côte d'Ivoire,2011,2
+Tanzania,Cï¿½te d'Ivoire,2011,2
 Tanzania,Japan,2011,67984
 Tanzania,Kenya,2011,27669120
 Tanzania,"Korea, Republic of",2011,7874261
@@ -41135,7 +41135,7 @@ Burkina Faso,"Hong Kong, China",2009,25303
 Burkina Faso,India,2009,24693166
 Burkina Faso,Iran,2009,1618055
 Burkina Faso,Italy,2009,11880
-Burkina Faso,Côte d'Ivoire,2009,136999249
+Burkina Faso,Cï¿½te d'Ivoire,2009,136999249
 Burkina Faso,Japan,2009,125949
 Burkina Faso,"Kuwait, the State of",2009,201642
 Burkina Faso,Lebanese Republic,2009,55012
@@ -41655,7 +41655,7 @@ Gabon,Germany,2001,135380
 Gabon,Greece,2001,1729996
 Gabon,India,2001,4656961
 Gabon,Italy,2001,14520
-Gabon,Côte d'Ivoire,2001,5697067
+Gabon,Cï¿½te d'Ivoire,2001,5697067
 Gabon,Japan,2001,113
 Gabon,Lebanese Republic,2001,321
 Gabon,Netherlands,2001,476609
@@ -41723,7 +41723,7 @@ Guinea,Germany,2004,23847
 Guinea,Guyana,2004,165133
 Guinea,Iran,2004,136120
 Guinea,Italy,2004,2366295
-Guinea,Côte d'Ivoire,2004,161825818
+Guinea,Cï¿½te d'Ivoire,2004,161825818
 Guinea,Lebanese Republic,2004,95
 Guinea,Luxembourg,2004,340869
 Guinea,Mozambique,2004,34547
@@ -41880,26 +41880,26 @@ Indonesia,United Arab Emirates,2013,383780745
 Indonesia,Turkey,2013,1051266607
 Indonesia,Egypt,2013,2995
 Indonesia,United Kingdom,2013,383772
-Côte d'Ivoire,Poland,2014,427340
-Côte d'Ivoire,Portugal,2014,7999
-Côte d'Ivoire,Russian Federation,2014,10365980
-Côte d'Ivoire,"Saudi Arabia, Kingdom of",2014,22317
-Côte d'Ivoire,Senegal,2014,582518
-Côte d'Ivoire,Singapore,2014,398968
-Côte d'Ivoire,Slovak Republic,2014,83
-Côte d'Ivoire,South Africa,2014,2671112
-Côte d'Ivoire,Spain,2014,1448108
-Côte d'Ivoire,Sweden,2014,45335
-Côte d'Ivoire,Switzerland,2014,179452
-Côte d'Ivoire,Togo,2014,680184
-Côte d'Ivoire,United Arab Emirates,2014,7628830
-Côte d'Ivoire,Tunisia,2014,289287
-Côte d'Ivoire,Turkey,2014,272707
-Côte d'Ivoire,Uganda,2014,14536
-Côte d'Ivoire,Egypt,2014,614938
-Côte d'Ivoire,United Kingdom,2014,16570027
-Côte d'Ivoire,United States of America,2014,14089612
-Côte d'Ivoire,Burkina Faso,2014,18870
+Cï¿½te d'Ivoire,Poland,2014,427340
+Cï¿½te d'Ivoire,Portugal,2014,7999
+Cï¿½te d'Ivoire,Russian Federation,2014,10365980
+Cï¿½te d'Ivoire,"Saudi Arabia, Kingdom of",2014,22317
+Cï¿½te d'Ivoire,Senegal,2014,582518
+Cï¿½te d'Ivoire,Singapore,2014,398968
+Cï¿½te d'Ivoire,Slovak Republic,2014,83
+Cï¿½te d'Ivoire,South Africa,2014,2671112
+Cï¿½te d'Ivoire,Spain,2014,1448108
+Cï¿½te d'Ivoire,Sweden,2014,45335
+Cï¿½te d'Ivoire,Switzerland,2014,179452
+Cï¿½te d'Ivoire,Togo,2014,680184
+Cï¿½te d'Ivoire,United Arab Emirates,2014,7628830
+Cï¿½te d'Ivoire,Tunisia,2014,289287
+Cï¿½te d'Ivoire,Turkey,2014,272707
+Cï¿½te d'Ivoire,Uganda,2014,14536
+Cï¿½te d'Ivoire,Egypt,2014,614938
+Cï¿½te d'Ivoire,United Kingdom,2014,16570027
+Cï¿½te d'Ivoire,United States of America,2014,14089612
+Cï¿½te d'Ivoire,Burkina Faso,2014,18870
 Jamaica,World,2010,1523566240
 Jamaica,Argentina,2010,12984
 Jamaica,Bahamas,2010,10018015
@@ -42032,7 +42032,7 @@ Mali,Guinea,2015,1770996
 Mali,Iceland,2015,31233
 Mali,India,2015,13382
 Mali,Italy,2015,540073
-Mali,Côte d'Ivoire,2015,210801137
+Mali,Cï¿½te d'Ivoire,2015,210801137
 Mali,Lebanese Republic,2015,741
 Mali,Latvia,2015,27685
 Mali,Malaysia,2015,46850
@@ -42961,7 +42961,7 @@ Cabo Verde,China,2004,143
 Cabo Verde,Gabon,2004,1303339
 Cabo Verde,Germany,2004,297727
 Cabo Verde,Italy,2004,3787
-Cabo Verde,Côte d'Ivoire,2004,1664537
+Cabo Verde,Cï¿½te d'Ivoire,2004,1664537
 Cabo Verde,Japan,2004,14
 Cabo Verde,Malta,2004,3054346
 Cabo Verde,Morocco,2004,1279158
@@ -42984,7 +42984,7 @@ Cabo Verde,France,2005,20134
 Cabo Verde,Gabon,2005,1974127
 Cabo Verde,Germany,2005,1360
 Cabo Verde,Italy,2005,2836589
-Cabo Verde,Côte d'Ivoire,2005,1557888
+Cabo Verde,Cï¿½te d'Ivoire,2005,1557888
 Cabo Verde,Japan,2005,139
 Cabo Verde,"Kuwait, the State of",2005,1162
 Cabo Verde,Lebanese Republic,2005,11158
@@ -43305,7 +43305,7 @@ Gabon,Germany,2005,249566
 Gabon,"Hong Kong, China",2005,37
 Gabon,Iran,2005,12582
 Gabon,Italy,2005,1386585
-Gabon,Côte d'Ivoire,2005,2157232
+Gabon,Cï¿½te d'Ivoire,2005,2157232
 Gabon,Japan,2005,315
 Gabon,Lebanese Republic,2005,36599
 Gabon,Malaysia,2005,12892
@@ -43368,7 +43368,7 @@ Guinea,"Hong Kong, China",2005,1843
 Guinea,India,2005,2325
 Guinea,Iran,2005,83585
 Guinea,Italy,2005,28340629
-Guinea,Côte d'Ivoire,2005,221000895
+Guinea,Cï¿½te d'Ivoire,2005,221000895
 Guinea,Japan,2005,1909
 Guinea,Lebanese Republic,2005,580
 Guinea,Netherlands,2005,8540873
@@ -43425,7 +43425,7 @@ India,Iraq,2016,11633289323
 India,Ireland,2016,20251
 India,Israel,2016,800209
 India,Italy,2016,4726826
-India,Côte d'Ivoire,2016,25424082
+India,Cï¿½te d'Ivoire,2016,25424082
 India,Japan,2016,10046759
 India,Kazakhstan,2016,337271876
 India,Jordan,2016,1131
@@ -44155,7 +44155,7 @@ United States of America,Iraq,2012,8424844146
 United States of America,Ireland,2012,6308
 United States of America,Israel,2012,88781752
 United States of America,Italy,2012,1370878716
-United States of America,Côte d'Ivoire,2012,106313535
+United States of America,Cï¿½te d'Ivoire,2012,106313535
 United States of America,Jamaica,2012,3533296
 United States of America,Japan,2012,426656876
 United States of America,Kazakhstan,2012,871116279
@@ -44172,7 +44172,7 @@ United States of America,Malta,2012,9731771
 United States of America,Mexico,2012,39114197353
 United States of America,Oman,2012,363647740
 United States of America,Netherlands,2012,4816537439
-United States of America,Curaçao,2012,15000
+United States of America,Curaï¿½ao,2012,15000
 United States of America,New Zealand,2012,47029
 United States of America,Nigeria,2012,18454577919
 United States of America,Norway,2012,2925101416
@@ -44366,7 +44366,7 @@ Canada,Iraq,2009,1119298767
 Canada,Ireland,2009,2421
 Canada,Israel,2009,284292
 Canada,Italy,2009,69092596
-Canada,Côte d'Ivoire,2009,51783069
+Canada,Cï¿½te d'Ivoire,2009,51783069
 Canada,Jamaica,2009,130
 Canada,Japan,2009,28199299
 Canada,Kazakhstan,2009,60903487
@@ -44422,7 +44422,7 @@ Cabo Verde,France,2006,3870836
 Cabo Verde,Gabon,2006,177049
 Cabo Verde,Germany,2006,211
 Cabo Verde,Italy,2006,9273170
-Cabo Verde,Côte d'Ivoire,2006,568369
+Cabo Verde,Cï¿½te d'Ivoire,2006,568369
 Cabo Verde,Lebanese Republic,2006,87284
 Cabo Verde,Liberia,2006,636337
 Cabo Verde,Netherlands,2006,15567452
@@ -44547,7 +44547,7 @@ China,Iraq,2006,652382762
 China,Ireland,2006,34927
 China,Israel,2006,48121
 China,Italy,2006,35680983
-China,Côte d'Ivoire,2006,58574750
+China,Cï¿½te d'Ivoire,2006,58574750
 China,Japan,2006,1303545790
 China,Kazakhstan,2006,1336065938
 China,Jordan,2006,184
@@ -44626,7 +44626,7 @@ Chinese Taipei,Libya,2018,86140000
 Chinese Taipei,Malaysia,2018,1064804000
 Chinese Taipei,Oman,2018,1656264000
 Chinese Taipei,Netherlands,2018,69349000
-Chinese Taipei,Curaçao,2018,2619000
+Chinese Taipei,Curaï¿½ao,2018,2619000
 Chinese Taipei,Nigeria,2018,77393000
 Chinese Taipei,Norway,2018,41856000
 Chinese Taipei,Pakistan,2018,46089000
@@ -44791,7 +44791,7 @@ Gabon,Equatorial Guinea,2006,849716
 Gabon,France,2006,10425398
 Gabon,Germany,2006,398788
 Gabon,Italy,2006,10237
-Gabon,Côte d'Ivoire,2006,5804381
+Gabon,Cï¿½te d'Ivoire,2006,5804381
 Gabon,Lebanese Republic,2006,29
 Gabon,Malaysia,2006,178134
 Gabon,Morocco,2006,1261
@@ -44872,7 +44872,7 @@ Ghana,Iran,2007,65224
 Ghana,Iraq,2007,15535
 Ghana,Israel,2007,362417
 Ghana,Italy,2007,21442336
-Ghana,Côte d'Ivoire,2007,104899893
+Ghana,Cï¿½te d'Ivoire,2007,104899893
 Ghana,Japan,2007,3917
 Ghana,"Korea, Republic of",2007,352947
 Ghana,Lebanese Republic,2007,998
@@ -45704,7 +45704,7 @@ European Union,Morocco,2015,115056942
 European Union,Mozambique,2015,2743
 European Union,Oman,2015,144961069
 European Union,Namibia,2015,15066
-European Union,Curaçao,2015,18481266
+European Union,Curaï¿½ao,2015,18481266
 European Union,New Zealand,2015,34286
 European Union,Nigeria,2015,18054718965
 European Union,Norway,2015,24041446184
@@ -45767,7 +45767,7 @@ European Union,Indonesia,2015,93561670
 European Union,Iran,2015,31383945
 European Union,Iraq,2015,13346483609
 European Union,Israel,2015,764469519
-European Union,Côte d'Ivoire,2015,459839546
+European Union,Cï¿½te d'Ivoire,2015,459839546
 European Union,Jamaica,2015,10209491
 European Union,Japan,2015,85384572
 European Union,Kazakhstan,2015,15256951885
@@ -46061,7 +46061,7 @@ Canada,Iraq,2014,1674563553
 Canada,Ireland,2014,1248
 Canada,Israel,2014,427692
 Canada,Italy,2014,5886074
-Canada,Côte d'Ivoire,2014,270585716
+Canada,Cï¿½te d'Ivoire,2014,270585716
 Canada,Jamaica,2014,3059
 Canada,Japan,2014,45631335
 Canada,Kazakhstan,2014,278374375
@@ -46074,7 +46074,7 @@ Canada,Mexico,2014,932426478
 Canada,Morocco,2014,184
 Canada,Oman,2014,40
 Canada,Netherlands,2014,1872926781
-Canada,Curaçao,2014,6625776
+Canada,Curaï¿½ao,2014,6625776
 Canada,New Zealand,2014,1092
 Canada,Nigeria,2014,356933797
 Canada,Norway,2014,1347487016
@@ -46253,7 +46253,7 @@ Ecuador,"Venezuela, Bolivarian Republic of",2014,50920
 Gabon,India,2007,2906686
 Gabon,Iran,2007,127101
 Gabon,Italy,2007,2626485
-Gabon,Côte d'Ivoire,2007,4181156
+Gabon,Cï¿½te d'Ivoire,2007,4181156
 Gabon,Lebanese Republic,2007,8484
 Gabon,Malaysia,2007,190563
 Gabon,Morocco,2007,87
@@ -46538,62 +46538,62 @@ Indonesia,United Arab Emirates,2014,282810247
 Indonesia,Turkey,2014,770444356
 Indonesia,United Kingdom,2014,487835
 Indonesia,United States of America,2014,60080527
-Côte d'Ivoire,Denmark,2015,483
-Côte d'Ivoire,Equatorial Guinea,2015,6451236
-Côte d'Ivoire,Estonia,2015,75116
-Côte d'Ivoire,Finland,2015,5473
-Côte d'Ivoire,France,2015,34312846
-Côte d'Ivoire,Germany,2015,558593
-Côte d'Ivoire,Ghana,2015,29136
-Côte d'Ivoire,India,2015,5543421
-Côte d'Ivoire,Indonesia,2015,8
-Côte d'Ivoire,Iran,2015,5005
-Côte d'Ivoire,Israel,2015,21657301
-Côte d'Ivoire,Italy,2015,28486121
-Côte d'Ivoire,Japan,2015,6705
-Côte d'Ivoire,World,2015,2000593316
-Côte d'Ivoire,Algeria,2015,1618451
-Côte d'Ivoire,Australia,2015,5927
-Côte d'Ivoire,Austria,2015,2754
-Côte d'Ivoire,Bangladesh,2015,9942
-Côte d'Ivoire,Belgium,2015,23141723
-Côte d'Ivoire,Cameroon,2015,3845064
-Côte d'Ivoire,Canada,2015,165087
-Côte d'Ivoire,China,2015,1050739
-Côte d'Ivoire,Chinese Taipei,2015,1457
-Côte d'Ivoire,Colombia,2015,135449298
-Côte d'Ivoire,Congo,2015,239369
-Côte d'Ivoire,"Korea, Republic of",2015,11501677
-Côte d'Ivoire,Lebanese Republic,2015,705
-Côte d'Ivoire,Luxembourg,2015,3477
-Côte d'Ivoire,Malaysia,2015,18209057
-Côte d'Ivoire,Mali,2015,17168
-Côte d'Ivoire,Morocco,2015,3746836
-Côte d'Ivoire,Netherlands,2015,102042114
-Côte d'Ivoire,Nigeria,2015,1385487545
-Côte d'Ivoire,Norway,2015,761029
-Côte d'Ivoire,Pakistan,2015,31823
-Côte d'Ivoire,Panama,2015,37267
-Côte d'Ivoire,Poland,2015,133178
-Côte d'Ivoire,Portugal,2015,74
-Côte d'Ivoire,Russian Federation,2015,7276927
-Côte d'Ivoire,"Saudi Arabia, Kingdom of",2015,43950
-Côte d'Ivoire,Senegal,2015,2127374
-Côte d'Ivoire,Singapore,2015,30978333
-Côte d'Ivoire,South Africa,2015,4709365
-Côte d'Ivoire,Spain,2015,836773
-Côte d'Ivoire,Sweden,2015,6017
-Côte d'Ivoire,Switzerland,2015,14660
-Côte d'Ivoire,Syrian Arab Republic,2015,17902
-Côte d'Ivoire,Togo,2015,9219685
-Côte d'Ivoire,United Arab Emirates,2015,5190910
-Côte d'Ivoire,Tunisia,2015,183021
-Côte d'Ivoire,Turkey,2015,8950538
-Côte d'Ivoire,Egypt,2015,537232
-Côte d'Ivoire,United Kingdom,2015,17248493
-Côte d'Ivoire,United States of America,2015,61838781
-Côte d'Ivoire,Burkina Faso,2015,3635
-Côte d'Ivoire,"Venezuela, Bolivarian Republic of",2015,12979309
+Cï¿½te d'Ivoire,Denmark,2015,483
+Cï¿½te d'Ivoire,Equatorial Guinea,2015,6451236
+Cï¿½te d'Ivoire,Estonia,2015,75116
+Cï¿½te d'Ivoire,Finland,2015,5473
+Cï¿½te d'Ivoire,France,2015,34312846
+Cï¿½te d'Ivoire,Germany,2015,558593
+Cï¿½te d'Ivoire,Ghana,2015,29136
+Cï¿½te d'Ivoire,India,2015,5543421
+Cï¿½te d'Ivoire,Indonesia,2015,8
+Cï¿½te d'Ivoire,Iran,2015,5005
+Cï¿½te d'Ivoire,Israel,2015,21657301
+Cï¿½te d'Ivoire,Italy,2015,28486121
+Cï¿½te d'Ivoire,Japan,2015,6705
+Cï¿½te d'Ivoire,World,2015,2000593316
+Cï¿½te d'Ivoire,Algeria,2015,1618451
+Cï¿½te d'Ivoire,Australia,2015,5927
+Cï¿½te d'Ivoire,Austria,2015,2754
+Cï¿½te d'Ivoire,Bangladesh,2015,9942
+Cï¿½te d'Ivoire,Belgium,2015,23141723
+Cï¿½te d'Ivoire,Cameroon,2015,3845064
+Cï¿½te d'Ivoire,Canada,2015,165087
+Cï¿½te d'Ivoire,China,2015,1050739
+Cï¿½te d'Ivoire,Chinese Taipei,2015,1457
+Cï¿½te d'Ivoire,Colombia,2015,135449298
+Cï¿½te d'Ivoire,Congo,2015,239369
+Cï¿½te d'Ivoire,"Korea, Republic of",2015,11501677
+Cï¿½te d'Ivoire,Lebanese Republic,2015,705
+Cï¿½te d'Ivoire,Luxembourg,2015,3477
+Cï¿½te d'Ivoire,Malaysia,2015,18209057
+Cï¿½te d'Ivoire,Mali,2015,17168
+Cï¿½te d'Ivoire,Morocco,2015,3746836
+Cï¿½te d'Ivoire,Netherlands,2015,102042114
+Cï¿½te d'Ivoire,Nigeria,2015,1385487545
+Cï¿½te d'Ivoire,Norway,2015,761029
+Cï¿½te d'Ivoire,Pakistan,2015,31823
+Cï¿½te d'Ivoire,Panama,2015,37267
+Cï¿½te d'Ivoire,Poland,2015,133178
+Cï¿½te d'Ivoire,Portugal,2015,74
+Cï¿½te d'Ivoire,Russian Federation,2015,7276927
+Cï¿½te d'Ivoire,"Saudi Arabia, Kingdom of",2015,43950
+Cï¿½te d'Ivoire,Senegal,2015,2127374
+Cï¿½te d'Ivoire,Singapore,2015,30978333
+Cï¿½te d'Ivoire,South Africa,2015,4709365
+Cï¿½te d'Ivoire,Spain,2015,836773
+Cï¿½te d'Ivoire,Sweden,2015,6017
+Cï¿½te d'Ivoire,Switzerland,2015,14660
+Cï¿½te d'Ivoire,Syrian Arab Republic,2015,17902
+Cï¿½te d'Ivoire,Togo,2015,9219685
+Cï¿½te d'Ivoire,United Arab Emirates,2015,5190910
+Cï¿½te d'Ivoire,Tunisia,2015,183021
+Cï¿½te d'Ivoire,Turkey,2015,8950538
+Cï¿½te d'Ivoire,Egypt,2015,537232
+Cï¿½te d'Ivoire,United Kingdom,2015,17248493
+Cï¿½te d'Ivoire,United States of America,2015,61838781
+Cï¿½te d'Ivoire,Burkina Faso,2015,3635
+Cï¿½te d'Ivoire,"Venezuela, Bolivarian Republic of",2015,12979309
 Kyrgyz Republic,World,2005,210894450
 Kyrgyz Republic,Afghanistan,2005,20000
 Kyrgyz Republic,Azerbaijan,2005,984946
@@ -46732,7 +46732,7 @@ Niger,Germany,2017,23551
 Niger,Ghana,2017,2180463
 Niger,India,2017,10034215
 Niger,Italy,2017,100
-Niger,Côte d'Ivoire,2017,2613240
+Niger,Cï¿½te d'Ivoire,2017,2613240
 Niger,Japan,2017,8022
 Niger,"Korea, Republic of",2017,662692
 Niger,Libya,2017,1931
@@ -46897,7 +46897,7 @@ Senegal,Germany,2001,285662
 Senegal,Iran,2001,9837
 Senegal,Israel,2001,3437633
 Senegal,Italy,2001,14853273
-Senegal,Côte d'Ivoire,2001,1995178
+Senegal,Cï¿½te d'Ivoire,2001,1995178
 Senegal,Malta,2001,575716
 Senegal,Morocco,2001,4316
 Senegal,Netherlands,2001,13324464
@@ -46925,7 +46925,7 @@ Senegal,France,2002,11688109
 Senegal,Gabon,2002,13578310
 Senegal,Germany,2002,346373
 Senegal,Italy,2002,15922884
-Senegal,Côte d'Ivoire,2002,9375650
+Senegal,Cï¿½te d'Ivoire,2002,9375650
 Senegal,Libya,2002,6528860
 Senegal,Lithuania,2002,36192
 Senegal,Morocco,2002,29114
@@ -47278,7 +47278,7 @@ Argentina,India,2017,44666520
 Argentina,Indonesia,2017,1825048
 Argentina,Israel,2017,39790
 Argentina,Italy,2017,2180820
-Argentina,Côte d'Ivoire,2017,8335180
+Argentina,Cï¿½te d'Ivoire,2017,8335180
 Argentina,Japan,2017,246492
 Argentina,"Korea, Republic of",2017,23337524
 Argentina,Lithuania,2017,118760
@@ -47584,7 +47584,7 @@ Benin,Germany,2001,25426
 Benin,Ghana,2001,55913
 Benin,Israel,2001,1232142
 Benin,Italy,2001,2101004
-Benin,Côte d'Ivoire,2001,17182093
+Benin,Cï¿½te d'Ivoire,2001,17182093
 Benin,Libya,2001,14723
 Benin,Netherlands,2001,1985965
 Benin,Nigeria,2001,28367761
@@ -47610,7 +47610,7 @@ Benin,Gabon,2002,278625
 Benin,Germany,2002,19857
 Benin,Israel,2002,59536
 Benin,Italy,2002,238493
-Benin,Côte d'Ivoire,2002,19881055
+Benin,Cï¿½te d'Ivoire,2002,19881055
 Benin,Japan,2002,107
 Benin,"Kuwait, the State of",2002,5379214
 Benin,Liberia,2002,30879
@@ -47809,7 +47809,7 @@ Gabon,Germany,2008,286814
 Gabon,Indonesia,2008,448
 Gabon,Israel,2008,81240
 Gabon,Italy,2008,242436
-Gabon,Côte d'Ivoire,2008,2937710
+Gabon,Cï¿½te d'Ivoire,2008,2937710
 Gabon,Lebanese Republic,2008,2612
 Gabon,Malaysia,2008,251667
 Gabon,Morocco,2008,5365
@@ -48088,7 +48088,7 @@ Niger,India,2019,16461624
 Niger,Indonesia,2019,2357408
 Niger,Israel,2019,264
 Niger,Italy,2019,1236
-Niger,Côte d'Ivoire,2019,16803144
+Niger,Cï¿½te d'Ivoire,2019,16803144
 Niger,Japan,2019,15
 Niger,Kenya,2019,32676
 Niger,"Korea, Republic of",2019,2182553
@@ -48401,7 +48401,7 @@ Singapore,Iraq,2017,1644747314
 Singapore,Ireland,2017,384
 Singapore,Israel,2017,2657319
 Singapore,Italy,2017,415264605
-Singapore,Côte d'Ivoire,2017,58
+Singapore,Cï¿½te d'Ivoire,2017,58
 Singapore,Japan,2017,1460967742
 Singapore,Kazakhstan,2017,78538950
 Singapore,Kenya,2017,727
@@ -48576,7 +48576,7 @@ Thailand,Iran,2013,34097
 Thailand,Ireland,2013,1038
 Thailand,Israel,2013,24513
 Thailand,Italy,2013,1065120
-Thailand,Côte d'Ivoire,2013,145250
+Thailand,Cï¿½te d'Ivoire,2013,145250
 Thailand,Jamaica,2013,33440
 Thailand,Japan,2013,122152300
 Thailand,"Korea, Republic of",2013,311388512
@@ -48635,7 +48635,7 @@ Togo,Germany,2002,29588
 Togo,Ghana,2002,147369
 Togo,Greece,2002,3698
 Togo,Italy,2002,6479258
-Togo,Côte d'Ivoire,2002,12694918
+Togo,Cï¿½te d'Ivoire,2002,12694918
 Togo,Japan,2002,42110
 Togo,"Kuwait, the State of",2002,1708596
 Togo,Liberia,2002,157164
@@ -48960,7 +48960,7 @@ Cameroon,India,2012,1600937
 Cameroon,Iran,2012,694930
 Cameroon,Israel,2012,9797
 Cameroon,Italy,2012,309646
-Cameroon,Côte d'Ivoire,2012,109412842
+Cameroon,Cï¿½te d'Ivoire,2012,109412842
 Cameroon,Japan,2012,7497
 Cameroon,"Korea, Republic of",2012,3023
 Cameroon,"Kuwait, the State of",2012,16338971
@@ -48975,7 +48975,7 @@ Cameroon,Pakistan,2012,101885
 Cameroon,Portugal,2012,6978
 Cameroon,Romania,2012,55228
 Cameroon,Russian Federation,2012,229385
-Cameroon,Sao Tomé and Principe,2012,371170
+Cameroon,Sao Tomï¿½ and Principe,2012,371170
 Cameroon,"Saudi Arabia, Kingdom of",2012,15968
 Cameroon,Senegal,2012,2048100
 Cameroon,South Africa,2012,426705
@@ -49002,7 +49002,7 @@ Cabo Verde,France,2007,1460043
 Cabo Verde,Germany,2007,3035278
 Cabo Verde,Israel,2007,5
 Cabo Verde,Italy,2007,6232079
-Cabo Verde,Côte d'Ivoire,2007,2418944
+Cabo Verde,Cï¿½te d'Ivoire,2007,2418944
 Cabo Verde,Lebanese Republic,2007,19590
 Cabo Verde,Liberia,2007,483095
 Cabo Verde,Morocco,2007,23825
@@ -49355,7 +49355,7 @@ Benin,Guyana,2003,22940
 Benin,India,2003,23069
 Benin,Iran,2003,3507
 Benin,Italy,2003,196696
-Benin,Côte d'Ivoire,2003,32160158
+Benin,Cï¿½te d'Ivoire,2003,32160158
 Benin,Morocco,2003,340099
 Benin,Netherlands,2003,8727
 Benin,Nigeria,2003,29413142
@@ -49926,7 +49926,7 @@ Singapore,Iran,2004,993121595
 Singapore,Ireland,2004,327
 Singapore,Israel,2004,18820491
 Singapore,Italy,2004,122414143
-Singapore,Côte d'Ivoire,2004,7404
+Singapore,Cï¿½te d'Ivoire,2004,7404
 Singapore,Japan,2004,44800230
 Singapore,Jordan,2004,13347839
 Singapore,"Korea, Republic of",2004,445253760
@@ -50006,7 +50006,7 @@ South Africa,Iran,2015,103
 South Africa,Iraq,2015,156780570
 South Africa,Israel,2015,704426
 South Africa,Italy,2015,89815244
-South Africa,Côte d'Ivoire,2015,404
+South Africa,Cï¿½te d'Ivoire,2015,404
 South Africa,Japan,2015,2394181
 South Africa,Kenya,2015,106
 South Africa,"Korea, Republic of",2015,41276756
@@ -50204,7 +50204,7 @@ European Union,Indonesia,2016,38258913
 European Union,Iran,2016,4707628737
 European Union,Iraq,2016,11478730773
 European Union,Israel,2016,497641669
-European Union,Côte d'Ivoire,2016,404114084
+European Union,Cï¿½te d'Ivoire,2016,404114084
 European Union,Jamaica,2016,209
 European Union,Japan,2016,54603278
 European Union,Kazakhstan,2016,11605500971
@@ -50228,7 +50228,7 @@ European Union,"Moldova, Republic of",2016,3457440
 European Union,Morocco,2016,52273355
 European Union,Mozambique,2016,2065
 European Union,Oman,2016,93137781
-European Union,Curaçao,2016,33875272
+European Union,Curaï¿½ao,2016,33875272
 European Union,New Zealand,2016,7266
 European Union,Nicaragua,2016,43195802
 European Union,Niger,2016,1400
@@ -50243,7 +50243,7 @@ European Union,Timor-Leste,2016,3201
 European Union,Qatar,2016,1192454309
 European Union,Russian Federation,2016,70331711696
 European Union,Saint Lucia,2016,290897
-European Union,Sao Tomé and Principe,2016,11
+European Union,Sao Tomï¿½ and Principe,2016,11
 European Union,"Saudi Arabia, Kingdom of",2016,16007695111
 European Union,Senegal,2016,10639686
 European Union,Seychelles,2016,8010907
@@ -50558,7 +50558,7 @@ Cameroon,India,2014,15920255
 Cameroon,Iran,2014,91017
 Cameroon,Israel,2014,61362
 Cameroon,Italy,2014,4532199
-Cameroon,Côte d'Ivoire,2014,124393519
+Cameroon,Cï¿½te d'Ivoire,2014,124393519
 Cameroon,Japan,2014,12960
 Cameroon,Jordan,2014,151244
 Cameroon,"Korea, Republic of",2014,2046
@@ -50816,7 +50816,7 @@ Cuba,Japan,2019,57691
 Cuba,"Korea, Republic of",2019,55981535
 Cuba,Mexico,2019,890620
 Cuba,Netherlands,2019,107600883
-Cuba,Curaçao,2019,4882239
+Cuba,Curaï¿½ao,2019,4882239
 Cuba,Panama,2019,19327
 Cuba,Peru,2019,52077
 Cuba,Portugal,2019,6519015
@@ -50857,7 +50857,7 @@ Benin,Gabon,2004,866472
 Benin,Germany,2004,1787
 Benin,Ghana,2004,551707
 Benin,Italy,2004,63752
-Benin,Côte d'Ivoire,2004,46056929
+Benin,Cï¿½te d'Ivoire,2004,46056929
 Benin,"Kuwait, the State of",2004,1535380
 Benin,Latvia,2004,64969
 Benin,Liberia,2004,3556
@@ -50892,7 +50892,7 @@ Benin,Ghana,2005,561387
 Benin,Honduras,2005,142912
 Benin,India,2005,133619
 Benin,Italy,2005,32322
-Benin,Côte d'Ivoire,2005,46393242
+Benin,Cï¿½te d'Ivoire,2005,46393242
 Benin,"Kuwait, the State of",2005,1257620
 Benin,Liberia,2005,2077470
 Benin,Morocco,2005,376737
@@ -50964,7 +50964,7 @@ Ecuador,Liechtenstein,2017,1000
 Ecuador,Lithuania,2017,50000
 Ecuador,Mexico,2017,1380000
 Ecuador,Netherlands,2017,17313000
-Ecuador,Curaçao,2017,21000
+Ecuador,Curaï¿½ao,2017,21000
 Ecuador,Panama,2017,369017000
 Ecuador,Peru,2017,31458000
 Ecuador,Poland,2017,1070000
@@ -51127,7 +51127,7 @@ Kenya,Iran,2006,2443127
 Kenya,Ireland,2006,103
 Kenya,Israel,2006,1430
 Kenya,Italy,2006,10508965
-Kenya,Côte d'Ivoire,2006,2416
+Kenya,Cï¿½te d'Ivoire,2006,2416
 Kenya,Japan,2006,232460
 Kenya,"Korea, Republic of",2006,11466832
 Kenya,"Kuwait, the State of",2006,36681103
@@ -51358,7 +51358,7 @@ Senegal,Gabon,2003,5724832
 Senegal,Germany,2003,215879
 Senegal,India,2003,3646998
 Senegal,Italy,2003,7130027
-Senegal,Côte d'Ivoire,2003,7388644
+Senegal,Cï¿½te d'Ivoire,2003,7388644
 Senegal,Libya,2003,7256887
 Senegal,Lithuania,2003,148888
 Senegal,Mali,2003,4277
@@ -51456,7 +51456,7 @@ Togo,Germany,2003,31965
 Togo,Ghana,2003,572300
 Togo,Israel,2003,1394301
 Togo,Italy,2003,12011085
-Togo,Côte d'Ivoire,2003,20544477
+Togo,Cï¿½te d'Ivoire,2003,20544477
 Togo,Japan,2003,5205
 Togo,"Kuwait, the State of",2003,11632
 Togo,Liberia,2003,61524
@@ -51612,7 +51612,7 @@ United States of America,Iraq,2002,1893584228
 United States of America,Ireland,2002,37811852
 United States of America,Israel,2002,64900110
 United States of America,Italy,2002,476251991
-United States of America,Côte d'Ivoire,2002,72369679
+United States of America,Cï¿½te d'Ivoire,2002,72369679
 United States of America,Jamaica,2002,2537050
 United States of America,Japan,2002,42069011
 United States of America,Kazakhstan,2002,24826534
@@ -51731,7 +51731,7 @@ European Union,Indonesia,2008,209006057
 European Union,Iran,2008,20141818025
 European Union,Iraq,2008,13311760296
 European Union,Israel,2008,1345537701
-European Union,Côte d'Ivoire,2008,1155157403
+European Union,Cï¿½te d'Ivoire,2008,1155157403
 European Union,Japan,2008,652605955
 European Union,Kazakhstan,2008,21837937423
 European Union,Jordan,2008,39257
@@ -52309,7 +52309,7 @@ Ecuador,Latvia,2018,10243516
 Ecuador,Lithuania,2018,75975
 Ecuador,Mexico,2018,1406037
 Ecuador,Netherlands,2018,53161254
-Ecuador,Curaçao,2018,40873
+Ecuador,Curaï¿½ao,2018,40873
 Ecuador,Norway,2018,1546
 Ecuador,Panama,2018,507847733
 Ecuador,Peru,2018,16118507
@@ -52794,7 +52794,7 @@ Mauritius,Egypt,2010,25213
 Mauritius,United Kingdom,2010,290477
 Mauritius,United States of America,2010,100618
 Niger,Italy,2018,51897
-Niger,Côte d'Ivoire,2018,2904545
+Niger,Cï¿½te d'Ivoire,2018,2904545
 Niger,"Korea, Republic of",2018,2331250
 Niger,Libya,2018,3772
 Niger,Malaysia,2018,1881952
@@ -53093,7 +53093,7 @@ Sierra Leone,Germany,2010,44387
 Sierra Leone,India,2010,408770
 Sierra Leone,Iraq,2010,142370
 Sierra Leone,Italy,2010,37643
-Sierra Leone,Côte d'Ivoire,2010,108633383
+Sierra Leone,Cï¿½te d'Ivoire,2010,108633383
 Sierra Leone,"Korea, Republic of",2010,43964
 Sierra Leone,Lebanese Republic,2010,428676
 Sierra Leone,Oman,2010,53904
@@ -53322,7 +53322,7 @@ European Union,Indonesia,2000,7375
 European Union,Iran,2000,6400471230
 European Union,Iraq,2000,5760224215
 European Union,Israel,2000,179008392
-European Union,Côte d'Ivoire,2000,1800100
+European Union,Cï¿½te d'Ivoire,2000,1800100
 European Union,Jamaica,2000,4232
 European Union,Japan,2000,7435052
 European Union,Kazakhstan,2000,2044681291
@@ -53599,7 +53599,7 @@ Canada,Iraq,2015,25
 Canada,Ireland,2015,2518
 Canada,Israel,2015,461826
 Canada,Italy,2015,276875
-Canada,Côte d'Ivoire,2015,41965936
+Canada,Cï¿½te d'Ivoire,2015,41965936
 Canada,Jamaica,2015,6
 Canada,Japan,2015,11503599
 Canada,Kazakhstan,2015,269717073
@@ -53612,7 +53612,7 @@ Canada,Mexico,2015,185672
 Canada,Morocco,2015,1876
 Canada,Oman,2015,10
 Canada,Netherlands,2015,1276281455
-Canada,Curaçao,2015,4108191
+Canada,Curaï¿½ao,2015,4108191
 Canada,New Zealand,2015,518
 Canada,Nicaragua,2015,46929625
 Canada,Nigeria,2015,754572438
@@ -53847,7 +53847,7 @@ Benin,Ghana,2006,432915
 Benin,India,2006,9202658
 Benin,Iraq,2006,961
 Benin,Italy,2006,7557
-Benin,Côte d'Ivoire,2006,56797180
+Benin,Cï¿½te d'Ivoire,2006,56797180
 Benin,Lebanese Republic,2006,7252
 Benin,Morocco,2006,466512
 Benin,Netherlands,2006,4102211
@@ -53980,7 +53980,7 @@ India,Iraq,2018,22265043011
 India,Ireland,2018,106671
 India,Israel,2018,106671
 India,Italy,2018,27464330
-India,Côte d'Ivoire,2018,1780
+India,Cï¿½te d'Ivoire,2018,1780
 India,Japan,2018,17290544
 India,Kazakhstan,2018,520374582
 India,Jordan,2018,42819
@@ -54210,7 +54210,7 @@ Kenya,United States of America,2008,2475144
 "Korea, Republic of",Morocco,2013,76533559
 "Korea, Republic of",Oman,2013,524376620
 "Korea, Republic of",Netherlands,2013,81977459
-"Korea, Republic of",Curaçao,2013,1400
+"Korea, Republic of",Curaï¿½ao,2013,1400
 "Korea, Republic of",New Zealand,2013,327432
 "Korea, Republic of",Norway,2013,286346358
 "Korea, Republic of",Pakistan,2013,178919329
@@ -54631,7 +54631,7 @@ Togo,"Hong Kong, China",2004,32352
 Togo,India,2004,528834
 Togo,Israel,2004,5454
 Togo,Italy,2004,8876626
-Togo,Côte d'Ivoire,2004,19774134
+Togo,Cï¿½te d'Ivoire,2004,19774134
 Togo,"Kuwait, the State of",2004,4171808
 Togo,Liberia,2004,68991
 Togo,Liechtenstein,2004,13538
@@ -54881,7 +54881,7 @@ European Union,Indonesia,2009,32513137
 European Union,Iran,2009,11336670309
 European Union,Iraq,2009,8171552977
 European Union,Israel,2009,890622509
-European Union,Côte d'Ivoire,2009,910236884
+European Union,Cï¿½te d'Ivoire,2009,910236884
 European Union,Japan,2009,398774478
 European Union,Kazakhstan,2009,13008065439
 European Union,Jordan,2009,2859
@@ -55296,7 +55296,7 @@ Canada,Iraq,2010,1855336572
 Canada,Ireland,2010,856
 Canada,Israel,2010,331798
 Canada,Italy,2010,184613236
-Canada,Côte d'Ivoire,2010,223694662
+Canada,Cï¿½te d'Ivoire,2010,223694662
 Canada,Jamaica,2010,139
 Canada,Japan,2010,118787663
 Canada,Kazakhstan,2010,1967016269
@@ -55348,7 +55348,7 @@ Cabo Verde,Equatorial Guinea,2008,73149
 Cabo Verde,France,2008,230
 Cabo Verde,Germany,2008,8140980
 Cabo Verde,Italy,2008,567633
-Cabo Verde,Côte d'Ivoire,2008,332455
+Cabo Verde,Cï¿½te d'Ivoire,2008,332455
 Cabo Verde,Japan,2008,3018
 Cabo Verde,Lebanese Republic,2008,231
 Cabo Verde,Morocco,2008,1812029
@@ -55521,7 +55521,7 @@ Gabon,France,2009,14311667
 Gabon,Germany,2009,57613
 Gabon,India,2009,12279821
 Gabon,Italy,2009,1217
-Gabon,Côte d'Ivoire,2009,2046566
+Gabon,Cï¿½te d'Ivoire,2009,2046566
 Gabon,"Kuwait, the State of",2009,713924
 Gabon,Lebanese Republic,2009,15291
 Gabon,Malaysia,2009,434632
@@ -56300,7 +56300,7 @@ United States of America,Iraq,2003,2299565983
 United States of America,Ireland,2003,57937763
 United States of America,Israel,2003,17393900
 United States of America,Italy,2003,523188618
-United States of America,Côte d'Ivoire,2003,50690665
+United States of America,Cï¿½te d'Ivoire,2003,50690665
 United States of America,Jamaica,2003,3190
 United States of America,Japan,2003,62587805
 United States of America,Kazakhstan,2003,56438655
@@ -56370,7 +56370,7 @@ Burkina Faso,"Hong Kong, China",2010,27430
 Burkina Faso,India,2010,3320163
 Burkina Faso,Iran,2010,1242985
 Burkina Faso,Italy,2010,26185
-Burkina Faso,Côte d'Ivoire,2010,158516701
+Burkina Faso,Cï¿½te d'Ivoire,2010,158516701
 Burkina Faso,Japan,2010,336479
 Burkina Faso,Liberia,2010,89681
 Burkina Faso,Libya,2010,56454
@@ -56806,7 +56806,7 @@ Benin,Germany,2007,460
 Benin,Ghana,2007,975585
 Benin,India,2007,6497500
 Benin,Indonesia,2007,7528
-Benin,Côte d'Ivoire,2007,61019270
+Benin,Cï¿½te d'Ivoire,2007,61019270
 Benin,Liberia,2007,271223
 Benin,Mali,2007,45100
 Benin,Mauritania,2007,930181
@@ -56841,7 +56841,7 @@ Guinea,"Hong Kong, China",2009,70714
 Guinea,India,2009,17212
 Guinea,Iran,2009,134452
 Guinea,Italy,2009,15545339
-Guinea,Côte d'Ivoire,2009,16534742
+Guinea,Cï¿½te d'Ivoire,2009,16534742
 Guinea,"Korea, Republic of",2009,8807
 Guinea,Lebanese Republic,2009,33150
 Guinea,Liberia,2009,3904494
@@ -57316,7 +57316,7 @@ Mali,Guinea,2016,546488
 Mali,India,2016,161954
 Mali,Iran,2016,23069
 Mali,Italy,2016,73361
-Mali,Côte d'Ivoire,2016,210038266
+Mali,Cï¿½te d'Ivoire,2016,210038266
 Mali,Japan,2016,1385
 Mali,Kenya,2016,995
 Mali,"Korea, Republic of",2016,280
@@ -57646,7 +57646,7 @@ Sierra Leone,Germany,2011,44177
 Sierra Leone,Ghana,2011,94728
 Sierra Leone,India,2011,358191
 Sierra Leone,Italy,2011,316980
-Sierra Leone,Côte d'Ivoire,2011,464729601
+Sierra Leone,Cï¿½te d'Ivoire,2011,464729601
 Sierra Leone,Japan,2011,109214
 Sierra Leone,"Korea, Republic of",2011,176369
 Sierra Leone,Lebanese Republic,2011,627478
@@ -58250,7 +58250,7 @@ Cameroon,Germany,2001,143383
 Cameroon,Greece,2001,292
 Cameroon,"Hong Kong, China",2001,8201
 Cameroon,Italy,2001,89867
-Cameroon,Côte d'Ivoire,2001,2604372
+Cameroon,Cï¿½te d'Ivoire,2001,2604372
 Cameroon,Japan,2001,3988
 Cameroon,"Korea, Republic of",2001,2942
 Cameroon,Liberia,2001,364849
@@ -58356,7 +58356,7 @@ Guinea,India,2010,20076
 Guinea,Indonesia,2010,2903
 Guinea,Iran,2010,43884
 Guinea,Italy,2010,29295017
-Guinea,Côte d'Ivoire,2010,27329833
+Guinea,Cï¿½te d'Ivoire,2010,27329833
 Guinea,"Kuwait, the State of",2010,89309
 Guinea,Lebanese Republic,2010,15026
 Guinea,Mali,2010,62577
@@ -58595,7 +58595,7 @@ Mali,Guinea,2017,1338901
 Mali,India,2017,505481
 Mali,Indonesia,2017,23656
 Mali,Iran,2017,47003
-Mali,Côte d'Ivoire,2017,230301389
+Mali,Cï¿½te d'Ivoire,2017,230301389
 Mali,Malaysia,2017,94005
 Mali,Mauritania,2017,98537
 Mali,Morocco,2017,6658752
@@ -58982,7 +58982,7 @@ Senegal,France,2004,13410617
 Senegal,Germany,2004,31045
 Senegal,Israel,2004,2354921
 Senegal,Italy,2004,8283444
-Senegal,Côte d'Ivoire,2004,12328335
+Senegal,Cï¿½te d'Ivoire,2004,12328335
 Senegal,Japan,2004,1907
 Senegal,Jordan,2004,24435
 Senegal,"Kuwait, the State of",2004,5902533
@@ -59137,7 +59137,7 @@ Singapore,Iraq,2018,3625299095
 Singapore,Ireland,2018,2894
 Singapore,Israel,2018,942994
 Singapore,Italy,2018,578146903
-Singapore,Côte d'Ivoire,2018,89
+Singapore,Cï¿½te d'Ivoire,2018,89
 Singapore,Japan,2018,1230161142
 Singapore,Kazakhstan,2018,225678126
 Singapore,Jordan,2018,8952
@@ -59242,7 +59242,7 @@ Togo,India,2005,5747543
 Togo,Indonesia,2005,19693
 Togo,Israel,2005,7023
 Togo,Italy,2005,17935741
-Togo,Côte d'Ivoire,2005,27606890
+Togo,Cï¿½te d'Ivoire,2005,27606890
 Togo,"Kuwait, the State of",2005,10339340
 Togo,Netherlands,2005,18413448
 Togo,Niger,2005,8108
@@ -59591,7 +59591,7 @@ European Union,Indonesia,2017,73682801
 European Union,Iran,2017,9597118596
 European Union,Iraq,2017,12999915020
 European Union,Israel,2017,886746933
-European Union,Côte d'Ivoire,2017,348931712
+European Union,Cï¿½te d'Ivoire,2017,348931712
 European Union,Jamaica,2017,225
 European Union,Japan,2017,39473011
 European Union,Kazakhstan,2017,16864900863
@@ -59620,7 +59620,7 @@ European Union,Mozambique,2017,27299
 European Union,Oman,2017,18846957
 European Union,Namibia,2017,6060
 European Union,Nepal,2017,180
-European Union,Curaçao,2017,12545631
+European Union,Curaï¿½ao,2017,12545631
 European Union,New Zealand,2017,20578
 European Union,Nicaragua,2017,887
 European Union,Niger,2017,321
@@ -59636,7 +59636,7 @@ European Union,Guinea-Bissau,2017,27
 European Union,Qatar,2017,1336501510
 European Union,Russian Federation,2017,78085709623
 European Union,Saint Kitts and Nevis,2017,18
-European Union,Sao Tomé and Principe,2017,331
+European Union,Sao Tomï¿½ and Principe,2017,331
 European Union,"Saudi Arabia, Kingdom of",2017,17709016333
 European Union,Senegal,2017,1608658
 European Union,Seychelles,2017,13275392
@@ -59892,7 +59892,7 @@ Cabo Verde,France,2009,2026
 Cabo Verde,Germany,2009,11665013
 Cabo Verde,Israel,2009,683669
 Cabo Verde,Italy,2009,5557
-Cabo Verde,Côte d'Ivoire,2009,145681
+Cabo Verde,Cï¿½te d'Ivoire,2009,145681
 Cabo Verde,Libya,2009,16800
 Cabo Verde,Morocco,2009,367699
 Cabo Verde,Netherlands,2009,54506897
@@ -60118,7 +60118,7 @@ Gabon,India,2010,7278918
 Gabon,Iran,2010,27053
 Gabon,Israel,2010,1337
 Gabon,Italy,2010,626
-Gabon,Côte d'Ivoire,2010,15431860
+Gabon,Cï¿½te d'Ivoire,2010,15431860
 Gabon,Japan,2010,7374
 Gabon,"Kuwait, the State of",2010,9750725
 Gabon,Lebanese Republic,2010,5894
@@ -60160,7 +60160,7 @@ Guinea,Greece,2011,6108310
 Guinea,"Hong Kong, China",2011,15
 Guinea,India,2011,35012
 Guinea,Italy,2011,4637230
-Guinea,Côte d'Ivoire,2011,14628032
+Guinea,Cï¿½te d'Ivoire,2011,14628032
 Guinea,"Kuwait, the State of",2011,162176
 Guinea,Lebanese Republic,2011,20858
 Guinea,Liberia,2011,19096597
@@ -60288,7 +60288,7 @@ India,Iran,2020,256303
 India,Iraq,2020,14055771000
 India,Israel,2020,49842830
 India,Italy,2020,12396228
-India,Côte d'Ivoire,2020,85715811
+India,Cï¿½te d'Ivoire,2020,85715811
 India,Japan,2020,31776000
 India,Kazakhstan,2020,778518236
 India,"Korea, Republic of",2020,643079254
@@ -60563,7 +60563,7 @@ Mali,Ghana,2018,6800873
 Mali,Guinea,2018,346266
 Mali,India,2018,188162
 Mali,Italy,2018,124736
-Mali,Côte d'Ivoire,2018,249837015
+Mali,Cï¿½te d'Ivoire,2018,249837015
 Mali,Japan,2018,114267
 Mali,Kenya,2018,44184
 Mali,Lebanese Republic,2018,111
@@ -60809,7 +60809,7 @@ Nigeria,"Hong Kong, China",2006,59764
 Nigeria,India,2006,5130190
 Nigeria,Indonesia,2006,2302179
 Nigeria,Italy,2006,48634206
-Nigeria,Côte d'Ivoire,2006,10542418
+Nigeria,Cï¿½te d'Ivoire,2006,10542418
 Nigeria,Japan,2006,20705
 Nigeria,"Korea, Republic of",2006,441502
 Nigeria,Mozambique,2006,58104
@@ -60869,7 +60869,7 @@ Guinea-Bissau,World,2005,18443084
 Guinea-Bissau,France,2005,724739
 Guinea-Bissau,The Gambia,2005,517218
 Guinea-Bissau,Guinea,2005,1491
-Guinea-Bissau,Côte d'Ivoire,2005,694
+Guinea-Bissau,Cï¿½te d'Ivoire,2005,694
 Guinea-Bissau,Liberia,2005,56285
 Guinea-Bissau,Netherlands,2005,26154
 Guinea-Bissau,Portugal,2005,290794
@@ -61385,7 +61385,7 @@ Cabo Verde,Gabon,2010,25786
 Cabo Verde,Germany,2010,1410046
 Cabo Verde,Israel,2010,62480
 Cabo Verde,Italy,2010,153509
-Cabo Verde,Côte d'Ivoire,2010,81829
+Cabo Verde,Cï¿½te d'Ivoire,2010,81829
 Cabo Verde,Lebanese Republic,2010,21094
 Cabo Verde,Netherlands,2010,65299265
 Cabo Verde,Portugal,2010,1996364
@@ -61609,7 +61609,7 @@ Guinea,Germany,2012,52313
 Guinea,Iceland,2012,41719
 Guinea,India,2012,48353
 Guinea,Italy,2012,8596971
-Guinea,Côte d'Ivoire,2012,16751234
+Guinea,Cï¿½te d'Ivoire,2012,16751234
 Guinea,Japan,2012,30806
 Guinea,"Korea, Republic of",2012,265
 Guinea,"Kuwait, the State of",2012,87654
@@ -61693,64 +61693,64 @@ Haiti,United States of America,2012,61689800
 "Hong Kong, China",Italy,2020,548253
 "Hong Kong, China",Japan,2020,66770458
 "Hong Kong, China","Korea, Republic of",2020,589850267
-Côte d'Ivoire,Finland,2016,16778
-Côte d'Ivoire,France,2016,25163593
-Côte d'Ivoire,Gabon,2016,1826745
-Côte d'Ivoire,Germany,2016,566367
-Côte d'Ivoire,Ghana,2016,244085
-Côte d'Ivoire,Guinea,2016,6512
-Côte d'Ivoire,Iceland,2016,5756
-Côte d'Ivoire,India,2016,18262354
-Côte d'Ivoire,Iran,2016,598170
-Côte d'Ivoire,Israel,2016,39819
-Côte d'Ivoire,Italy,2016,15653162
-Côte d'Ivoire,Japan,2016,2859
-Côte d'Ivoire,"Korea, Republic of",2016,15010504
-Côte d'Ivoire,World,2016,1370844318
-Côte d'Ivoire,Algeria,2016,320143
-Côte d'Ivoire,Argentina,2016,1559283
-Côte d'Ivoire,Australia,2016,306092
-Côte d'Ivoire,Austria,2016,3735
-Côte d'Ivoire,Belgium,2016,45681857
-Côte d'Ivoire,Cameroon,2016,896
-Côte d'Ivoire,Canada,2016,59110
-Côte d'Ivoire,China,2016,756444
-Côte d'Ivoire,Chinese Taipei,2016,790
-Côte d'Ivoire,Colombia,2016,151860112
-Côte d'Ivoire,Benin,2016,613195
-Côte d'Ivoire,Denmark,2016,115
-Côte d'Ivoire,Equatorial Guinea,2016,5816372
-Côte d'Ivoire,Lebanese Republic,2016,19594
-Côte d'Ivoire,Liberia,2016,21533
-Côte d'Ivoire,Libya,2016,14559
-Côte d'Ivoire,Lithuania,2016,8562744
-Côte d'Ivoire,Luxembourg,2016,1014
-Côte d'Ivoire,Malaysia,2016,179322
-Côte d'Ivoire,Mali,2016,50735
-Côte d'Ivoire,Morocco,2016,4822516
-Côte d'Ivoire,Netherlands,2016,60977811
-Côte d'Ivoire,New Zealand,2016,262
-Côte d'Ivoire,Nigeria,2016,874037973
-Côte d'Ivoire,Norway,2016,8013070
-Côte d'Ivoire,Pakistan,2016,49394
-Côte d'Ivoire,Poland,2016,25945
-Côte d'Ivoire,Russian Federation,2016,10390993
-Côte d'Ivoire,"Saudi Arabia, Kingdom of",2016,82899
-Côte d'Ivoire,Senegal,2016,714282
-Côte d'Ivoire,Singapore,2016,106984
-Côte d'Ivoire,South Africa,2016,637174
-Côte d'Ivoire,Spain,2016,5393842
-Côte d'Ivoire,Sweden,2016,11305
-Côte d'Ivoire,Switzerland,2016,6164
-Côte d'Ivoire,Syrian Arab Republic,2016,42864
-Côte d'Ivoire,Togo,2016,18128159
-Côte d'Ivoire,United Arab Emirates,2016,3361590
-Côte d'Ivoire,Tunisia,2016,124838
-Côte d'Ivoire,Turkey,2016,18480488
-Côte d'Ivoire,Egypt,2016,323148
-Côte d'Ivoire,United Kingdom,2016,51774687
-Côte d'Ivoire,United States of America,2016,4771839
-Côte d'Ivoire,Burkina Faso,2016,26776
+Cï¿½te d'Ivoire,Finland,2016,16778
+Cï¿½te d'Ivoire,France,2016,25163593
+Cï¿½te d'Ivoire,Gabon,2016,1826745
+Cï¿½te d'Ivoire,Germany,2016,566367
+Cï¿½te d'Ivoire,Ghana,2016,244085
+Cï¿½te d'Ivoire,Guinea,2016,6512
+Cï¿½te d'Ivoire,Iceland,2016,5756
+Cï¿½te d'Ivoire,India,2016,18262354
+Cï¿½te d'Ivoire,Iran,2016,598170
+Cï¿½te d'Ivoire,Israel,2016,39819
+Cï¿½te d'Ivoire,Italy,2016,15653162
+Cï¿½te d'Ivoire,Japan,2016,2859
+Cï¿½te d'Ivoire,"Korea, Republic of",2016,15010504
+Cï¿½te d'Ivoire,World,2016,1370844318
+Cï¿½te d'Ivoire,Algeria,2016,320143
+Cï¿½te d'Ivoire,Argentina,2016,1559283
+Cï¿½te d'Ivoire,Australia,2016,306092
+Cï¿½te d'Ivoire,Austria,2016,3735
+Cï¿½te d'Ivoire,Belgium,2016,45681857
+Cï¿½te d'Ivoire,Cameroon,2016,896
+Cï¿½te d'Ivoire,Canada,2016,59110
+Cï¿½te d'Ivoire,China,2016,756444
+Cï¿½te d'Ivoire,Chinese Taipei,2016,790
+Cï¿½te d'Ivoire,Colombia,2016,151860112
+Cï¿½te d'Ivoire,Benin,2016,613195
+Cï¿½te d'Ivoire,Denmark,2016,115
+Cï¿½te d'Ivoire,Equatorial Guinea,2016,5816372
+Cï¿½te d'Ivoire,Lebanese Republic,2016,19594
+Cï¿½te d'Ivoire,Liberia,2016,21533
+Cï¿½te d'Ivoire,Libya,2016,14559
+Cï¿½te d'Ivoire,Lithuania,2016,8562744
+Cï¿½te d'Ivoire,Luxembourg,2016,1014
+Cï¿½te d'Ivoire,Malaysia,2016,179322
+Cï¿½te d'Ivoire,Mali,2016,50735
+Cï¿½te d'Ivoire,Morocco,2016,4822516
+Cï¿½te d'Ivoire,Netherlands,2016,60977811
+Cï¿½te d'Ivoire,New Zealand,2016,262
+Cï¿½te d'Ivoire,Nigeria,2016,874037973
+Cï¿½te d'Ivoire,Norway,2016,8013070
+Cï¿½te d'Ivoire,Pakistan,2016,49394
+Cï¿½te d'Ivoire,Poland,2016,25945
+Cï¿½te d'Ivoire,Russian Federation,2016,10390993
+Cï¿½te d'Ivoire,"Saudi Arabia, Kingdom of",2016,82899
+Cï¿½te d'Ivoire,Senegal,2016,714282
+Cï¿½te d'Ivoire,Singapore,2016,106984
+Cï¿½te d'Ivoire,South Africa,2016,637174
+Cï¿½te d'Ivoire,Spain,2016,5393842
+Cï¿½te d'Ivoire,Sweden,2016,11305
+Cï¿½te d'Ivoire,Switzerland,2016,6164
+Cï¿½te d'Ivoire,Syrian Arab Republic,2016,42864
+Cï¿½te d'Ivoire,Togo,2016,18128159
+Cï¿½te d'Ivoire,United Arab Emirates,2016,3361590
+Cï¿½te d'Ivoire,Tunisia,2016,124838
+Cï¿½te d'Ivoire,Turkey,2016,18480488
+Cï¿½te d'Ivoire,Egypt,2016,323148
+Cï¿½te d'Ivoire,United Kingdom,2016,51774687
+Cï¿½te d'Ivoire,United States of America,2016,4771839
+Cï¿½te d'Ivoire,Burkina Faso,2016,26776
 Jordan,India,2015,2636132
 Jordan,Indonesia,2015,6152
 Jordan,Iran,2015,23166
@@ -62067,7 +62067,7 @@ Niger,France,2001,3505291
 Niger,Ghana,2001,633
 Niger,Israel,2001,7765107
 Niger,Italy,2001,1006430
-Niger,Côte d'Ivoire,2001,9987955
+Niger,Cï¿½te d'Ivoire,2001,9987955
 Niger,Libya,2001,1432567
 Niger,Mali,2001,161
 Niger,Morocco,2001,110305
@@ -62098,7 +62098,7 @@ Nigeria,Ghana,2007,93253
 Nigeria,"Hong Kong, China",2007,2090
 Nigeria,India,2007,2444172
 Nigeria,Italy,2007,51657467
-Nigeria,Côte d'Ivoire,2007,1292260
+Nigeria,Cï¿½te d'Ivoire,2007,1292260
 Nigeria,"Korea, Republic of",2007,63621
 Nigeria,Latvia,2007,13532064
 Nigeria,Netherlands,2007,9535223
@@ -62216,7 +62216,7 @@ Guinea-Bissau,China,2006,2930
 Guinea-Bissau,France,2006,2556306
 Guinea-Bissau,The Gambia,2006,2439204
 Guinea-Bissau,Guinea,2006,3021
-Guinea-Bissau,Côte d'Ivoire,2006,1784932
+Guinea-Bissau,Cï¿½te d'Ivoire,2006,1784932
 Guinea-Bissau,Liberia,2006,2595683
 Guinea-Bissau,Mauritania,2006,41381
 Guinea-Bissau,Morocco,2006,6314
@@ -62465,7 +62465,7 @@ Togo,"Hong Kong, China",2006,27035
 Togo,India,2006,91814
 Togo,Indonesia,2006,33264
 Togo,Italy,2006,72293
-Togo,Côte d'Ivoire,2006,10800943
+Togo,Cï¿½te d'Ivoire,2006,10800943
 Togo,"Kuwait, the State of",2006,2872248
 Togo,Liberia,2006,22953885
 Togo,Libya,2006,137
@@ -62689,7 +62689,7 @@ Burkina Faso,India,2011,7948489
 Burkina Faso,Iran,2011,1240131
 Burkina Faso,Israel,2011,8297220
 Burkina Faso,Italy,2011,14529
-Burkina Faso,Côte d'Ivoire,2011,85015969
+Burkina Faso,Cï¿½te d'Ivoire,2011,85015969
 Burkina Faso,Japan,2011,122201
 Burkina Faso,"Korea, Republic of",2011,5690
 Burkina Faso,"Kuwait, the State of",2011,8126005
@@ -62891,7 +62891,7 @@ Antigua and Barbuda,Italy,2016,170
 Antigua and Barbuda,Jamaica,2016,1
 Antigua and Barbuda,Japan,2016,1588
 Antigua and Barbuda,"Korea, Republic of",2016,149
-Antigua and Barbuda,Curaçao,2016,372
+Antigua and Barbuda,Curaï¿½ao,2016,372
 Antigua and Barbuda,Saint Kitts and Nevis,2016,6815
 Antigua and Barbuda,Saint Vincent and the Grenadines,2016,1111
 Antigua and Barbuda,Trinidad and Tobago,2016,374247
@@ -63056,7 +63056,7 @@ Canada,Iraq,2005,995675064
 Canada,Ireland,2005,10619904
 Canada,Israel,2005,37166258
 Canada,Italy,2005,155054736
-Canada,Côte d'Ivoire,2005,25320036
+Canada,Cï¿½te d'Ivoire,2005,25320036
 Canada,Jamaica,2005,103
 Canada,Japan,2005,19149957
 Canada,"Korea, Republic of",2005,8964227
@@ -63106,7 +63106,7 @@ Cabo Verde,France,2011,120
 Cabo Verde,Germany,2011,697872
 Cabo Verde,Israel,2011,72525
 Cabo Verde,Italy,2011,1995
-Cabo Verde,Côte d'Ivoire,2011,36064
+Cabo Verde,Cï¿½te d'Ivoire,2011,36064
 Cabo Verde,Malta,2011,30317405
 Cabo Verde,Morocco,2011,3469279
 Cabo Verde,Netherlands,2011,118130381
@@ -63192,7 +63192,7 @@ Chile,Gabon,2004,67054000
 Chile,Germany,2004,1215000
 Chile,India,2004,1000
 Chile,Italy,2004,58000
-Chile,Côte d'Ivoire,2004,39925000
+Chile,Cï¿½te d'Ivoire,2004,39925000
 Chile,Japan,2004,132000
 Chile,"Korea, Republic of",2004,61085000
 Chile,Malaysia,2004,45000
@@ -63286,7 +63286,7 @@ Benin,Iceland,2008,21232
 Benin,India,2008,1664471
 Benin,Israel,2008,129715
 Benin,Italy,2008,1935070
-Benin,Côte d'Ivoire,2008,15866884
+Benin,Cï¿½te d'Ivoire,2008,15866884
 Benin,Liberia,2008,2798642
 Benin,Mauritania,2008,129018
 Benin,Mexico,2008,14403
@@ -63360,7 +63360,7 @@ Ghana,Iran,2008,33038
 Ghana,Ireland,2008,177
 Ghana,Israel,2008,361056
 Ghana,Italy,2008,18324
-Ghana,Côte d'Ivoire,2008,122619533
+Ghana,Cï¿½te d'Ivoire,2008,122619533
 Ghana,Japan,2008,8503
 Ghana,Jordan,2008,4167
 Ghana,"Korea, Republic of",2008,170637
@@ -63398,7 +63398,7 @@ Guinea,France,2013,2260073
 Guinea,Germany,2013,133603
 Guinea,India,2013,52032
 Guinea,Italy,2013,175254
-Guinea,Côte d'Ivoire,2013,17842992
+Guinea,Cï¿½te d'Ivoire,2013,17842992
 Guinea,"Korea, Republic of",2013,894
 Guinea,"Kuwait, the State of",2013,73121
 Guinea,Lebanese Republic,2013,7660
@@ -63497,43 +63497,43 @@ Indonesia,Thailand,2006,10988434
 Indonesia,United Arab Emirates,2006,224886997
 Indonesia,United Kingdom,2006,87126
 Indonesia,United States of America,2006,87116372
-Côte d'Ivoire,World,2001,663622345
-Côte d'Ivoire,Algeria,2001,551625
-Côte d'Ivoire,Austria,2001,64
-Côte d'Ivoire,"Bahrain, Kingdom of",2001,15076991
-Côte d'Ivoire,Belgium,2001,1817986
-Côte d'Ivoire,Cameroon,2001,3404
-Côte d'Ivoire,Canada,2001,3774
-Côte d'Ivoire,China,2001,8270
-Côte d'Ivoire,Congo,2001,21811650
-Côte d'Ivoire,France,2001,19018540
-Côte d'Ivoire,Germany,2001,1519601
-Côte d'Ivoire,Guinea,2001,606513
-Côte d'Ivoire,Israel,2001,390
-Côte d'Ivoire,Italy,2001,15771202
-Côte d'Ivoire,Japan,2001,779
-Côte d'Ivoire,Mali,2001,2975
-Côte d'Ivoire,Mexico,2001,53054727
-Côte d'Ivoire,Morocco,2001,61835
-Côte d'Ivoire,Netherlands,2001,12134061
-Côte d'Ivoire,Nigeria,2001,477342926
-Côte d'Ivoire,Norway,2001,823687
-Côte d'Ivoire,Russian Federation,2001,68505
-Côte d'Ivoire,"Saudi Arabia, Kingdom of",2001,7601643
-Côte d'Ivoire,Sierra Leone,2001,162448
-Côte d'Ivoire,Singapore,2001,276
-Côte d'Ivoire,South Africa,2001,160879
-Côte d'Ivoire,Spain,2001,62721
-Côte d'Ivoire,Sweden,2001,14949
-Côte d'Ivoire,Switzerland,2001,5630
-Côte d'Ivoire,Syrian Arab Republic,2001,58982
-Côte d'Ivoire,Togo,2001,143
-Côte d'Ivoire,United Arab Emirates,2001,79442
-Côte d'Ivoire,Turkey,2001,7372
-Côte d'Ivoire,Egypt,2001,132235
-Côte d'Ivoire,United Kingdom,2001,6353093
-Côte d'Ivoire,United States of America,2001,7338831
-Côte d'Ivoire,"Venezuela, Bolivarian Republic of",2001,21964197
+Cï¿½te d'Ivoire,World,2001,663622345
+Cï¿½te d'Ivoire,Algeria,2001,551625
+Cï¿½te d'Ivoire,Austria,2001,64
+Cï¿½te d'Ivoire,"Bahrain, Kingdom of",2001,15076991
+Cï¿½te d'Ivoire,Belgium,2001,1817986
+Cï¿½te d'Ivoire,Cameroon,2001,3404
+Cï¿½te d'Ivoire,Canada,2001,3774
+Cï¿½te d'Ivoire,China,2001,8270
+Cï¿½te d'Ivoire,Congo,2001,21811650
+Cï¿½te d'Ivoire,France,2001,19018540
+Cï¿½te d'Ivoire,Germany,2001,1519601
+Cï¿½te d'Ivoire,Guinea,2001,606513
+Cï¿½te d'Ivoire,Israel,2001,390
+Cï¿½te d'Ivoire,Italy,2001,15771202
+Cï¿½te d'Ivoire,Japan,2001,779
+Cï¿½te d'Ivoire,Mali,2001,2975
+Cï¿½te d'Ivoire,Mexico,2001,53054727
+Cï¿½te d'Ivoire,Morocco,2001,61835
+Cï¿½te d'Ivoire,Netherlands,2001,12134061
+Cï¿½te d'Ivoire,Nigeria,2001,477342926
+Cï¿½te d'Ivoire,Norway,2001,823687
+Cï¿½te d'Ivoire,Russian Federation,2001,68505
+Cï¿½te d'Ivoire,"Saudi Arabia, Kingdom of",2001,7601643
+Cï¿½te d'Ivoire,Sierra Leone,2001,162448
+Cï¿½te d'Ivoire,Singapore,2001,276
+Cï¿½te d'Ivoire,South Africa,2001,160879
+Cï¿½te d'Ivoire,Spain,2001,62721
+Cï¿½te d'Ivoire,Sweden,2001,14949
+Cï¿½te d'Ivoire,Switzerland,2001,5630
+Cï¿½te d'Ivoire,Syrian Arab Republic,2001,58982
+Cï¿½te d'Ivoire,Togo,2001,143
+Cï¿½te d'Ivoire,United Arab Emirates,2001,79442
+Cï¿½te d'Ivoire,Turkey,2001,7372
+Cï¿½te d'Ivoire,Egypt,2001,132235
+Cï¿½te d'Ivoire,United Kingdom,2001,6353093
+Cï¿½te d'Ivoire,United States of America,2001,7338831
+Cï¿½te d'Ivoire,"Venezuela, Bolivarian Republic of",2001,21964197
 Jordan,World,2003,840222181
 Jordan,"Bahrain, Kingdom of",2003,1384
 Jordan,Belgium,2003,146380
@@ -63588,7 +63588,7 @@ Morocco,Indonesia,2011,30370170
 Morocco,Iraq,2011,1134223305
 Morocco,Ireland,2011,232
 Morocco,Italy,2011,169218470
-Morocco,Côte d'Ivoire,2011,126
+Morocco,Cï¿½te d'Ivoire,2011,126
 Morocco,Japan,2011,19626
 Morocco,"Korea, Republic of",2011,36105991
 Morocco,Latvia,2011,37843363
@@ -63829,7 +63829,7 @@ Guinea-Bissau,The Gambia,2007,1550798
 Guinea-Bissau,Germany,2007,102801
 Guinea-Bissau,Guinea,2007,113
 Guinea-Bissau,India,2007,12447
-Guinea-Bissau,Côte d'Ivoire,2007,4593601
+Guinea-Bissau,Cï¿½te d'Ivoire,2007,4593601
 Guinea-Bissau,Liberia,2007,166332
 Guinea-Bissau,Malta,2007,420180
 Guinea-Bissau,Mauritania,2007,162477
@@ -63848,7 +63848,7 @@ Sierra Leone,Benin,2012,156925632
 Sierra Leone,France,2012,86439
 Sierra Leone,"Hong Kong, China",2012,6350
 Sierra Leone,India,2012,1004610
-Sierra Leone,Côte d'Ivoire,2012,92766397
+Sierra Leone,Cï¿½te d'Ivoire,2012,92766397
 Sierra Leone,Lebanese Republic,2012,741118
 Sierra Leone,Netherlands,2012,959507
 Sierra Leone,Norway,2012,53511
@@ -63906,7 +63906,7 @@ Togo,India,2007,5032961
 Togo,Indonesia,2007,22606
 Togo,Iran,2007,8459
 Togo,Italy,2007,3492168
-Togo,Côte d'Ivoire,2007,13964383
+Togo,Cï¿½te d'Ivoire,2007,13964383
 Togo,"Kuwait, the State of",2007,2226765
 Togo,Lebanese Republic,2007,6865
 Togo,Liberia,2007,1467827
@@ -64105,7 +64105,7 @@ United States of America,Iraq,2017,6699061998
 United States of America,Ireland,2017,151566179
 United States of America,Israel,2017,11747328
 United States of America,Italy,2017,381602740
-United States of America,Côte d'Ivoire,2017,176134522
+United States of America,Cï¿½te d'Ivoire,2017,176134522
 United States of America,Jamaica,2017,6222
 United States of America,Japan,2017,310573821
 United States of America,Kazakhstan,2017,379630133
@@ -64342,7 +64342,7 @@ European Union,Indonesia,2010,32199
 European Union,Iran,2010,16906807567
 European Union,Iraq,2010,8877223497
 European Union,Israel,2010,1285864085
-European Union,Côte d'Ivoire,2010,649129383
+European Union,Cï¿½te d'Ivoire,2010,649129383
 European Union,Jamaica,2010,115046
 European Union,Japan,2010,333025861
 European Union,Kazakhstan,2010,17418978623
@@ -64729,109 +64729,109 @@ Haiti,United Arab Emirates,2014,228547
 Haiti,United Kingdom,2014,21123
 Haiti,United States of America,2014,24525612
 India,World,2001,14150353919
-Côte d'Ivoire,World,2003,596851844
-Côte d'Ivoire,Austria,2003,33436
-Côte d'Ivoire,Belgium,2003,8417770
-Côte d'Ivoire,Brazil,2003,14814
-Côte d'Ivoire,Cameroon,2003,315
-Côte d'Ivoire,China,2003,35856
-Côte d'Ivoire,Congo,2003,7803053
-Côte d'Ivoire,Denmark,2003,1520
-Côte d'Ivoire,Equatorial Guinea,2003,846
-Côte d'Ivoire,France,2003,13767540
-Côte d'Ivoire,Gabon,2003,8919368
-Côte d'Ivoire,Germany,2003,3098650
-Côte d'Ivoire,Ghana,2003,1917283
-Côte d'Ivoire,Greece,2003,118341
-Côte d'Ivoire,India,2003,97839
-Côte d'Ivoire,Indonesia,2003,1095
-Côte d'Ivoire,Iran,2003,17472
-Côte d'Ivoire,Israel,2003,869
-Côte d'Ivoire,Italy,2003,5757223
-Côte d'Ivoire,Japan,2003,971
-Côte d'Ivoire,"Korea, Republic of",2003,188
-Côte d'Ivoire,Lebanese Republic,2003,12193
-Côte d'Ivoire,Mexico,2003,29495917
-Côte d'Ivoire,Morocco,2003,171896
-Côte d'Ivoire,Netherlands,2003,2922129
-Côte d'Ivoire,Nigeria,2003,504961620
-Côte d'Ivoire,Norway,2003,38837
-Côte d'Ivoire,Portugal,2003,50
-Côte d'Ivoire,Qatar,2003,7755
-Côte d'Ivoire,Russian Federation,2003,48116
-Côte d'Ivoire,"Saudi Arabia, Kingdom of",2003,45834
-Côte d'Ivoire,Senegal,2003,107
-Côte d'Ivoire,Singapore,2003,821
-Côte d'Ivoire,South Africa,2003,268066
-Côte d'Ivoire,Spain,2003,981
-Côte d'Ivoire,Sweden,2003,9476
-Côte d'Ivoire,Switzerland,2003,9477
-Côte d'Ivoire,Syrian Arab Republic,2003,53008
-Côte d'Ivoire,United Arab Emirates,2003,443177
-Côte d'Ivoire,Tunisia,2003,19527
-Côte d'Ivoire,Egypt,2003,80452
-Côte d'Ivoire,United States of America,2003,181419
-Côte d'Ivoire,"Venezuela, Bolivarian Republic of",2003,8060697
-Côte d'Ivoire,World,2017,1609162945
-Côte d'Ivoire,Algeria,2017,2009475
-Côte d'Ivoire,Argentina,2017,2113184
-Côte d'Ivoire,Australia,2017,7408
-Côte d'Ivoire,Austria,2017,589
-Côte d'Ivoire,Belgium,2017,61348248
-Côte d'Ivoire,Canada,2017,191937
-Côte d'Ivoire,China,2017,147319
-Côte d'Ivoire,Chinese Taipei,2017,2506
-Côte d'Ivoire,Congo,2017,45451
-Côte d'Ivoire,Benin,2017,587628
-Côte d'Ivoire,Denmark,2017,506
-Côte d'Ivoire,Equatorial Guinea,2017,1681072
-Côte d'Ivoire,Ethiopia,2017,25
-Côte d'Ivoire,Estonia,2017,13659664
-Côte d'Ivoire,Finland,2017,20502
-Côte d'Ivoire,France,2017,40310213
-Côte d'Ivoire,Gabon,2017,1311
-Côte d'Ivoire,Germany,2017,548716
-Côte d'Ivoire,Ghana,2017,6190985
-Côte d'Ivoire,India,2017,5606240
-Côte d'Ivoire,Indonesia,2017,616
-Côte d'Ivoire,Iran,2017,443187
-Côte d'Ivoire,Israel,2017,11557312
-Côte d'Ivoire,Italy,2017,15349454
-Côte d'Ivoire,Japan,2017,63107
-Côte d'Ivoire,"Korea, Republic of",2017,2169
-Côte d'Ivoire,"Kuwait, the State of",2017,20192
-Côte d'Ivoire,Lebanese Republic,2017,39979
-Côte d'Ivoire,Latvia,2017,39926205
-Côte d'Ivoire,Liberia,2017,12774
-Côte d'Ivoire,Libya,2017,185485
-Côte d'Ivoire,Lithuania,2017,20095
-Côte d'Ivoire,Luxembourg,2017,2230
-Côte d'Ivoire,Malaysia,2017,358
-Côte d'Ivoire,Mali,2017,130780
-Côte d'Ivoire,Mexico,2017,503
-Côte d'Ivoire,Morocco,2017,6234657
-Côte d'Ivoire,Netherlands,2017,121612469
-Côte d'Ivoire,Nigeria,2017,813439547
-Côte d'Ivoire,Norway,2017,60255204
-Côte d'Ivoire,Poland,2017,34211
-Côte d'Ivoire,Portugal,2017,16017161
-Côte d'Ivoire,"Saudi Arabia, Kingdom of",2017,134792
-Côte d'Ivoire,Senegal,2017,10668766
-Côte d'Ivoire,Singapore,2017,87248
-Côte d'Ivoire,Slovak Republic,2017,252
-Côte d'Ivoire,South Africa,2017,863066
-Côte d'Ivoire,Spain,2017,30899426
-Côte d'Ivoire,Sweden,2017,788339
-Côte d'Ivoire,Switzerland,2017,1967
-Côte d'Ivoire,Syrian Arab Republic,2017,37936
-Côte d'Ivoire,Togo,2017,184355078
-Côte d'Ivoire,United Arab Emirates,2017,5570454
-Côte d'Ivoire,Tunisia,2017,210869
-Côte d'Ivoire,Turkey,2017,16211232
-Côte d'Ivoire,Egypt,2017,528527
-Côte d'Ivoire,United Kingdom,2017,69889307
-Côte d'Ivoire,United States of America,2017,68805074
-Côte d'Ivoire,Burkina Faso,2017,289940
+Cï¿½te d'Ivoire,World,2003,596851844
+Cï¿½te d'Ivoire,Austria,2003,33436
+Cï¿½te d'Ivoire,Belgium,2003,8417770
+Cï¿½te d'Ivoire,Brazil,2003,14814
+Cï¿½te d'Ivoire,Cameroon,2003,315
+Cï¿½te d'Ivoire,China,2003,35856
+Cï¿½te d'Ivoire,Congo,2003,7803053
+Cï¿½te d'Ivoire,Denmark,2003,1520
+Cï¿½te d'Ivoire,Equatorial Guinea,2003,846
+Cï¿½te d'Ivoire,France,2003,13767540
+Cï¿½te d'Ivoire,Gabon,2003,8919368
+Cï¿½te d'Ivoire,Germany,2003,3098650
+Cï¿½te d'Ivoire,Ghana,2003,1917283
+Cï¿½te d'Ivoire,Greece,2003,118341
+Cï¿½te d'Ivoire,India,2003,97839
+Cï¿½te d'Ivoire,Indonesia,2003,1095
+Cï¿½te d'Ivoire,Iran,2003,17472
+Cï¿½te d'Ivoire,Israel,2003,869
+Cï¿½te d'Ivoire,Italy,2003,5757223
+Cï¿½te d'Ivoire,Japan,2003,971
+Cï¿½te d'Ivoire,"Korea, Republic of",2003,188
+Cï¿½te d'Ivoire,Lebanese Republic,2003,12193
+Cï¿½te d'Ivoire,Mexico,2003,29495917
+Cï¿½te d'Ivoire,Morocco,2003,171896
+Cï¿½te d'Ivoire,Netherlands,2003,2922129
+Cï¿½te d'Ivoire,Nigeria,2003,504961620
+Cï¿½te d'Ivoire,Norway,2003,38837
+Cï¿½te d'Ivoire,Portugal,2003,50
+Cï¿½te d'Ivoire,Qatar,2003,7755
+Cï¿½te d'Ivoire,Russian Federation,2003,48116
+Cï¿½te d'Ivoire,"Saudi Arabia, Kingdom of",2003,45834
+Cï¿½te d'Ivoire,Senegal,2003,107
+Cï¿½te d'Ivoire,Singapore,2003,821
+Cï¿½te d'Ivoire,South Africa,2003,268066
+Cï¿½te d'Ivoire,Spain,2003,981
+Cï¿½te d'Ivoire,Sweden,2003,9476
+Cï¿½te d'Ivoire,Switzerland,2003,9477
+Cï¿½te d'Ivoire,Syrian Arab Republic,2003,53008
+Cï¿½te d'Ivoire,United Arab Emirates,2003,443177
+Cï¿½te d'Ivoire,Tunisia,2003,19527
+Cï¿½te d'Ivoire,Egypt,2003,80452
+Cï¿½te d'Ivoire,United States of America,2003,181419
+Cï¿½te d'Ivoire,"Venezuela, Bolivarian Republic of",2003,8060697
+Cï¿½te d'Ivoire,World,2017,1609162945
+Cï¿½te d'Ivoire,Algeria,2017,2009475
+Cï¿½te d'Ivoire,Argentina,2017,2113184
+Cï¿½te d'Ivoire,Australia,2017,7408
+Cï¿½te d'Ivoire,Austria,2017,589
+Cï¿½te d'Ivoire,Belgium,2017,61348248
+Cï¿½te d'Ivoire,Canada,2017,191937
+Cï¿½te d'Ivoire,China,2017,147319
+Cï¿½te d'Ivoire,Chinese Taipei,2017,2506
+Cï¿½te d'Ivoire,Congo,2017,45451
+Cï¿½te d'Ivoire,Benin,2017,587628
+Cï¿½te d'Ivoire,Denmark,2017,506
+Cï¿½te d'Ivoire,Equatorial Guinea,2017,1681072
+Cï¿½te d'Ivoire,Ethiopia,2017,25
+Cï¿½te d'Ivoire,Estonia,2017,13659664
+Cï¿½te d'Ivoire,Finland,2017,20502
+Cï¿½te d'Ivoire,France,2017,40310213
+Cï¿½te d'Ivoire,Gabon,2017,1311
+Cï¿½te d'Ivoire,Germany,2017,548716
+Cï¿½te d'Ivoire,Ghana,2017,6190985
+Cï¿½te d'Ivoire,India,2017,5606240
+Cï¿½te d'Ivoire,Indonesia,2017,616
+Cï¿½te d'Ivoire,Iran,2017,443187
+Cï¿½te d'Ivoire,Israel,2017,11557312
+Cï¿½te d'Ivoire,Italy,2017,15349454
+Cï¿½te d'Ivoire,Japan,2017,63107
+Cï¿½te d'Ivoire,"Korea, Republic of",2017,2169
+Cï¿½te d'Ivoire,"Kuwait, the State of",2017,20192
+Cï¿½te d'Ivoire,Lebanese Republic,2017,39979
+Cï¿½te d'Ivoire,Latvia,2017,39926205
+Cï¿½te d'Ivoire,Liberia,2017,12774
+Cï¿½te d'Ivoire,Libya,2017,185485
+Cï¿½te d'Ivoire,Lithuania,2017,20095
+Cï¿½te d'Ivoire,Luxembourg,2017,2230
+Cï¿½te d'Ivoire,Malaysia,2017,358
+Cï¿½te d'Ivoire,Mali,2017,130780
+Cï¿½te d'Ivoire,Mexico,2017,503
+Cï¿½te d'Ivoire,Morocco,2017,6234657
+Cï¿½te d'Ivoire,Netherlands,2017,121612469
+Cï¿½te d'Ivoire,Nigeria,2017,813439547
+Cï¿½te d'Ivoire,Norway,2017,60255204
+Cï¿½te d'Ivoire,Poland,2017,34211
+Cï¿½te d'Ivoire,Portugal,2017,16017161
+Cï¿½te d'Ivoire,"Saudi Arabia, Kingdom of",2017,134792
+Cï¿½te d'Ivoire,Senegal,2017,10668766
+Cï¿½te d'Ivoire,Singapore,2017,87248
+Cï¿½te d'Ivoire,Slovak Republic,2017,252
+Cï¿½te d'Ivoire,South Africa,2017,863066
+Cï¿½te d'Ivoire,Spain,2017,30899426
+Cï¿½te d'Ivoire,Sweden,2017,788339
+Cï¿½te d'Ivoire,Switzerland,2017,1967
+Cï¿½te d'Ivoire,Syrian Arab Republic,2017,37936
+Cï¿½te d'Ivoire,Togo,2017,184355078
+Cï¿½te d'Ivoire,United Arab Emirates,2017,5570454
+Cï¿½te d'Ivoire,Tunisia,2017,210869
+Cï¿½te d'Ivoire,Turkey,2017,16211232
+Cï¿½te d'Ivoire,Egypt,2017,528527
+Cï¿½te d'Ivoire,United Kingdom,2017,69889307
+Cï¿½te d'Ivoire,United States of America,2017,68805074
+Cï¿½te d'Ivoire,Burkina Faso,2017,289940
 Jamaica,World,2013,2186951555
 Jamaica,Australia,2013,507
 Jamaica,Bahamas,2013,23962207
@@ -65212,7 +65212,7 @@ Niger,Ghana,2002,31394
 Niger,Haiti,2002,77595
 Niger,Israel,2002,386512
 Niger,Italy,2002,1353077
-Niger,Côte d'Ivoire,2002,13274192
+Niger,Cï¿½te d'Ivoire,2002,13274192
 Niger,Libya,2002,259364
 Niger,Mali,2002,1102
 Niger,Malta,2002,42493
@@ -65271,7 +65271,7 @@ Senegal,Germany,2014,79297313
 Senegal,"Hong Kong, China",2014,603
 Senegal,India,2014,2002843
 Senegal,Italy,2014,117523
-Senegal,Côte d'Ivoire,2014,18785483
+Senegal,Cï¿½te d'Ivoire,2014,18785483
 Senegal,Mali,2014,1480
 Senegal,Mauritania,2014,649807
 Senegal,Morocco,2014,9451852
@@ -65546,7 +65546,7 @@ Togo,Ghana,2008,2139385
 Togo,"Hong Kong, China",2008,31183
 Togo,India,2008,5712476
 Togo,Italy,2008,46155
-Togo,Côte d'Ivoire,2008,53969239
+Togo,Cï¿½te d'Ivoire,2008,53969239
 Togo,Japan,2008,16216
 Togo,"Korea, Republic of",2008,7850
 Togo,Lebanese Republic,2008,17508
@@ -65579,7 +65579,7 @@ Togo,"Hong Kong, China",2009,24239
 Togo,India,2009,3712433
 Togo,Iran,2009,10377
 Togo,Italy,2009,2090
-Togo,Côte d'Ivoire,2009,31604676
+Togo,Cï¿½te d'Ivoire,2009,31604676
 Togo,Japan,2009,20159
 Togo,"Korea, Republic of",2009,794
 Togo,Lebanese Republic,2009,11329
@@ -65768,7 +65768,7 @@ Burkina Faso,Indonesia,2012,10945
 Burkina Faso,Iran,2012,1938343
 Burkina Faso,Israel,2012,236535
 Burkina Faso,Italy,2012,47068
-Burkina Faso,Côte d'Ivoire,2012,110924271
+Burkina Faso,Cï¿½te d'Ivoire,2012,110924271
 Burkina Faso,Japan,2012,45979
 Burkina Faso,"Kuwait, the State of",2012,25675
 Burkina Faso,Latvia,2012,10856508
@@ -66271,7 +66271,7 @@ India,Iran,2019,1004949600
 India,Iraq,2019,23451479603
 India,Israel,2019,88065
 India,Italy,2019,19747133
-India,Côte d'Ivoire,2019,78686414
+India,Cï¿½te d'Ivoire,2019,78686414
 India,Japan,2019,72774130
 India,Kazakhstan,2019,2142062883
 India,Kenya,2019,17628
@@ -66463,111 +66463,111 @@ Israel,Ukraine,2010,33000
 Israel,Egypt,2010,19000
 Israel,United Kingdom,2010,1899000
 Israel,United States of America,2010,307696000
-Côte d'Ivoire,World,2004,1084771976
-Côte d'Ivoire,Angola,2004,18818
-Côte d'Ivoire,Austria,2004,1177
-Côte d'Ivoire,Bangladesh,2004,35950
-Côte d'Ivoire,Belgium,2004,1798874
-Côte d'Ivoire,Brazil,2004,46728
-Côte d'Ivoire,Cameroon,2004,14996150
-Côte d'Ivoire,Canada,2004,160768
-Côte d'Ivoire,China,2004,32026
-Côte d'Ivoire,Congo,2004,8405717
-Côte d'Ivoire,Equatorial Guinea,2004,114448
-Côte d'Ivoire,France,2004,18305281
-Côte d'Ivoire,Germany,2004,269819
-Côte d'Ivoire,Ghana,2004,5202
-Côte d'Ivoire,Greece,2004,137579
-Côte d'Ivoire,India,2004,61160
-Côte d'Ivoire,Iran,2004,130426
-Côte d'Ivoire,Israel,2004,63
-Côte d'Ivoire,Italy,2004,85183
-Côte d'Ivoire,Japan,2004,2142
-Côte d'Ivoire,"Korea, Republic of",2004,672
-Côte d'Ivoire,Liberia,2004,5310
-Côte d'Ivoire,Lithuania,2004,288678
-Côte d'Ivoire,Mali,2004,143
-Côte d'Ivoire,Morocco,2004,2576496
-Côte d'Ivoire,Netherlands,2004,4703995
-Côte d'Ivoire,Nigeria,2004,953864732
-Côte d'Ivoire,Norway,2004,977
-Côte d'Ivoire,Pakistan,2004,37145
-Côte d'Ivoire,Poland,2004,42971
-Côte d'Ivoire,Portugal,2004,2176
-Côte d'Ivoire,Qatar,2004,55213
-Côte d'Ivoire,Russian Federation,2004,154689
-Côte d'Ivoire,"Saudi Arabia, Kingdom of",2004,44998
-Côte d'Ivoire,Singapore,2004,385545
-Côte d'Ivoire,South Africa,2004,129999
-Côte d'Ivoire,Spain,2004,54347
-Côte d'Ivoire,Sweden,2004,10225
-Côte d'Ivoire,Switzerland,2004,13698
-Côte d'Ivoire,Syrian Arab Republic,2004,40711
-Côte d'Ivoire,United Arab Emirates,2004,1207357
-Côte d'Ivoire,Turkey,2004,42068
-Côte d'Ivoire,Egypt,2004,132289
-Côte d'Ivoire,United Kingdom,2004,120226
-Côte d'Ivoire,United States of America,2004,445347
-Côte d'Ivoire,"Venezuela, Bolivarian Republic of",2004,75804230
-Côte d'Ivoire,World,2018,2269255887
-Côte d'Ivoire,Algeria,2018,332883
-Côte d'Ivoire,Australia,2018,33680
-Côte d'Ivoire,Austria,2018,4200
-Côte d'Ivoire,Belgium,2018,27824037
-Côte d'Ivoire,Cameroon,2018,5302
-Côte d'Ivoire,Canada,2018,153767
-Côte d'Ivoire,Chile,2018,1098568
-Côte d'Ivoire,China,2018,29460389
-Côte d'Ivoire,Chinese Taipei,2018,170
-Côte d'Ivoire,Colombia,2018,251207787
-Côte d'Ivoire,Czech Republic,2018,3598
-Côte d'Ivoire,Denmark,2018,41
-Côte d'Ivoire,Finland,2018,176164
-Côte d'Ivoire,France,2018,6784981
-Côte d'Ivoire,Gabon,2018,512
-Côte d'Ivoire,Germany,2018,443281
-Côte d'Ivoire,Ghana,2018,357401
-Côte d'Ivoire,Greece,2018,5108
-Côte d'Ivoire,Guinea,2018,26942
-Côte d'Ivoire,India,2018,24659959
-Côte d'Ivoire,Iran,2018,289398
-Côte d'Ivoire,Israel,2018,21232444
-Côte d'Ivoire,Italy,2018,21394616
-Côte d'Ivoire,Japan,2018,44342
-Côte d'Ivoire,"Korea, Republic of",2018,17580
-Côte d'Ivoire,"Kuwait, the State of",2018,101685
-Côte d'Ivoire,Lebanese Republic,2018,23484
-Côte d'Ivoire,Lithuania,2018,10520077
-Côte d'Ivoire,Luxembourg,2018,2249
-Côte d'Ivoire,Malaysia,2018,615
-Côte d'Ivoire,Mali,2018,50331
-Côte d'Ivoire,Mauritius,2018,317
-Côte d'Ivoire,Morocco,2018,5101069
-Côte d'Ivoire,Netherlands,2018,174394013
-Côte d'Ivoire,Niger,2018,552
-Côte d'Ivoire,Nigeria,2018,1296796094
-Côte d'Ivoire,Norway,2018,31738051
-Côte d'Ivoire,Poland,2018,92322
-Côte d'Ivoire,Portugal,2018,3342
-Côte d'Ivoire,Romania,2018,1148
-Côte d'Ivoire,Russian Federation,2018,55590180
-Côte d'Ivoire,"Saudi Arabia, Kingdom of",2018,196905
-Côte d'Ivoire,Senegal,2018,1951494
-Côte d'Ivoire,Singapore,2018,151102
-Côte d'Ivoire,Slovak Republic,2018,3163
-Côte d'Ivoire,South Africa,2018,861355
-Côte d'Ivoire,Spain,2018,14201237
-Côte d'Ivoire,Sweden,2018,276080
-Côte d'Ivoire,Switzerland,2018,25472
-Côte d'Ivoire,Syrian Arab Republic,2018,25511
-Côte d'Ivoire,Togo,2018,172566281
-Côte d'Ivoire,United Arab Emirates,2018,11103124
-Côte d'Ivoire,Tunisia,2018,609016
-Côte d'Ivoire,Turkey,2018,157959
-Côte d'Ivoire,Egypt,2018,609437
-Côte d'Ivoire,United Kingdom,2018,100830602
-Côte d'Ivoire,United States of America,2018,5461972
-Côte d'Ivoire,Burkina Faso,2018,249730
+Cï¿½te d'Ivoire,World,2004,1084771976
+Cï¿½te d'Ivoire,Angola,2004,18818
+Cï¿½te d'Ivoire,Austria,2004,1177
+Cï¿½te d'Ivoire,Bangladesh,2004,35950
+Cï¿½te d'Ivoire,Belgium,2004,1798874
+Cï¿½te d'Ivoire,Brazil,2004,46728
+Cï¿½te d'Ivoire,Cameroon,2004,14996150
+Cï¿½te d'Ivoire,Canada,2004,160768
+Cï¿½te d'Ivoire,China,2004,32026
+Cï¿½te d'Ivoire,Congo,2004,8405717
+Cï¿½te d'Ivoire,Equatorial Guinea,2004,114448
+Cï¿½te d'Ivoire,France,2004,18305281
+Cï¿½te d'Ivoire,Germany,2004,269819
+Cï¿½te d'Ivoire,Ghana,2004,5202
+Cï¿½te d'Ivoire,Greece,2004,137579
+Cï¿½te d'Ivoire,India,2004,61160
+Cï¿½te d'Ivoire,Iran,2004,130426
+Cï¿½te d'Ivoire,Israel,2004,63
+Cï¿½te d'Ivoire,Italy,2004,85183
+Cï¿½te d'Ivoire,Japan,2004,2142
+Cï¿½te d'Ivoire,"Korea, Republic of",2004,672
+Cï¿½te d'Ivoire,Liberia,2004,5310
+Cï¿½te d'Ivoire,Lithuania,2004,288678
+Cï¿½te d'Ivoire,Mali,2004,143
+Cï¿½te d'Ivoire,Morocco,2004,2576496
+Cï¿½te d'Ivoire,Netherlands,2004,4703995
+Cï¿½te d'Ivoire,Nigeria,2004,953864732
+Cï¿½te d'Ivoire,Norway,2004,977
+Cï¿½te d'Ivoire,Pakistan,2004,37145
+Cï¿½te d'Ivoire,Poland,2004,42971
+Cï¿½te d'Ivoire,Portugal,2004,2176
+Cï¿½te d'Ivoire,Qatar,2004,55213
+Cï¿½te d'Ivoire,Russian Federation,2004,154689
+Cï¿½te d'Ivoire,"Saudi Arabia, Kingdom of",2004,44998
+Cï¿½te d'Ivoire,Singapore,2004,385545
+Cï¿½te d'Ivoire,South Africa,2004,129999
+Cï¿½te d'Ivoire,Spain,2004,54347
+Cï¿½te d'Ivoire,Sweden,2004,10225
+Cï¿½te d'Ivoire,Switzerland,2004,13698
+Cï¿½te d'Ivoire,Syrian Arab Republic,2004,40711
+Cï¿½te d'Ivoire,United Arab Emirates,2004,1207357
+Cï¿½te d'Ivoire,Turkey,2004,42068
+Cï¿½te d'Ivoire,Egypt,2004,132289
+Cï¿½te d'Ivoire,United Kingdom,2004,120226
+Cï¿½te d'Ivoire,United States of America,2004,445347
+Cï¿½te d'Ivoire,"Venezuela, Bolivarian Republic of",2004,75804230
+Cï¿½te d'Ivoire,World,2018,2269255887
+Cï¿½te d'Ivoire,Algeria,2018,332883
+Cï¿½te d'Ivoire,Australia,2018,33680
+Cï¿½te d'Ivoire,Austria,2018,4200
+Cï¿½te d'Ivoire,Belgium,2018,27824037
+Cï¿½te d'Ivoire,Cameroon,2018,5302
+Cï¿½te d'Ivoire,Canada,2018,153767
+Cï¿½te d'Ivoire,Chile,2018,1098568
+Cï¿½te d'Ivoire,China,2018,29460389
+Cï¿½te d'Ivoire,Chinese Taipei,2018,170
+Cï¿½te d'Ivoire,Colombia,2018,251207787
+Cï¿½te d'Ivoire,Czech Republic,2018,3598
+Cï¿½te d'Ivoire,Denmark,2018,41
+Cï¿½te d'Ivoire,Finland,2018,176164
+Cï¿½te d'Ivoire,France,2018,6784981
+Cï¿½te d'Ivoire,Gabon,2018,512
+Cï¿½te d'Ivoire,Germany,2018,443281
+Cï¿½te d'Ivoire,Ghana,2018,357401
+Cï¿½te d'Ivoire,Greece,2018,5108
+Cï¿½te d'Ivoire,Guinea,2018,26942
+Cï¿½te d'Ivoire,India,2018,24659959
+Cï¿½te d'Ivoire,Iran,2018,289398
+Cï¿½te d'Ivoire,Israel,2018,21232444
+Cï¿½te d'Ivoire,Italy,2018,21394616
+Cï¿½te d'Ivoire,Japan,2018,44342
+Cï¿½te d'Ivoire,"Korea, Republic of",2018,17580
+Cï¿½te d'Ivoire,"Kuwait, the State of",2018,101685
+Cï¿½te d'Ivoire,Lebanese Republic,2018,23484
+Cï¿½te d'Ivoire,Lithuania,2018,10520077
+Cï¿½te d'Ivoire,Luxembourg,2018,2249
+Cï¿½te d'Ivoire,Malaysia,2018,615
+Cï¿½te d'Ivoire,Mali,2018,50331
+Cï¿½te d'Ivoire,Mauritius,2018,317
+Cï¿½te d'Ivoire,Morocco,2018,5101069
+Cï¿½te d'Ivoire,Netherlands,2018,174394013
+Cï¿½te d'Ivoire,Niger,2018,552
+Cï¿½te d'Ivoire,Nigeria,2018,1296796094
+Cï¿½te d'Ivoire,Norway,2018,31738051
+Cï¿½te d'Ivoire,Poland,2018,92322
+Cï¿½te d'Ivoire,Portugal,2018,3342
+Cï¿½te d'Ivoire,Romania,2018,1148
+Cï¿½te d'Ivoire,Russian Federation,2018,55590180
+Cï¿½te d'Ivoire,"Saudi Arabia, Kingdom of",2018,196905
+Cï¿½te d'Ivoire,Senegal,2018,1951494
+Cï¿½te d'Ivoire,Singapore,2018,151102
+Cï¿½te d'Ivoire,Slovak Republic,2018,3163
+Cï¿½te d'Ivoire,South Africa,2018,861355
+Cï¿½te d'Ivoire,Spain,2018,14201237
+Cï¿½te d'Ivoire,Sweden,2018,276080
+Cï¿½te d'Ivoire,Switzerland,2018,25472
+Cï¿½te d'Ivoire,Syrian Arab Republic,2018,25511
+Cï¿½te d'Ivoire,Togo,2018,172566281
+Cï¿½te d'Ivoire,United Arab Emirates,2018,11103124
+Cï¿½te d'Ivoire,Tunisia,2018,609016
+Cï¿½te d'Ivoire,Turkey,2018,157959
+Cï¿½te d'Ivoire,Egypt,2018,609437
+Cï¿½te d'Ivoire,United Kingdom,2018,100830602
+Cï¿½te d'Ivoire,United States of America,2018,5461972
+Cï¿½te d'Ivoire,Burkina Faso,2018,249730
 Jordan,World,2004,1373223826
 Jordan,Austria,2004,4757
 Jordan,Belgium,2004,235622
@@ -66646,7 +66646,7 @@ Mali,Germany,2000,10463
 Mali,Ghana,2000,59344
 Mali,Guinea,2000,101191
 Mali,Italy,2000,5618
-Mali,Côte d'Ivoire,2000,120942668
+Mali,Cï¿½te d'Ivoire,2000,120942668
 Mali,Netherlands,2000,62116
 Mali,Niger,2000,663
 Mali,Nigeria,2000,77973
@@ -66676,7 +66676,7 @@ Mali,Ghana,2019,4613417
 Mali,Guinea,2019,331516
 Mali,India,2019,259477
 Mali,Iran,2019,25396
-Mali,Côte d'Ivoire,2019,276625018
+Mali,Cï¿½te d'Ivoire,2019,276625018
 Mali,Japan,2019,7200
 Mali,Jordan,2019,3535
 Mali,Kenya,2019,39639
@@ -67025,7 +67025,7 @@ Senegal,Germany,2015,66081292
 Senegal,Guinea,2015,6089
 Senegal,India,2015,17599650
 Senegal,Italy,2015,26003993
-Senegal,Côte d'Ivoire,2015,54204
+Senegal,Cï¿½te d'Ivoire,2015,54204
 Senegal,Japan,2015,915
 Senegal,"Korea, Republic of",2015,14698560
 Senegal,Lithuania,2015,22286
@@ -67092,7 +67092,7 @@ Togo,Ghana,2010,838444
 Togo,India,2010,590915
 Togo,Indonesia,2010,25717
 Togo,Italy,2010,11742298
-Togo,Côte d'Ivoire,2010,27808481
+Togo,Cï¿½te d'Ivoire,2010,27808481
 Togo,Japan,2010,12935
 Togo,"Korea, Republic of",2010,18206
 Togo,Liberia,2010,14182
@@ -67255,7 +67255,7 @@ United States of America,Iraq,2018,6690315554
 United States of America,Ireland,2018,120079653
 United States of America,Israel,2018,15017196
 United States of America,Italy,2018,1063479795
-United States of America,Côte d'Ivoire,2018,325876831
+United States of America,Cï¿½te d'Ivoire,2018,325876831
 United States of America,Japan,2018,577139024
 United States of America,Kazakhstan,2018,865717788
 United States of America,Jordan,2018,3885
@@ -67325,7 +67325,7 @@ Burkina Faso,Iceland,2013,5433652
 Burkina Faso,India,2013,135473
 Burkina Faso,Iran,2013,398942
 Burkina Faso,Italy,2013,2342573
-Burkina Faso,Côte d'Ivoire,2013,101505609
+Burkina Faso,Cï¿½te d'Ivoire,2013,101505609
 Burkina Faso,Japan,2013,47328
 Burkina Faso,"Korea, Republic of",2013,34937796
 Burkina Faso,"Kuwait, the State of",2013,16949
@@ -67342,7 +67342,7 @@ Burkina Faso,Niger,2013,113320660
 Burkina Faso,Nigeria,2013,3711937
 Burkina Faso,Portugal,2013,4712
 Burkina Faso,Russian Federation,2013,12831797
-Burkina Faso,Sao Tomé and Principe,2013,1482908
+Burkina Faso,Sao Tomï¿½ and Principe,2013,1482908
 Burkina Faso,"Saudi Arabia, Kingdom of",2013,1213147
 Burkina Faso,Senegal,2013,11173414
 Burkina Faso,Singapore,2013,11579793
@@ -67666,7 +67666,7 @@ Guinea,Greece,2017,869267
 Guinea,"Hong Kong, China",2017,3692
 Guinea,India,2017,572934
 Guinea,Italy,2017,3013279
-Guinea,Côte d'Ivoire,2017,162955
+Guinea,Cï¿½te d'Ivoire,2017,162955
 Guinea,"Korea, Republic of",2017,12936
 Guinea,"Kuwait, the State of",2017,256973
 Guinea,Lebanese Republic,2017,18027
@@ -67718,67 +67718,67 @@ Honduras,United Kingdom,2000,5617
 Honduras,United States of America,2000,146046710
 Honduras,"Venezuela, Bolivarian Republic of",2000,44896671
 Honduras,Zambia,2000,448
-Côte d'Ivoire,World,2019,2087240771
-Côte d'Ivoire,Algeria,2019,11626
-Côte d'Ivoire,Australia,2019,669
-Côte d'Ivoire,Austria,2019,1386
-Côte d'Ivoire,Belgium,2019,2095674
-Côte d'Ivoire,Bulgaria,2019,63
-Côte d'Ivoire,Canada,2019,306044
-Côte d'Ivoire,China,2019,559647
-Côte d'Ivoire,Chinese Taipei,2019,2568
-Côte d'Ivoire,Colombia,2019,133356231
-Côte d'Ivoire,Benin,2019,303
-Côte d'Ivoire,Equatorial Guinea,2019,870440
-Côte d'Ivoire,Finland,2019,87478
-Côte d'Ivoire,France,2019,8047359
-Côte d'Ivoire,Germany,2019,489025
-Côte d'Ivoire,Ghana,2019,934212
-Côte d'Ivoire,Greece,2019,2860609
-Côte d'Ivoire,Guinea,2019,6461
-Côte d'Ivoire,India,2019,5992538
-Côte d'Ivoire,Iran,2019,143977
-Côte d'Ivoire,Iraq,2019,16187
-Côte d'Ivoire,Israel,2019,49987
-Côte d'Ivoire,Italy,2019,18529888
-Côte d'Ivoire,Japan,2019,56068
-Côte d'Ivoire,"Korea, Republic of",2019,161905
-Côte d'Ivoire,Lebanese Republic,2019,98862
-Côte d'Ivoire,Latvia,2019,43944596
-Côte d'Ivoire,Libya,2019,41445
-Côte d'Ivoire,Lithuania,2019,20946
-Côte d'Ivoire,Luxembourg,2019,226
-Côte d'Ivoire,Malaysia,2019,35335
-Côte d'Ivoire,Mali,2019,30890
-Côte d'Ivoire,Malta,2019,21449178
-Côte d'Ivoire,Mauritania,2019,2497683
-Côte d'Ivoire,Mauritius,2019,836
-Côte d'Ivoire,Mexico,2019,6
-Côte d'Ivoire,Morocco,2019,7690884
-Côte d'Ivoire,Netherlands,2019,77175403
-Côte d'Ivoire,Nigeria,2019,1352308610
-Côte d'Ivoire,Norway,2019,64054925
-Côte d'Ivoire,Poland,2019,68318
-Côte d'Ivoire,Portugal,2019,930
-Côte d'Ivoire,Russian Federation,2019,39741496
-Côte d'Ivoire,"Saudi Arabia, Kingdom of",2019,147780
-Côte d'Ivoire,Senegal,2019,937836
-Côte d'Ivoire,Sierra Leone,2019,204695
-Côte d'Ivoire,Singapore,2019,159872
-Côte d'Ivoire,South Africa,2019,871862
-Côte d'Ivoire,Spain,2019,19674056
-Côte d'Ivoire,Sweden,2019,76006
-Côte d'Ivoire,Switzerland,2019,17316
-Côte d'Ivoire,Syrian Arab Republic,2019,28807
-Côte d'Ivoire,Thailand,2019,1102
-Côte d'Ivoire,Togo,2019,77938
-Côte d'Ivoire,United Arab Emirates,2019,7410074
-Côte d'Ivoire,Tunisia,2019,220453
-Côte d'Ivoire,Turkey,2019,23920952
-Côte d'Ivoire,Egypt,2019,703002
-Côte d'Ivoire,United Kingdom,2019,46361826
-Côte d'Ivoire,United States of America,2019,99873415
-Côte d'Ivoire,Burkina Faso,2019,628057
+Cï¿½te d'Ivoire,World,2019,2087240771
+Cï¿½te d'Ivoire,Algeria,2019,11626
+Cï¿½te d'Ivoire,Australia,2019,669
+Cï¿½te d'Ivoire,Austria,2019,1386
+Cï¿½te d'Ivoire,Belgium,2019,2095674
+Cï¿½te d'Ivoire,Bulgaria,2019,63
+Cï¿½te d'Ivoire,Canada,2019,306044
+Cï¿½te d'Ivoire,China,2019,559647
+Cï¿½te d'Ivoire,Chinese Taipei,2019,2568
+Cï¿½te d'Ivoire,Colombia,2019,133356231
+Cï¿½te d'Ivoire,Benin,2019,303
+Cï¿½te d'Ivoire,Equatorial Guinea,2019,870440
+Cï¿½te d'Ivoire,Finland,2019,87478
+Cï¿½te d'Ivoire,France,2019,8047359
+Cï¿½te d'Ivoire,Germany,2019,489025
+Cï¿½te d'Ivoire,Ghana,2019,934212
+Cï¿½te d'Ivoire,Greece,2019,2860609
+Cï¿½te d'Ivoire,Guinea,2019,6461
+Cï¿½te d'Ivoire,India,2019,5992538
+Cï¿½te d'Ivoire,Iran,2019,143977
+Cï¿½te d'Ivoire,Iraq,2019,16187
+Cï¿½te d'Ivoire,Israel,2019,49987
+Cï¿½te d'Ivoire,Italy,2019,18529888
+Cï¿½te d'Ivoire,Japan,2019,56068
+Cï¿½te d'Ivoire,"Korea, Republic of",2019,161905
+Cï¿½te d'Ivoire,Lebanese Republic,2019,98862
+Cï¿½te d'Ivoire,Latvia,2019,43944596
+Cï¿½te d'Ivoire,Libya,2019,41445
+Cï¿½te d'Ivoire,Lithuania,2019,20946
+Cï¿½te d'Ivoire,Luxembourg,2019,226
+Cï¿½te d'Ivoire,Malaysia,2019,35335
+Cï¿½te d'Ivoire,Mali,2019,30890
+Cï¿½te d'Ivoire,Malta,2019,21449178
+Cï¿½te d'Ivoire,Mauritania,2019,2497683
+Cï¿½te d'Ivoire,Mauritius,2019,836
+Cï¿½te d'Ivoire,Mexico,2019,6
+Cï¿½te d'Ivoire,Morocco,2019,7690884
+Cï¿½te d'Ivoire,Netherlands,2019,77175403
+Cï¿½te d'Ivoire,Nigeria,2019,1352308610
+Cï¿½te d'Ivoire,Norway,2019,64054925
+Cï¿½te d'Ivoire,Poland,2019,68318
+Cï¿½te d'Ivoire,Portugal,2019,930
+Cï¿½te d'Ivoire,Russian Federation,2019,39741496
+Cï¿½te d'Ivoire,"Saudi Arabia, Kingdom of",2019,147780
+Cï¿½te d'Ivoire,Senegal,2019,937836
+Cï¿½te d'Ivoire,Sierra Leone,2019,204695
+Cï¿½te d'Ivoire,Singapore,2019,159872
+Cï¿½te d'Ivoire,South Africa,2019,871862
+Cï¿½te d'Ivoire,Spain,2019,19674056
+Cï¿½te d'Ivoire,Sweden,2019,76006
+Cï¿½te d'Ivoire,Switzerland,2019,17316
+Cï¿½te d'Ivoire,Syrian Arab Republic,2019,28807
+Cï¿½te d'Ivoire,Thailand,2019,1102
+Cï¿½te d'Ivoire,Togo,2019,77938
+Cï¿½te d'Ivoire,United Arab Emirates,2019,7410074
+Cï¿½te d'Ivoire,Tunisia,2019,220453
+Cï¿½te d'Ivoire,Turkey,2019,23920952
+Cï¿½te d'Ivoire,Egypt,2019,703002
+Cï¿½te d'Ivoire,United Kingdom,2019,46361826
+Cï¿½te d'Ivoire,United States of America,2019,99873415
+Cï¿½te d'Ivoire,Burkina Faso,2019,628057
 Kyrgyz Republic,World,2008,1009816753
 Kyrgyz Republic,Austria,2008,889
 Kyrgyz Republic,Belgium,2008,4481262
@@ -68146,7 +68146,7 @@ Niger,Ghana,2003,318336
 Niger,Indonesia,2003,383
 Niger,Israel,2003,149694
 Niger,Italy,2003,1120388
-Niger,Côte d'Ivoire,2003,24193273
+Niger,Cï¿½te d'Ivoire,2003,24193273
 Niger,Libya,2003,3052
 Niger,Mali,2003,1514
 Niger,Netherlands,2003,1767023
@@ -68176,7 +68176,7 @@ Guinea-Bissau,France,2008,1010397
 Guinea-Bissau,The Gambia,2008,445278
 Guinea-Bissau,Germany,2008,14973
 Guinea-Bissau,Guinea,2008,9513
-Guinea-Bissau,Côte d'Ivoire,2008,2929696
+Guinea-Bissau,Cï¿½te d'Ivoire,2008,2929696
 Guinea-Bissau,Japan,2008,2060
 Guinea-Bissau,Liberia,2008,6868716
 Guinea-Bissau,Malta,2008,276059
@@ -68287,7 +68287,7 @@ Senegal,Germany,2005,92693
 Senegal,Guinea,2005,42246
 Senegal,India,2005,1460
 Senegal,Italy,2005,20842450
-Senegal,Côte d'Ivoire,2005,36380697
+Senegal,Cï¿½te d'Ivoire,2005,36380697
 Senegal,Japan,2005,1867
 Senegal,Lithuania,2005,43320
 Senegal,Netherlands,2005,37016438
@@ -68321,7 +68321,7 @@ Senegal,Guinea,2016,31692
 Senegal,India,2016,8482231
 Senegal,Iran,2016,17004
 Senegal,Italy,2016,6165296
-Senegal,Côte d'Ivoire,2016,123986
+Senegal,Cï¿½te d'Ivoire,2016,123986
 Senegal,"Korea, Republic of",2016,9609176
 Senegal,Malaysia,2016,1556813
 Senegal,Mali,2016,28875
@@ -68355,7 +68355,7 @@ Sierra Leone,France,2013,205204
 Sierra Leone,The Gambia,2013,15451
 Sierra Leone,Germany,2013,17052
 Sierra Leone,India,2013,194850
-Sierra Leone,Côte d'Ivoire,2013,28350892
+Sierra Leone,Cï¿½te d'Ivoire,2013,28350892
 Sierra Leone,"Korea, Republic of",2013,32341
 Sierra Leone,Lebanese Republic,2013,102069
 Sierra Leone,Netherlands,2013,630821
@@ -68539,7 +68539,7 @@ Switzerland,United Kingdom,2017,1158652
 Switzerland,United States of America,2017,45549978
 Togo,India,2011,9696378
 Togo,Iran,2011,13680
-Togo,Côte d'Ivoire,2011,30666395
+Togo,Cï¿½te d'Ivoire,2011,30666395
 Togo,Japan,2011,41074
 Togo,"Korea, Republic of",2011,32565
 Togo,"Kuwait, the State of",2011,10763764
@@ -68788,7 +68788,7 @@ Burkina Faso,India,2014,634687
 Burkina Faso,Indonesia,2014,12043
 Burkina Faso,Iran,2014,119845
 Burkina Faso,Israel,2014,10222442
-Burkina Faso,Côte d'Ivoire,2014,104526014
+Burkina Faso,Cï¿½te d'Ivoire,2014,104526014
 Burkina Faso,Japan,2014,16066
 Burkina Faso,Jordan,2014,10569
 Burkina Faso,"Korea, Republic of",2014,74186
@@ -68833,7 +68833,7 @@ Burkina Faso,Indonesia,2015,222216
 Burkina Faso,Iran,2015,362071
 Burkina Faso,Israel,2015,13457997
 Burkina Faso,Italy,2015,9386527
-Burkina Faso,Côte d'Ivoire,2015,70543023
+Burkina Faso,Cï¿½te d'Ivoire,2015,70543023
 Burkina Faso,Japan,2015,198
 Burkina Faso,"Korea, Republic of",2015,17226742
 Burkina Faso,Latvia,2015,7146297
@@ -69097,7 +69097,7 @@ Brunei Darussalam,"Venezuela, Bolivarian Republic of",2006,266
 Cameroon,Greece,2002,11759
 Cameroon,"Hong Kong, China",2002,89
 Cameroon,Italy,2002,95599
-Cameroon,Côte d'Ivoire,2002,6846670
+Cameroon,Cï¿½te d'Ivoire,2002,6846670
 Cameroon,Japan,2002,6049
 Cameroon,"Korea, Republic of",2002,8158
 Cameroon,Lebanese Republic,2002,710
@@ -69192,7 +69192,7 @@ Benin,Germany,2009,5806592
 Benin,Ghana,2009,654190
 Benin,India,2009,3559660
 Benin,Italy,2009,18211
-Benin,Côte d'Ivoire,2009,18993787
+Benin,Cï¿½te d'Ivoire,2009,18993787
 Benin,Liberia,2009,2210036
 Benin,Malaysia,2009,1084089
 Benin,Morocco,2009,1447
@@ -69280,7 +69280,7 @@ El Salvador,Japan,2017,89601
 El Salvador,"Korea, Republic of",2017,8775973
 El Salvador,Mexico,2017,4731549
 El Salvador,Netherlands,2017,334157
-El Salvador,Curaçao,2017,10702720
+El Salvador,Curaï¿½ao,2017,10702720
 El Salvador,Nicaragua,2017,4582723
 El Salvador,Panama,2017,33620101
 El Salvador,Peru,2017,4381345
@@ -69380,52 +69380,52 @@ Honduras,"Venezuela, Bolivarian Republic of",2001,58345204
 "Hong Kong, China",South Africa,2001,76613
 "Hong Kong, China",Spain,2001,131171
 "Hong Kong, China",Sweden,2001,330991
-Côte d'Ivoire,World,2005,1631958540
-Côte d'Ivoire,Austria,2005,4625
-Côte d'Ivoire,Belgium,2005,1988990
-Côte d'Ivoire,Brazil,2005,2383
-Côte d'Ivoire,Cameroon,2005,24220366
-Côte d'Ivoire,Canada,2005,52253
-Côte d'Ivoire,China,2005,84552
-Côte d'Ivoire,Congo,2005,10304050
-Côte d'Ivoire,Benin,2005,1340051
-Côte d'Ivoire,Denmark,2005,2360
-Côte d'Ivoire,Equatorial Guinea,2005,1049807
-Côte d'Ivoire,France,2005,7242071
-Côte d'Ivoire,Germany,2005,207866
-Côte d'Ivoire,Ghana,2005,135475
-Côte d'Ivoire,India,2005,139841
-Côte d'Ivoire,Indonesia,2005,1537
-Côte d'Ivoire,Iran,2005,207383
-Côte d'Ivoire,Israel,2005,429
-Côte d'Ivoire,Italy,2005,4468057
-Côte d'Ivoire,Japan,2005,5662
-Côte d'Ivoire,"Korea, Republic of",2005,8
-Côte d'Ivoire,Lithuania,2005,198003
-Côte d'Ivoire,Mexico,2005,18998797
-Côte d'Ivoire,Morocco,2005,2179818
-Côte d'Ivoire,Oman,2005,277
-Côte d'Ivoire,Netherlands,2005,4628662
-Côte d'Ivoire,Nigeria,2005,1433269076
-Côte d'Ivoire,Poland,2005,345743
-Côte d'Ivoire,Qatar,2005,82771
-Côte d'Ivoire,"Saudi Arabia, Kingdom of",2005,55538
-Côte d'Ivoire,Senegal,2005,1967978
-Côte d'Ivoire,Sierra Leone,2005,2159099
-Côte d'Ivoire,Singapore,2005,65796
-Côte d'Ivoire,South Africa,2005,342558
-Côte d'Ivoire,Spain,2005,16390
-Côte d'Ivoire,Sweden,2005,11958
-Côte d'Ivoire,Switzerland,2005,7838
-Côte d'Ivoire,Syrian Arab Republic,2005,21527
-Côte d'Ivoire,Togo,2005,3991
-Côte d'Ivoire,United Arab Emirates,2005,1225854
-Côte d'Ivoire,Tunisia,2005,1264
-Côte d'Ivoire,Turkey,2005,17991
-Côte d'Ivoire,Egypt,2005,32081858
-Côte d'Ivoire,United Kingdom,2005,2955130
-Côte d'Ivoire,United States of America,2005,3129158
-Côte d'Ivoire,"Venezuela, Bolivarian Republic of",2005,76347430
+Cï¿½te d'Ivoire,World,2005,1631958540
+Cï¿½te d'Ivoire,Austria,2005,4625
+Cï¿½te d'Ivoire,Belgium,2005,1988990
+Cï¿½te d'Ivoire,Brazil,2005,2383
+Cï¿½te d'Ivoire,Cameroon,2005,24220366
+Cï¿½te d'Ivoire,Canada,2005,52253
+Cï¿½te d'Ivoire,China,2005,84552
+Cï¿½te d'Ivoire,Congo,2005,10304050
+Cï¿½te d'Ivoire,Benin,2005,1340051
+Cï¿½te d'Ivoire,Denmark,2005,2360
+Cï¿½te d'Ivoire,Equatorial Guinea,2005,1049807
+Cï¿½te d'Ivoire,France,2005,7242071
+Cï¿½te d'Ivoire,Germany,2005,207866
+Cï¿½te d'Ivoire,Ghana,2005,135475
+Cï¿½te d'Ivoire,India,2005,139841
+Cï¿½te d'Ivoire,Indonesia,2005,1537
+Cï¿½te d'Ivoire,Iran,2005,207383
+Cï¿½te d'Ivoire,Israel,2005,429
+Cï¿½te d'Ivoire,Italy,2005,4468057
+Cï¿½te d'Ivoire,Japan,2005,5662
+Cï¿½te d'Ivoire,"Korea, Republic of",2005,8
+Cï¿½te d'Ivoire,Lithuania,2005,198003
+Cï¿½te d'Ivoire,Mexico,2005,18998797
+Cï¿½te d'Ivoire,Morocco,2005,2179818
+Cï¿½te d'Ivoire,Oman,2005,277
+Cï¿½te d'Ivoire,Netherlands,2005,4628662
+Cï¿½te d'Ivoire,Nigeria,2005,1433269076
+Cï¿½te d'Ivoire,Poland,2005,345743
+Cï¿½te d'Ivoire,Qatar,2005,82771
+Cï¿½te d'Ivoire,"Saudi Arabia, Kingdom of",2005,55538
+Cï¿½te d'Ivoire,Senegal,2005,1967978
+Cï¿½te d'Ivoire,Sierra Leone,2005,2159099
+Cï¿½te d'Ivoire,Singapore,2005,65796
+Cï¿½te d'Ivoire,South Africa,2005,342558
+Cï¿½te d'Ivoire,Spain,2005,16390
+Cï¿½te d'Ivoire,Sweden,2005,11958
+Cï¿½te d'Ivoire,Switzerland,2005,7838
+Cï¿½te d'Ivoire,Syrian Arab Republic,2005,21527
+Cï¿½te d'Ivoire,Togo,2005,3991
+Cï¿½te d'Ivoire,United Arab Emirates,2005,1225854
+Cï¿½te d'Ivoire,Tunisia,2005,1264
+Cï¿½te d'Ivoire,Turkey,2005,17991
+Cï¿½te d'Ivoire,Egypt,2005,32081858
+Cï¿½te d'Ivoire,United Kingdom,2005,2955130
+Cï¿½te d'Ivoire,United States of America,2005,3129158
+Cï¿½te d'Ivoire,"Venezuela, Bolivarian Republic of",2005,76347430
 Jamaica,World,2014,1896435386
 Jamaica,Australia,2014,506
 Jamaica,Bahamas,2014,16061960
@@ -69448,7 +69448,7 @@ Jamaica,Japan,2014,331884
 Jamaica,"Korea, Republic of",2014,753
 Jamaica,Mexico,2014,94678882
 Jamaica,Netherlands,2014,196660
-Jamaica,Curaçao,2014,20024020
+Jamaica,Curaï¿½ao,2014,20024020
 Jamaica,Panama,2014,289656
 Jamaica,Peru,2014,10207
 Jamaica,"Saudi Arabia, Kingdom of",2014,19919
@@ -69849,7 +69849,7 @@ Mongolia,United States of America,2014,2710853
 "Moldova, Republic of",Poland,2011,236232
 "Moldova, Republic of",Romania,2011,281800210
 "Moldova, Republic of",Russian Federation,2011,114981643
-"Moldova, Republic of",Sao Tomé and Principe,2011,57
+"Moldova, Republic of",Sao Tomï¿½ and Principe,2011,57
 "Moldova, Republic of",Spain,2011,9916
 "Moldova, Republic of",Sweden,2011,201095
 "Moldova, Republic of",Switzerland,2011,1417
@@ -70040,7 +70040,7 @@ Senegal,Germany,2017,146659297
 Senegal,Guinea,2017,42361
 Senegal,India,2017,1429404
 Senegal,Italy,2017,1247671
-Senegal,Côte d'Ivoire,2017,59726
+Senegal,Cï¿½te d'Ivoire,2017,59726
 Senegal,Kenya,2017,72290
 Senegal,"Korea, Republic of",2017,82916
 Senegal,Lebanese Republic,2017,4071
@@ -70155,7 +70155,7 @@ Thailand,Malaysia,2015,2304058792
 Thailand,Mexico,2015,24697
 Thailand,Oman,2015,536048197
 Thailand,Netherlands,2015,3926039
-Thailand,Curaçao,2015,392366
+Thailand,Curaï¿½ao,2015,392366
 Thailand,New Zealand,2015,22504
 Thailand,Nigeria,2015,89892402
 Thailand,Norway,2015,116684
@@ -70196,7 +70196,7 @@ Togo,Ghana,2012,16289316
 Togo,India,2012,19390711
 Togo,Iran,2012,94850
 Togo,Israel,2012,60960512
-Togo,Côte d'Ivoire,2012,26578541
+Togo,Cï¿½te d'Ivoire,2012,26578541
 Togo,Japan,2012,19509
 Togo,"Korea, Republic of",2012,32787
 Togo,Lebanese Republic,2012,13371
@@ -70298,7 +70298,7 @@ Burkina Faso,Iran,2016,410901
 Burkina Faso,Ireland,2016,29905
 Burkina Faso,Israel,2016,9467445
 Burkina Faso,Italy,2016,68736
-Burkina Faso,Côte d'Ivoire,2016,62083754
+Burkina Faso,Cï¿½te d'Ivoire,2016,62083754
 Burkina Faso,Japan,2016,36866
 Burkina Faso,"Korea, Republic of",2016,9877984
 Burkina Faso,"Kuwait, the State of",2016,5624288
@@ -70556,7 +70556,7 @@ Canada,Iraq,2011,2488181397
 Canada,Ireland,2011,1288475
 Canada,Israel,2011,27575588
 Canada,Italy,2011,99892096
-Canada,Côte d'Ivoire,2011,441132033
+Canada,Cï¿½te d'Ivoire,2011,441132033
 Canada,Jamaica,2011,6340
 Canada,Japan,2011,130531496
 Canada,Kazakhstan,2011,2683012435
@@ -70663,7 +70663,7 @@ Benin,Germany,2010,23019565
 Benin,Ghana,2010,149122
 Benin,India,2010,518521
 Benin,Italy,2010,3118566
-Benin,Côte d'Ivoire,2010,7275714
+Benin,Cï¿½te d'Ivoire,2010,7275714
 Benin,"Korea, Republic of",2010,50
 Benin,Lebanese Republic,2010,101
 Benin,Liberia,2010,852335
@@ -71063,7 +71063,7 @@ Mali,Ghana,2001,274785
 Mali,Guinea,2001,200564
 Mali,Iran,2001,15529
 Mali,Italy,2001,2453
-Mali,Côte d'Ivoire,2001,116903654
+Mali,Cï¿½te d'Ivoire,2001,116903654
 Mali,Japan,2001,835
 Mali,"Kuwait, the State of",2001,4328
 Mali,Netherlands,2001,98709
@@ -71123,7 +71123,7 @@ Mexico,Malaysia,2018,34470682
 Mexico,Namibia,2018,3060
 Mexico,Nepal,2018,3
 Mexico,Netherlands,2018,880379001
-Mexico,Curaçao,2018,1497645
+Mexico,Curaï¿½ao,2018,1497645
 Mexico,New Zealand,2018,22892
 Mexico,Nicaragua,2018,427209
 Mexico,Norway,2018,3490
@@ -71590,7 +71590,7 @@ Burkina Faso,Indonesia,2017,154934
 Burkina Faso,Iran,2017,445014
 Burkina Faso,Israel,2017,8485811
 Burkina Faso,Italy,2017,1387
-Burkina Faso,Côte d'Ivoire,2017,133992099
+Burkina Faso,Cï¿½te d'Ivoire,2017,133992099
 Burkina Faso,Japan,2017,68116
 Burkina Faso,"Korea, Republic of",2017,5459658
 Burkina Faso,Latvia,2017,5679352
@@ -71770,7 +71770,7 @@ European Union,Indonesia,2011,82619408
 European Union,Iran,2011,22203611307
 European Union,Iraq,2011,12393462893
 European Union,Israel,2011,1393713268
-European Union,Côte d'Ivoire,2011,521736871
+European Union,Cï¿½te d'Ivoire,2011,521736871
 European Union,Jamaica,2011,793
 European Union,Japan,2011,169875803
 European Union,Kazakhstan,2011,27117796704
@@ -72138,7 +72138,7 @@ China,Mexico,2015,372135448
 China,Mongolia,2015,368610841
 China,Oman,2015,13943458123
 China,Netherlands,2015,74828561
-China,Curaçao,2015,121157
+China,Curaï¿½ao,2015,121157
 China,New Zealand,2015,12246
 China,Nigeria,2015,306108945
 China,Norway,2015,79541340
@@ -72259,7 +72259,7 @@ Ghana,Iran,2009,194717
 Ghana,Ireland,2009,2990
 Ghana,Israel,2009,338087
 Ghana,Italy,2009,13589694
-Ghana,Côte d'Ivoire,2009,317066
+Ghana,Cï¿½te d'Ivoire,2009,317066
 Ghana,Japan,2009,7016
 Ghana,"Korea, Republic of",2009,24244
 Ghana,Lebanese Republic,2009,4524
@@ -72726,7 +72726,7 @@ Norway,India,2019,20787
 Norway,Indonesia,2019,818
 Norway,Ireland,2019,71406
 Norway,Italy,2019,2502867
-Norway,Côte d'Ivoire,2019,72590759
+Norway,Cï¿½te d'Ivoire,2019,72590759
 Norway,Japan,2019,536738
 Norway,"Korea, Republic of",2019,90153
 Norway,Latvia,2019,10278103
@@ -72812,7 +72812,7 @@ Peru,Japan,2017,22242774
 Peru,"Korea, Republic of",2017,150906380
 Peru,Mexico,2017,41735070
 Peru,Netherlands,2017,45756755
-Peru,Curaçao,2017,128200
+Peru,Curaï¿½ao,2017,128200
 Peru,Nigeria,2017,51122443
 Peru,Norway,2017,8484
 Peru,Panama,2017,21914572
@@ -72925,7 +72925,7 @@ Sierra Leone,Benin,2014,698179031
 Sierra Leone,The Gambia,2014,635968
 Sierra Leone,Germany,2014,53433
 Sierra Leone,India,2014,100103
-Sierra Leone,Côte d'Ivoire,2014,31323183
+Sierra Leone,Cï¿½te d'Ivoire,2014,31323183
 Sierra Leone,Lebanese Republic,2014,227439
 Sierra Leone,Malta,2014,777666
 Sierra Leone,Netherlands,2014,617659
@@ -72965,7 +72965,7 @@ South Africa,Iran,2010,3126962164
 South Africa,Iraq,2010,134106914
 South Africa,Israel,2010,150538
 South Africa,Italy,2010,187764716
-South Africa,Côte d'Ivoire,2010,54612037
+South Africa,Cï¿½te d'Ivoire,2010,54612037
 South Africa,Japan,2010,1855809
 South Africa,Kenya,2010,371
 South Africa,"Korea, Republic of",2010,30772264
@@ -73036,7 +73036,7 @@ South Africa,Iran,2017,11081
 South Africa,Ireland,2017,4474
 South Africa,Israel,2017,553859
 South Africa,Italy,2017,244152831
-South Africa,Côte d'Ivoire,2017,278
+South Africa,Cï¿½te d'Ivoire,2017,278
 South Africa,Japan,2017,3981500
 South Africa,"Korea, Republic of",2017,53364859
 South Africa,Lesotho,2017,17527
@@ -73127,7 +73127,7 @@ Togo,Ghana,2013,11510556
 Togo,India,2013,1404796
 Togo,Israel,2013,25963236
 Togo,Italy,2013,597955
-Togo,Côte d'Ivoire,2013,87954929
+Togo,Cï¿½te d'Ivoire,2013,87954929
 Togo,Japan,2013,13183
 Togo,"Korea, Republic of",2013,55963
 Togo,Lebanese Republic,2013,14248
@@ -73270,7 +73270,7 @@ United States of America,Iraq,2019,4570951894
 United States of America,Ireland,2019,41993723
 United States of America,Israel,2019,35514154
 United States of America,Italy,2019,1253187119
-United States of America,Côte d'Ivoire,2019,134083479
+United States of America,Cï¿½te d'Ivoire,2019,134083479
 United States of America,Jamaica,2019,17674477
 United States of America,Japan,2019,962306437
 United States of America,Kazakhstan,2019,666223696
@@ -73324,7 +73324,7 @@ United States of America,United Kingdom,2019,3530417648
 United States of America,"Venezuela, Bolivarian Republic of",2019,1747674804
 Burkina Faso,Iran,2018,2124126
 Burkina Faso,Italy,2018,6442572
-Burkina Faso,Côte d'Ivoire,2018,216269167
+Burkina Faso,Cï¿½te d'Ivoire,2018,216269167
 Burkina Faso,Japan,2018,118250
 Burkina Faso,"Korea, Republic of",2018,139593434
 Burkina Faso,Latvia,2018,11901187
@@ -73630,7 +73630,7 @@ Guinea,Germany,2018,1000790
 Guinea,Greece,2018,144590
 Guinea,India,2018,1333202
 Guinea,Italy,2018,4810040
-Guinea,Côte d'Ivoire,2018,418282
+Guinea,Cï¿½te d'Ivoire,2018,418282
 Guinea,"Korea, Republic of",2018,15818
 Guinea,"Kuwait, the State of",2018,518949
 Guinea,Lebanese Republic,2018,111792
@@ -74091,7 +74091,7 @@ Malaysia,Liberia,2011,3843747
 Malaysia,Mexico,2011,66556
 Malaysia,Oman,2011,208287541
 Malaysia,Netherlands,2011,2223672
-Malaysia,Curaçao,2011,28655
+Malaysia,Curaï¿½ao,2011,28655
 Malaysia,New Zealand,2011,66238
 Malaysia,Norway,2011,399570
 Malaysia,Pakistan,2011,3581177
@@ -74297,7 +74297,7 @@ Mexico,India,2010,156272569
 Mexico,Indonesia,2010,10964723
 Mexico,Israel,2010,100475
 Mexico,Italy,2010,191330923
-Mexico,Côte d'Ivoire,2010,17356975
+Mexico,Cï¿½te d'Ivoire,2010,17356975
 Mexico,Japan,2010,101401397
 Mexico,"Korea, Republic of",2010,238182617
 Mexico,Latvia,2010,2418207
@@ -74792,7 +74792,7 @@ European Union,El Salvador,2018,9
 European Union,Equatorial Guinea,2018,1252682315
 European Union,Ethiopia,2018,158
 European Union,Israel,2018,1311101688
-European Union,Côte d'Ivoire,2018,500671344
+European Union,Cï¿½te d'Ivoire,2018,500671344
 European Union,Jamaica,2018,196
 European Union,Japan,2018,63547748
 European Union,Kazakhstan,2018,21694918476
@@ -74816,7 +74816,7 @@ European Union,Morocco,2018,3630934
 European Union,Mozambique,2018,1290
 European Union,Oman,2018,218393966
 European Union,Namibia,2018,1172
-European Union,Curaçao,2018,4443805
+European Union,Curaï¿½ao,2018,4443805
 European Union,Vanuatu,2018,53
 European Union,New Zealand,2018,20196
 European Union,Nicaragua,2018,53
@@ -74834,7 +74834,7 @@ European Union,Timor-Leste,2018,234
 European Union,Qatar,2018,1855478516
 European Union,Russian Federation,2018,89258383187
 European Union,Saint Lucia,2018,3954535
-European Union,Sao Tomé and Principe,2018,118
+European Union,Sao Tomï¿½ and Principe,2018,118
 European Union,"Saudi Arabia, Kingdom of",2018,26771047385
 European Union,Senegal,2018,52236758
 European Union,Seychelles,2018,8869783
@@ -75022,7 +75022,7 @@ Botswana,Italy,2016,547
 Botswana,"Korea, Republic of",2016,90
 Botswana,Mozambique,2016,68014846
 Botswana,Namibia,2016,22537699
-Botswana,Curaçao,2016,5715
+Botswana,Curaï¿½ao,2016,5715
 Botswana,South Africa,2016,536693740
 Botswana,Zimbabwe,2016,18723
 Botswana,Eswatini,2016,39
@@ -75421,49 +75421,49 @@ Guatemala,Spain,2000,29433
 "Hong Kong, China",United Kingdom,2004,1178240
 "Hong Kong, China",United States of America,2004,83471566
 India,World,2004,29590220006
-Côte d'Ivoire,World,2006,1830799580
-Côte d'Ivoire,Argentina,2006,1591794
-Côte d'Ivoire,Australia,2006,15
-Côte d'Ivoire,Belgium,2006,5557342
-Côte d'Ivoire,Cameroon,2006,20938
-Côte d'Ivoire,Canada,2006,86437
-Côte d'Ivoire,China,2006,245869
-Côte d'Ivoire,Congo,2006,10203782
-Côte d'Ivoire,Equatorial Guinea,2006,8478234
-Côte d'Ivoire,France,2006,12588148
-Côte d'Ivoire,Gabon,2006,2550355
-Côte d'Ivoire,Germany,2006,502499
-Côte d'Ivoire,Greece,2006,76757
-Côte d'Ivoire,India,2006,39995
-Côte d'Ivoire,Indonesia,2006,173
-Côte d'Ivoire,Iran,2006,519528
-Côte d'Ivoire,Israel,2006,2766203
-Côte d'Ivoire,Italy,2006,148468
-Côte d'Ivoire,Japan,2006,4910
-Côte d'Ivoire,"Kuwait, the State of",2006,19297
-Côte d'Ivoire,Lebanese Republic,2006,6
-Côte d'Ivoire,Lithuania,2006,1982
-Côte d'Ivoire,Morocco,2006,57467
-Côte d'Ivoire,Netherlands,2006,14115194
-Côte d'Ivoire,Nigeria,2006,1597130380
-Côte d'Ivoire,Norway,2006,897641
-Côte d'Ivoire,Poland,2006,1656887
-Côte d'Ivoire,Portugal,2006,3449482
-Côte d'Ivoire,"Saudi Arabia, Kingdom of",2006,64789
-Côte d'Ivoire,Senegal,2006,237983
-Côte d'Ivoire,Singapore,2006,83539
-Côte d'Ivoire,South Africa,2006,794122
-Côte d'Ivoire,Spain,2006,7976
-Côte d'Ivoire,Sweden,2006,12461
-Côte d'Ivoire,Switzerland,2006,11352
-Côte d'Ivoire,Syrian Arab Republic,2006,91342
-Côte d'Ivoire,Togo,2006,11332
-Côte d'Ivoire,United Arab Emirates,2006,1765451
-Côte d'Ivoire,Turkey,2006,2130
-Côte d'Ivoire,Egypt,2006,81072
-Côte d'Ivoire,United Kingdom,2006,267708
-Côte d'Ivoire,United States of America,2006,905248
-Côte d'Ivoire,"Venezuela, Bolivarian Republic of",2006,163651862
+Cï¿½te d'Ivoire,World,2006,1830799580
+Cï¿½te d'Ivoire,Argentina,2006,1591794
+Cï¿½te d'Ivoire,Australia,2006,15
+Cï¿½te d'Ivoire,Belgium,2006,5557342
+Cï¿½te d'Ivoire,Cameroon,2006,20938
+Cï¿½te d'Ivoire,Canada,2006,86437
+Cï¿½te d'Ivoire,China,2006,245869
+Cï¿½te d'Ivoire,Congo,2006,10203782
+Cï¿½te d'Ivoire,Equatorial Guinea,2006,8478234
+Cï¿½te d'Ivoire,France,2006,12588148
+Cï¿½te d'Ivoire,Gabon,2006,2550355
+Cï¿½te d'Ivoire,Germany,2006,502499
+Cï¿½te d'Ivoire,Greece,2006,76757
+Cï¿½te d'Ivoire,India,2006,39995
+Cï¿½te d'Ivoire,Indonesia,2006,173
+Cï¿½te d'Ivoire,Iran,2006,519528
+Cï¿½te d'Ivoire,Israel,2006,2766203
+Cï¿½te d'Ivoire,Italy,2006,148468
+Cï¿½te d'Ivoire,Japan,2006,4910
+Cï¿½te d'Ivoire,"Kuwait, the State of",2006,19297
+Cï¿½te d'Ivoire,Lebanese Republic,2006,6
+Cï¿½te d'Ivoire,Lithuania,2006,1982
+Cï¿½te d'Ivoire,Morocco,2006,57467
+Cï¿½te d'Ivoire,Netherlands,2006,14115194
+Cï¿½te d'Ivoire,Nigeria,2006,1597130380
+Cï¿½te d'Ivoire,Norway,2006,897641
+Cï¿½te d'Ivoire,Poland,2006,1656887
+Cï¿½te d'Ivoire,Portugal,2006,3449482
+Cï¿½te d'Ivoire,"Saudi Arabia, Kingdom of",2006,64789
+Cï¿½te d'Ivoire,Senegal,2006,237983
+Cï¿½te d'Ivoire,Singapore,2006,83539
+Cï¿½te d'Ivoire,South Africa,2006,794122
+Cï¿½te d'Ivoire,Spain,2006,7976
+Cï¿½te d'Ivoire,Sweden,2006,12461
+Cï¿½te d'Ivoire,Switzerland,2006,11352
+Cï¿½te d'Ivoire,Syrian Arab Republic,2006,91342
+Cï¿½te d'Ivoire,Togo,2006,11332
+Cï¿½te d'Ivoire,United Arab Emirates,2006,1765451
+Cï¿½te d'Ivoire,Turkey,2006,2130
+Cï¿½te d'Ivoire,Egypt,2006,81072
+Cï¿½te d'Ivoire,United Kingdom,2006,267708
+Cï¿½te d'Ivoire,United States of America,2006,905248
+Cï¿½te d'Ivoire,"Venezuela, Bolivarian Republic of",2006,163651862
 Japan,World,2015,81833923242
 Japan,Algeria,2015,384364183
 Japan,Angola,2015,242413757
@@ -75696,7 +75696,7 @@ Mali,"Hong Kong, China",2002,1720
 Mali,India,2002,28723
 Mali,Iran,2002,53762
 Mali,Italy,2002,37810
-Mali,Côte d'Ivoire,2002,80632614
+Mali,Cï¿½te d'Ivoire,2002,80632614
 Mali,Japan,2002,34
 Mali,Lithuania,2002,8327
 Mali,Netherlands,2002,124411
@@ -75935,7 +75935,7 @@ Sierra Leone,China,2015,172310
 Sierra Leone,Benin,2015,50666938
 Sierra Leone,Germany,2015,136426
 Sierra Leone,India,2015,13653
-Sierra Leone,Côte d'Ivoire,2015,14888487
+Sierra Leone,Cï¿½te d'Ivoire,2015,14888487
 Sierra Leone,"Korea, Republic of",2015,57958
 Sierra Leone,Lebanese Republic,2015,129917
 Sierra Leone,Netherlands,2015,825723
@@ -76042,7 +76042,7 @@ South Africa,Indonesia,2018,47701570
 South Africa,Iran,2018,60805
 South Africa,Israel,2018,343349
 South Africa,Italy,2018,491639387
-South Africa,Côte d'Ivoire,2018,57558870
+South Africa,Cï¿½te d'Ivoire,2018,57558870
 South Africa,Japan,2018,9888135
 South Africa,Kenya,2018,220
 South Africa,"Korea, Republic of",2018,30427445
@@ -76839,7 +76839,7 @@ Malaysia,Malta,2012,16830053
 Malaysia,Mexico,2012,154471
 Malaysia,Oman,2012,41096420
 Malaysia,Netherlands,2012,349095965
-Malaysia,Curaçao,2012,138500
+Malaysia,Curaï¿½ao,2012,138500
 Malaysia,New Zealand,2012,13894
 Malaysia,Norway,2012,54916
 Malaysia,Pakistan,2012,20405773
@@ -76945,7 +76945,7 @@ Mexico,Luxembourg,2011,752
 Mexico,Malaysia,2011,31112
 Mexico,Malta,2011,33351080
 Mexico,Netherlands,2011,2080763350
-Mexico,Curaçao,2011,10335009
+Mexico,Curaï¿½ao,2011,10335009
 Mexico,New Zealand,2011,3706
 Mexico,Nicaragua,2011,189452
 Mexico,Nigeria,2011,35595404
@@ -77047,7 +77047,7 @@ Nigeria,India,2009,4014452
 Nigeria,Ireland,2009,35822
 Nigeria,Israel,2009,317497
 Nigeria,Italy,2009,16607516
-Nigeria,Côte d'Ivoire,2009,166255
+Nigeria,Cï¿½te d'Ivoire,2009,166255
 Nigeria,Japan,2009,29209
 Nigeria,"Korea, Republic of",2009,3635
 Nigeria,Latvia,2009,17062835
@@ -77624,7 +77624,7 @@ United States of America,Iraq,2004,3650299071
 United States of America,Ireland,2004,59326358
 United States of America,Israel,2004,30048207
 United States of America,Italy,2004,715508611
-United States of America,Côte d'Ivoire,2004,105344162
+United States of America,Cï¿½te d'Ivoire,2004,105344162
 United States of America,Japan,2004,49568325
 United States of America,Kazakhstan,2004,167339836
 United States of America,"Korea, Republic of",2004,486982893
@@ -77744,7 +77744,7 @@ European Union,Indonesia,2002,9026157
 European Union,Iran,2002,4345916874
 European Union,Iraq,2002,2603704807
 European Union,Israel,2002,97656575
-European Union,Côte d'Ivoire,2002,54764290
+European Union,Cï¿½te d'Ivoire,2002,54764290
 European Union,Japan,2002,7355810
 European Union,Kazakhstan,2002,2595321898
 European Union,Jordan,2002,1702
@@ -77852,7 +77852,7 @@ European Union,Indonesia,2019,82861260
 European Union,Iran,2019,62686
 European Union,Iraq,2019,15950944230
 European Union,Israel,2019,861986692
-European Union,Côte d'Ivoire,2019,385666592
+European Union,Cï¿½te d'Ivoire,2019,385666592
 European Union,Jamaica,2019,4186797
 European Union,Japan,2019,26781988
 European Union,Kazakhstan,2019,18793002439
@@ -77877,7 +77877,7 @@ European Union,Morocco,2019,339248
 European Union,Mozambique,2019,452
 European Union,Oman,2019,326300551
 European Union,Namibia,2019,250
-European Union,Curaçao,2019,1502
+European Union,Curaï¿½ao,2019,1502
 European Union,Vanuatu,2019,35
 European Union,New Zealand,2019,21648
 European Union,Nicaragua,2019,875

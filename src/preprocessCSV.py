@@ -13,7 +13,19 @@ def preprocessCSV(infile: str, outfile: str, numHeaderRows: int=0, indexCol: Opt
     if indexCol is not None:
         originalCSV.set_index(indexCol, inplace=True)
 
-    originalCSV.to_csv(outfile)
+    years = originalCSV['Year'].unique()
+
+    outputCSV = pd.DataFrame(index=originalCSV['Reporting_Economy'].unique(), columns=years)
+
+    for i in range(originalCSV.shape[0]):
+        countryName = originalCSV.loc[i]['Reporting_Economy']
+        year = originalCSV.loc[i]['Year']
+        value = originalCSV.loc[i]['Value']
+        if countryName in outputCSV.index:
+            outputCSV.loc[countryName][year] = value
+
+    outputCSV.name = "Reporting_Economy"
+    outputCSV.to_csv(outfile)
 
 
 """
@@ -38,7 +50,5 @@ if __name__ == '__main__':
     preprocessCSV(
         RAW_DATA_FILE_PATH, 
         PROCESSED_DATA_FILE_PATH, 
-        numHeaderRows=2,
-        indexCol="Reporting Economy",
-        customFilter=getWTODataFilter(criteria),
+        numHeaderRows=0,
     )

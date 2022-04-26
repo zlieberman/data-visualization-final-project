@@ -1,14 +1,18 @@
 import os
 import pandas as pd
+import numpy as np
 import geopandas
 import folium
 from folium.plugins import TimeSliderChoropleth
-from config.constants import PROCESSED_DATA_FILE_PATH, OUTPUT_HTML_PATH, NODES_FILE_PATH
-import json
+from config.constants import (
+    PROCESSED_DATA_FILE_PATH, 
+    OUTPUT_HTML_PATH, 
+    NODES_FILE_PATH,
+)
 import branca.colormap as cm
-from branca.colormap import linear
 from shapely.geometry import LineString
 import plotly
+from typing import List
 
 
 def input_to_geodata(input_file: str):
@@ -19,29 +23,57 @@ def input_to_geodata(input_file: str):
     world = geopandas.read_file(geopandas.datasets.get_path('naturalearth_lowres'))
 
     # merge the two dataframes so we have the data we want as well as each country's shape
-    inputDf = world.merge(inputDf, how='left', left_on=['name'], right_on=['Reporting Economy'])
-    inputDf = inputDf.dropna(subset=['Reporting Economy'])
-    inputDf = inputDf.drop(['Reporting Economy', 'Product/Sector'], axis=1)
+    inputDf = world.merge(inputDf, how='left', left_on=['name'], right_on=['Reporting_Economy'])
+    inputDf = inputDf.dropna(subset=['Reporting_Economy'])
+    inputDf = inputDf.drop(['Reporting_Economy'], axis=1)
 
     return inputDf
+
+
+def get_connections_data(connections_file_path: str, countries: List[str]):
+    inputDf = pd.read_csv(connections_file_path)
+    connectionsDf = pd.DataFrame(index=countries)
+    # print(connectionsDf)
+
+    years = ['2000', '2005', '2010', '2015']
+    num_countries = len(countries)
+    # format each row of the dataframe to have a country name 
+    # and a list of top trade partners by year from list formatted:
+    # country, trade_partner, year, amount, rank
+    for year in years:
+        yearDf = inputDf.loc[inputDf['Year'] == int(year)]
+        connectionsDf[year] = np.empty((num_countries, 0)).tolist()
+
+        for i in range(yearDf.shape[0]):
+            rowData = yearDf.iloc[i]
+            countryName = rowData['Reporting_Economy']
+            if countryName in connectionsDf.index:
+                connectionsDf.loc[rowData['Reporting_Economy']][year].append(rowData['Partner_Economy'])
+
+    print(connectionsDf)
+    return connectionsDf
 
 
 def main_plotly():
     inputDf = input_to_geodata(PROCESSED_DATA_FILE_PATH)
 
-    times = inputDf.columns[7:]
+    times = ['2000', '2005', '2010', '2015']
+
+    # read in connections data
+    connectionsDf = get_connections_data(NODES_FILE_PATH, inputDf['name'])
 
     # https://support.sisense.com/kb/en/article/plotly-choropleth-with-slider-map-charts-over-time
     data_slider = []
+    print(inputDf)
     for year in times:
-        inputDf[f'{year}_text'] = inputDf['name'] + f' {year}'
+        inputDf[f'{year}_text'] = connectionsDf[year]
         data_each_yr = dict(
             type='choropleth',
             locations = inputDf['name'],
             z=inputDf[year].astype(float),
             locationmode='country names',
             colorscale = 'greens',
-            colorbar= {'title':'Market Exports'},
+            colorbar= {'title':'Petroleum Exports'},
             text=inputDf[f'{year}_text'],
         )
 
