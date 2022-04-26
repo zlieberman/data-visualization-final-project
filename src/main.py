@@ -58,19 +58,21 @@ def get_connections_data(connections_file_path: str, countries: List[str]):
     return connectionsDf
 
 
-def main_plotly():
-    inputDf = input_to_geodata(PROCESSED_DATA_FILE_PATH)
+def main_plotly(data_path: str, connections_path: str):
+    inputDf = input_to_geodata(data_path)
 
     times = ['2000', '2005', '2010', '2015']
 
     # read in connections data
-    connectionsDf = get_connections_data(NODES_FILE_PATH, inputDf['name'])
+    if connections_path is not None:
+        connectionsDf = get_connections_data(connections_path, inputDf['name'])
 
     # https://support.sisense.com/kb/en/article/plotly-choropleth-with-slider-map-charts-over-time
     data_slider = []
     print(inputDf)
     for year in times:
-        inputDf[f'{year}_text'] = connectionsDf[year].values
+        if connections_path is not None:
+            inputDf[f'{year}_text'] = connectionsDf[year].values
         data_each_yr = dict(
             type='choropleth',
             locations = inputDf['name'],
@@ -197,4 +199,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main_plotly()
+    main_plotly(PROCESSED_DATA_FILE_PATH, NODES_FILE_PATH)
