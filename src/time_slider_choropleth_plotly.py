@@ -1,3 +1,4 @@
+from numpy import disp
 import plotly
 import plotly.express as px
 import pandas as pd
@@ -9,16 +10,16 @@ SUPPORTED_MAP_TYPES = ['country names']
 SUPPORTED_PLOT_TYPES = ['scatter']
 
 
-def draw_plot(data_path: str, connections_path: str, plotType: str):
+def draw_plot(data_path: str, connections_path: str, plotType: str, dataInterpretation: str = 'real values'):
     if plotType in SUPPORTED_MAP_TYPES:
-        time_slider_choropleth_plotly(data_path, connections_path, plotType)
+        time_slider_choropleth_plotly(data_path, connections_path, plotType, dataInterpretation)
     elif plotType in SUPPORTED_PLOT_TYPES:
-        dynamic_node_graph_plotly(data_path, connections_path, plotType)
+        dynamic_node_graph_plotly(data_path, connections_path, plotType, dataInterpretation)
     else:
         raise ValueError(f'type {plotType} is not in {SUPPORTED_MAP_TYPES} or {SUPPORTED_PLOT_TYPES}, please enter a supported type and try again')
         
 
-def dynamic_node_graph_plotly(data_path: str, connections_path: str, plotType: str):
+def dynamic_node_graph_plotly(data_path: str, connections_path: str, plotType: str, dataInterpretation: str = 'real values'):
     inputDf = pd.read_csv(RAW_DATA_FILE)
 
     times = ['2000', '2005', '2010', '2015']
@@ -43,10 +44,8 @@ def dynamic_node_graph_plotly(data_path: str, connections_path: str, plotType: s
     fig.show()
 
 
-def time_slider_choropleth_plotly(data_path: str, connections_path: str, mapType: str):
-    inputDf = input_to_geodata(data_path)
-
-    times = ['2000', '2005', '2010', '2015']
+def time_slider_choropleth_plotly(data_path: str, connections_path: str, mapType: str, dataInterpretation: str = 'real values'):
+    inputDf, times = input_to_geodata(data_path, dataInterpretation)
 
     # read in connections data
     if connections_path is not None:
@@ -59,10 +58,10 @@ def time_slider_choropleth_plotly(data_path: str, connections_path: str, mapType
 
     # https://support.sisense.com/kb/en/article/plotly-choropleth-with-slider-map-charts-over-time
     data_slider = []
-    print(inputDf)
+    #print(inputDf)
     for year in times:
         if connections_path is not None:
-            inputDf[f'{year}_text'] = connectionsDf[year].values
+            inputDf[f'{year}_text'] = connectionsDf[int(year)].values
         data_each_yr = dict(
             type='choropleth',
             locations = inputDf['name'],
@@ -87,7 +86,6 @@ def time_slider_choropleth_plotly(data_path: str, connections_path: str, mapType
         """
 
         data_slider.append(data_each_yr)
-        #data_slider.append(trade_data_each_yr)
 
     steps = []
     for i in range(len(data_slider)):

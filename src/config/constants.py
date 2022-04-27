@@ -9,8 +9,9 @@ PROCESSED_DATA_FILE_PATH = os.path.join(ROOT_PATH, PROCESSED_DATA_FILE)
 OUTPUT_HTML_PATH = os.path.join(ROOT_PATH, 'output')
 NODES_FILE_PATH = os.path.join(ROOT_PATH, 'data/top5Petrol.csv')
 
-# plot types
-PLOT_TYPE = 'scatter' # 'country names'
+# user controlled to determine how the data is visualized
+PLOT_TYPE = 'country names' # 'scatter'
+DATA_INTERPRETATION = 'percent change' # 'real values'
 
 
 if __name__ == '__main__':

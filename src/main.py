@@ -1,4 +1,5 @@
 from config.constants import (
+    DATA_INTERPRETATION,
     PROCESSED_DATA_FILE_PATH, 
     NODES_FILE_PATH,
     PLOT_TYPE,
@@ -11,6 +12,7 @@ def main():
         data_path=PROCESSED_DATA_FILE_PATH, 
         connections_path=NODES_FILE_PATH,
         plotType=PLOT_TYPE,
+        dataInterpretation=DATA_INTERPRETATION,
     )
 
 

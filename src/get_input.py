@@ -1,10 +1,13 @@
+from curses.ascii import isdigit
 import geopandas
 from typing import List
 import pandas as pd
 import numpy as np
 
+SUPPORTED_DATA_INTERPRETATIONS = ['real values', 'percent change']
 
-def input_to_geodata(input_file: str):
+
+def input_to_geodata(input_file: str, dataInterpretation: str = 'real values'):
     # get the input data
     inputDf = pd.read_csv(input_file)
 
@@ -21,14 +24,38 @@ def input_to_geodata(input_file: str):
     inputDf = inputDf.dropna(subset=['Reporting_Economy'])
     inputDf = inputDf.drop(['Reporting_Economy'], axis=1)
 
-    return inputDf
+    # get the first timestamp, for plots we assume the dataframe has a single value that 
+    # varies each timestamp and has columns order chronologically labled with their timestamp
+    timestamps = [col for col in inputDf.columns if col.isdigit()]
+
+    if dataInterpretation == 'percent change':
+        # calculate percent change from previous timestamp for each row
+        def percentChangeApplier(row: pd.Series):
+            new_vals = []
+            for j, timestamp in enumerate(timestamps[1:]):
+                new_vals.append(abs(row[timestamp] - row[timestamps[j-1]]) / row[timestamps[j-1]])
+
+            for i, val in enumerate(new_vals):
+                row[timestamps[i+1]] = new_vals[i]
+
+            return row
+
+        inputDf = inputDf.apply(lambda row: percentChangeApplier(row), axis=1)          
+        # drop the first timestamp since there is no percent change there
+        inputDf = inputDf.drop([timestamps[0]], axis=1)
+        timestamps.pop(0)
+    elif dataInterpretation != 'real values':
+        raise ValueError(f'Unsupported data interpretation method {dataInterpretation}, use one of {SUPPORTED_DATA_INTERPRETATIONS}')
+
+    print(inputDf.head())  
+    return inputDf, timestamps
 
 
 def get_connections_data(connections_file_path: str, countries: List[str]):
     inputDf = pd.read_csv(connections_file_path)
     connectionsDf = pd.DataFrame(index=countries)
 
-    years = ['2000', '2005', '2010', '2015']
+    years = inputDf['Year'].unique()
     num_countries = len(countries)
     # format each row of the dataframe to have a country name 
     # and a list of top trade partners by year from list formatted:
@@ -43,5 +70,5 @@ def get_connections_data(connections_file_path: str, countries: List[str]):
             if countryName in connectionsDf.index:
                 connectionsDf.loc[rowData['Reporting_Economy']][year].append(rowData['Partner_Economy'])
 
-    print(connectionsDf)
+    print(connectionsDf.head())
     return connectionsDf
