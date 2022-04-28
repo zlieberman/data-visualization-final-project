@@ -99,6 +99,23 @@ def drop_cols_from_CSV(filename: str, dropCols: List[str], dropRows: List[str]):
     inputDf.to_csv(filename)
 
 
+def getContinentFromCountry(row):
+    try:
+        country_code = pc.country_name_to_country_alpha2(row.iloc[0], cn_name_format="default")
+    except:
+        return "Invalid"
+    continent_name = pc.country_alpha2_to_continent_code(country_code)
+    return continent_name
+
+def addContinentCol(file: str, numHeaderRows: int):
+    csv = pd.read_csv(file, skiprows=numHeaderRows)
+    temp = csv.apply (lambda row: getContinentFromCountry(row), axis=1)
+    csv.insert(0,'Continent',temp)
+    outfile = file[0:file.index('.csv')] + '_new.csv'
+    csv.to_csv(outfile)
+
+
+
 if __name__ == '__main__':
     #state_names_to_abbreviation(RAW_DATA_FILE_PATH, PROCESSED_DATA_FILE_PATH)
  
