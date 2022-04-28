@@ -92,10 +92,10 @@ def state_names_to_abbreviation(inputFile: str, outputFile: str):
     outputDf.to_csv(outputFile)
 
 
-def drop_cols_from_CSV(filename: str, dropCols: List[str]):
+def drop_cols_from_CSV(filename: str, dropCols: List[str], dropRows: List[str]):
     inputDf = pd.read_csv(filename, index_col=0)
-    print(inputDf.columns.tolist())
     inputDf = inputDf.drop(dropCols, axis=1)
+    inputDf = inputDf.drop(dropRows, axis=0)
     inputDf.to_csv(filename)
 
 
@@ -112,6 +112,7 @@ if __name__ == '__main__':
     #    numHeaderRows=0,
     #)
 
-    base = datetime.datetime.strptime('1/21/20', '%m/%d/%y')
-    date_list = [datetime.datetime.strftime(base + datetime.timedelta(days=x), '%-m/%-d/%-y') for x in range(52)]
-    drop_cols_from_CSV(PROCESSED_DATA_FILE_PATH, date_list)
+    #base = datetime.datetime.strptime('1/21/20', '%m/%d/%y')
+    #date_list = [datetime.datetime.strftime(base + datetime.timedelta(days=x), '%-m/%-d/%-y') for x in range(52)]
+    dropRows = ['AS', 'GU', 'MP', 'Virgin Islands', 'PR']
+    drop_cols_from_CSV(PROCESSED_DATA_FILE_PATH, [], dropRows)
