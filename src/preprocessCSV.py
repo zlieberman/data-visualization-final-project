@@ -1,8 +1,8 @@
 from curses.ascii import US
 import os
 import pandas as pd
-from typing import Optional, Callable
-from datetime import datetime
+from typing import Optional, Callable, List
+import datetime
 from config.constants import RAW_DATA_FILE_PATH, PROCESSED_DATA_FILE_PATH, US_STATE_TO_ABREV, WTO_TO_GEOPANDAS_COUNTRY_NAMES
 
 
@@ -35,14 +35,15 @@ def preprocessCSV(
         if countryName in outputCSV.index:
             outputCSV.loc[countryName][year] = value
 
+    # convert country names from WTO to Geopandas formatting
     for inputName, outputName in WTO_TO_GEOPANDAS_COUNTRY_NAMES.items():
         if inputName in outputCSV.index:
-            #outputCSV[inputName].name = outputName
             outputCSV.rename(index={inputName: outputName}, inplace=True)
 
+    # sort dates if every column is a date column
     try:
         sortedCols = outputCSV.columns.tolist()
-        sortedCols.sort(key=lambda date: datetime.strptime(date, "%m/%d/%y"))
+        sortedCols.sort(key=lambda date: datetime.datetime.strptime(date, "%m/%d/%y"))
         outputCSV = outputCSV.reindex(sortedCols, axis=1)
     except:
         pass
@@ -91,15 +92,26 @@ def state_names_to_abbreviation(inputFile: str, outputFile: str):
     outputDf.to_csv(outputFile)
 
 
+def drop_cols_from_CSV(filename: str, dropCols: List[str]):
+    inputDf = pd.read_csv(filename, index_col=0)
+    print(inputDf.columns.tolist())
+    inputDf = inputDf.drop(dropCols, axis=1)
+    inputDf.to_csv(filename)
+
+
 if __name__ == '__main__':
     #state_names_to_abbreviation(RAW_DATA_FILE_PATH, PROCESSED_DATA_FILE_PATH)
  
     #criteria = { "Product/Sector": "SI3_AGG - TO - Total merchandise" }
     
-    preprocessCSV(
-        RAW_DATA_FILE_PATH, 
-        PROCESSED_DATA_FILE_PATH, 
-        dateCol='date',
-        valueCol='cases',
-        numHeaderRows=0,
-    )
+    #preprocessCSV(
+    #    RAW_DATA_FILE_PATH, 
+    #    PROCESSED_DATA_FILE_PATH, 
+    #    dateCol='date',
+    #    valueCol='cases',
+    #    numHeaderRows=0,
+    #)
+
+    base = datetime.datetime.strptime('1/21/20', '%m/%d/%y')
+    date_list = [datetime.datetime.strftime(base + datetime.timedelta(days=x), '%-m/%-d/%-y') for x in range(52)]
+    drop_cols_from_CSV(PROCESSED_DATA_FILE_PATH, date_list)

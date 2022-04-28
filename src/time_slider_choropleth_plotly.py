@@ -36,6 +36,13 @@ def dynamic_node_graph_plotly(data_path: str, connections_path: str, plotType: s
     yCol = 'deaths'
     sizeCol = 'cases_avg'
     indexCol = 'state'
+    dateCol = 'date'
+
+    inputDf[xCol].fillna(0, inplace=True)
+    inputDf[yCol].fillna(0, inplace=True)
+    inputDf[sizeCol].fillna(0, inplace=True)
+
+    print(inputDf.head())
 
     maxX = inputDf[xCol].max()
     minX = inputDf[xCol].min()
@@ -43,7 +50,7 @@ def dynamic_node_graph_plotly(data_path: str, connections_path: str, plotType: s
     minY = inputDf[yCol].min()
 
     fig = px.scatter(
-        inputDf, x=xCol, y=yCol, animation_frame="date", animation_group=indexCol,
+        inputDf, x=xCol, y=yCol, animation_frame=dateCol, animation_group=indexCol,
         size=sizeCol, color=indexCol, hover_name=indexCol,
         log_x=True, size_max=55, range_x=[minX,maxX], range_y=[minY,maxY]
     )
@@ -76,6 +83,7 @@ def time_slider_choropleth_plotly(data_path: str, mapType: str, connections_path
     # https://support.sisense.com/kb/en/article/plotly-choropleth-with-slider-map-charts-over-time
     data_slider = []
     for year in times:
+        inputDf[year].fillna(0, inplace=True)
         inputDf[f'{year}_text'] = connectionsDf[int(year)].values if connections_path else ''
         data_each_yr = dict(
             type='choropleth',

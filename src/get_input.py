@@ -23,9 +23,6 @@ def input_to_geodata(input_file: str, dataInterpretation: str = 'real values', m
         # get geographic data from geopandas so we know where to draw each country
         world = geopandas.read_file(geopandas.datasets.get_path(PLOT_TYPE_TO_GEOPANDAS_MAP[mapType]))
 
-        for _, row in world.iterrows():
-            print(row['name'])
-
         # merge the two dataframes so we have the data we want as well as each country's shape
         inputDf = world.merge(inputDf, how='left', left_on=['name'], right_on=[firstCol])
         inputDf = inputDf.dropna(subset=['geometry', timestamps[0]])
@@ -44,7 +41,7 @@ def input_to_geodata(input_file: str, dataInterpretation: str = 'real values', m
                     new_vals.append(change)
 
             for i, val in enumerate(new_vals):
-                row[timestamps[i+1]] = new_vals[i]
+                row[timestamps[i+1]] = val
 
             return row
 
