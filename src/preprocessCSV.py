@@ -2,6 +2,7 @@ from curses.ascii import US
 import os
 import pandas as pd
 from typing import Optional, Callable
+from datetime import datetime
 from config.constants import RAW_DATA_FILE_PATH, PROCESSED_DATA_FILE_PATH, US_STATE_TO_ABREV, WTO_TO_GEOPANDAS_COUNTRY_NAMES
 
 
@@ -38,6 +39,13 @@ def preprocessCSV(
         if inputName in outputCSV.index:
             #outputCSV[inputName].name = outputName
             outputCSV.rename(index={inputName: outputName}, inplace=True)
+
+    try:
+        sortedCols = outputCSV.columns.tolist()
+        sortedCols.sort(key=lambda date: datetime.strptime(date, "%m/%d/%y"))
+        outputCSV = outputCSV.reindex(sortedCols, axis=1)
+    except:
+        pass
 
     outputCSV.to_csv(outfile)
 

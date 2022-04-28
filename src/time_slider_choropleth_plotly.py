@@ -1,8 +1,8 @@
-from cmath import inf
 import plotly
 import plotly.express as px
 import pandas as pd
 from typing import Optional
+from cmath import inf
 
 from config.constants import RAW_DATA_FILE
 from get_input import input_to_geodata, get_connections_data
@@ -32,14 +32,19 @@ def dynamic_node_graph_plotly(data_path: str, connections_path: str, plotType: s
         # connectionsDf = get_connections_data(connections_path, inputDf['name'])
         pass
 
-    maxX = inputDf['Value'].max()
-    minX = inputDf['Value'].min()
-    maxY = inputDf['rankx'].max()
-    minY = inputDf['rankx'].min()
+    xCol = 'cases'
+    yCol = 'deaths'
+    sizeCol = 'cases_avg'
+    indexCol = 'state'
+
+    maxX = inputDf[xCol].max()
+    minX = inputDf[xCol].min()
+    maxY = inputDf[yCol].max()
+    minY = inputDf[yCol].min()
 
     fig = px.scatter(
-        inputDf, x="Value", y="rankx", animation_frame="Year", animation_group="name",
-        size="Value", color="name", hover_name="name",
+        inputDf, x=xCol, y=yCol, animation_frame="date", animation_group=indexCol,
+        size=sizeCol, color=indexCol, hover_name=indexCol,
         log_x=True, size_max=55, range_x=[minX,maxX], range_y=[minY,maxY]
     )
 
