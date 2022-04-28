@@ -3,6 +3,7 @@ import plotly.express as px
 import pandas as pd
 from typing import Optional
 from cmath import inf
+import numpy as np
 
 from config.constants import RAW_DATA_FILE
 from get_input import input_to_geodata, get_connections_data
@@ -105,6 +106,7 @@ def time_slider_choropleth_plotly(
     for i, row in inputDf.iterrows():
         centerCoordinates[row.name] = row['geometry'].centroid
     """
+
     # get historical lows and highs so colorbar scale can be constant
     allTimeMax = -inf
     allTimeMin = inf
@@ -113,20 +115,24 @@ def time_slider_choropleth_plotly(
             allTimeMin = min(allTimeMin, row[time])
             allTimeMax = max(allTimeMax, row[time])
 
+    allTimeMax = np.log10(allTimeMax)
+    allTimeMin = np.log10(allTimeMin) if allTimeMin > 0 else 0
+    print(allTimeMin, allTimeMax)
+
     # https://support.sisense.com/kb/en/article/plotly-choropleth-with-slider-map-charts-over-time
     data_slider = []
     for year in times:
         inputDf[year].fillna(0, inplace=True)
-        inputDf[f'{year}_text'] = connectionsDf[int(year)].values if connections_path else ''
+        inputDf[f'{year}_text'] = connectionsDf[int(year)].values if connections_path else inputDf[year]
         data_each_yr = dict(
             type='choropleth',
             locations = inputDf['name'],
-            z=inputDf[year].astype(float),
+            z=np.log10(inputDf[year]).astype(float),
             zmin=allTimeMin,
             zmax=allTimeMax,
             locationmode=mapType,
             colorscale = 'reds',
-            colorbar= {'title':colorbarTitle},
+            colorbar= {'title': colorbarTitle},
             text=inputDf[f'{year}_text'],
         )
 

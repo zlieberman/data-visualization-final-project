@@ -2,6 +2,7 @@ import geopandas
 from typing import List
 import pandas as pd
 import numpy as np
+from dateutil import parser
 
 
 SUPPORTED_DATA_INTERPRETATIONS = ['real values', 'percent change']
@@ -10,13 +11,21 @@ PLOT_TYPE_TO_GEOPANDAS_MAP = {
 }
 
 
+def isdate(string: str):
+    try:
+        res = bool(parser.parse(string))
+    except:
+        res = False
+    return res
+
+
 def input_to_geodata(input_file: str, dataInterpretation: str = 'real values', mapType: str = 'country names'):
     # get the input data
     inputDf = pd.read_csv(input_file)
 
     # get the first timestamp, for plots we assume the dataframe has a single value that 
     # varies each timestamp and has columns order chronologically labled with their timestamp
-    timestamps = [col for col in inputDf.columns if col.isdigit()]
+    timestamps = [col for col in inputDf.columns if col.isdigit() or isdate(col)]
     firstCol = inputDf.columns[0]
 
     if mapType in PLOT_TYPE_TO_GEOPANDAS_MAP:
