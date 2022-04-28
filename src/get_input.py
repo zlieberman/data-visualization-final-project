@@ -12,6 +12,9 @@ PLOT_TYPE_TO_GEOPANDAS_MAP = {
 
 
 def isdate(string: str):
+    """
+    Determine if the passed in string represents a date or not using dateutil's parser
+    """
     try:
         res = bool(parser.parse(string))
     except:
