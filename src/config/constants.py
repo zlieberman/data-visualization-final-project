@@ -3,11 +3,12 @@ import os
 
 ROOT_PATH = os.path.abspath('.')
 RAW_DATA_FILE = "data/unemployment.csv"
-PROCESSED_DATA_FILE = "data/visualization_input/unemployment_input.csv"
+PROCESSED_DATA_FILE = "data/visualization_inputs/unemployment_input.csv"
+NODES_FILE = 'data/connections/top5Manufacturing.csv'
 RAW_DATA_FILE_PATH = os.path.join(ROOT_PATH, RAW_DATA_FILE)
 PROCESSED_DATA_FILE_PATH = os.path.join(ROOT_PATH, PROCESSED_DATA_FILE)
 OUTPUT_HTML_PATH = os.path.join(ROOT_PATH, 'output')
-NODES_FILE_PATH = os.path.join(ROOT_PATH, 'data/connections/top5Manufacturing.csv')
+NODES_FILE_PATH = os.path.join(ROOT_PATH, NODES_FILE)
 
 # user controlled to determine how the data is visualized
 PLOT_TYPE = 'USA-states' # 'country names', 'scatter'
@@ -82,12 +83,6 @@ US_STATE_TO_ABREV = {
     "Wisconsin": "WI",
     "Wyoming": "WY",
     "District of Columbia": "DC",
-    "American Samoa": "AS",
-    "Guam": "GU",
-    "Northern Mariana Islands": "MP",
-    "Puerto Rico": "PR",
-    "United States Minor Outlying Islands": "UM",
-    "U.S. Virgin Islands": "VI",
 }
 
 

@@ -1,10 +1,19 @@
+from curses.ascii import US
 import os
 import pandas as pd
 from typing import Optional, Callable
 from config.constants import RAW_DATA_FILE_PATH, PROCESSED_DATA_FILE_PATH, US_STATE_TO_ABREV, WTO_TO_GEOPANDAS_COUNTRY_NAMES
 
 
-def preprocessCSV(infile: str, outfile: str, numHeaderRows: int=0, indexCol: Optional[str]=None, customFilter: Optional[Callable[[pd.DataFrame], None]]=None):
+def preprocessCSV(
+    infile: str, 
+    outfile: str, 
+    dateCol: str,
+    valueCol: str,
+    numHeaderRows: int=0, 
+    indexCol: Optional[str]=None, 
+    customFilter: Optional[Callable[[pd.DataFrame], None]]=None
+):
     originalCSV = pd.read_csv(infile, skiprows=numHeaderRows)
 
     if customFilter is not None:
@@ -13,15 +22,15 @@ def preprocessCSV(infile: str, outfile: str, numHeaderRows: int=0, indexCol: Opt
     if indexCol is not None:
         originalCSV.set_index(indexCol, inplace=True)
 
-    years = originalCSV['Year'].unique()
+    years = originalCSV[dateCol].unique()
 
     firstColName = originalCSV.columns[0]
     outputCSV = pd.DataFrame(index=originalCSV[firstColName].unique(), columns=years)
 
     for i in range(originalCSV.shape[0]):
         countryName = originalCSV.loc[i][firstColName]
-        year = originalCSV.loc[i]['Year']
-        value = originalCSV.loc[i]['Value']
+        year = originalCSV.loc[i][dateCol]
+        value = originalCSV.loc[i][valueCol]
         if countryName in outputCSV.index:
             outputCSV.loc[countryName][year] = value
 
@@ -60,25 +69,29 @@ def state_names_to_abbreviation(inputFile: str, outputFile: str):
 
     firstCol = inputDf.columns[0]
 
-    def convert_names(row: pd.Series):
-        row[firstCol] = US_STATE_TO_ABREV[row[firstCol]]
+    outputDf = pd.DataFrame(index=US_STATE_TO_ABREV.keys(), columns=inputDf.columns[1:])
+
+    for i, row in inputDf.iterrows():
+        if row[firstCol] in US_STATE_TO_ABREV:
+            outputDf[row[firstCol]] = US_STATE_TO_ABREV[row[firstCol]]
+
         return row
 
-    outputDf = inputDf.apply(lambda row: convert_names(row), axis=1)
+    #outputDf = inputDf.apply(lambda row: convert_names(row), axis=1)
 
     outputDf.set_index(firstCol, inplace=True)
     outputDf.to_csv(outputFile)
 
 
 if __name__ == '__main__':
-    state_names_to_abbreviation(RAW_DATA_FILE_PATH, PROCESSED_DATA_FILE_PATH)
-
-    """ 
-    criteria = { "Product/Sector": "SI3_AGG - TO - Total merchandise" }
+    #state_names_to_abbreviation(RAW_DATA_FILE_PATH, PROCESSED_DATA_FILE_PATH)
+ 
+    #criteria = { "Product/Sector": "SI3_AGG - TO - Total merchandise" }
     
     preprocessCSV(
         RAW_DATA_FILE_PATH, 
         PROCESSED_DATA_FILE_PATH, 
+        dateCol='date',
+        valueCol='cases',
         numHeaderRows=0,
     )
-    """

@@ -49,9 +49,11 @@ def dynamic_node_graph_plotly(data_path: str, connections_path: str, plotType: s
 def time_slider_choropleth_plotly(data_path: str, mapType: str, connections_path: Optional[str] = None, dataInterpretation: str = 'real values'):
     inputDf, times = input_to_geodata(data_path, dataInterpretation, mapType)
 
+    firstCol = inputDf.columns[0]
+
     # read in connections data
     if connections_path is not None:
-        connectionsDf = get_connections_data(connections_path, inputDf['name'])
+        connectionsDf = get_connections_data(connections_path, inputDf[firstCol])
 
     # map of coordinates to represent the center of each country
     """
@@ -62,15 +64,14 @@ def time_slider_choropleth_plotly(data_path: str, mapType: str, connections_path
 
     # https://support.sisense.com/kb/en/article/plotly-choropleth-with-slider-map-charts-over-time
     data_slider = []
-    #print(inputDf)
     for year in times:
         inputDf[f'{year}_text'] = connectionsDf[int(year)].values if connections_path else ''
         data_each_yr = dict(
             type='choropleth',
-            locations = inputDf['name'],
+            locations = inputDf[firstCol],
             z=inputDf[year].astype(float),
             locationmode=mapType,
-            colorscale = 'greys',
+            colorscale = 'reds',
             colorbar= {'title':'Petroleum Exports Value in USD'},
             text=inputDf[f'{year}_text'],
         )
