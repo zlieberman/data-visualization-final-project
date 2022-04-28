@@ -6,6 +6,26 @@ import datetime
 from config.constants import DATASET1_PATH, DATASET2_PATH, MERGED_FILE_PATH, RAW_DATA_FILE_PATH, PROCESSED_DATA_FILE_PATH, US_STATE_TO_ABREV, WTO_TO_GEOPANDAS_COUNTRY_NAMES
 import pycountry_convert as pc
 
+state_map = {'AK': 'West', 'AL': 'South', 'AR': 'South',
+ 'AZ': 'West', 'CA': 'West', 'CO': 'West', 
+ 'CT': 'Northeast', 'DC': 'South', 'DE': 'South', 
+ 'FL': 'South', 'GA': 'South', 'HI': 'West', 
+ 'IA': 'Midwest', 'ID': 'West', 'IL': 'Midwest', 
+ 'IN': 'Midwest', 'KS': 'Midwest', 'KY': 'South', 
+ 'LA': 'South', 'MA': 'Northeast', 'MD': 'South', 
+ 'ME': 'Northeast', 'MI': 'Midwest', 'MN': 'Midwest',
+  'MO': 'Midwest', 'MS': 'South', 'MT': 'West', 
+  'NC': 'South', 'ND': 'Midwest', 'NE': 'Midwest', 
+  'NH': 'Northeast', 'NJ': 'Northeast', 'NM': 'West', 
+  'NV': 'West', 'NY': 'Northeast', 'OH': 'Midwest', 
+  'OK': 'South', 'OR': 'West', 'PA': 'Northeast', 
+  'RI': 'Northeast', 'SC': 'South', 'SD': 'Midwest', 
+  'TN': 'South', 'TX': 'South', 'UT': 'West', 
+  'VA': 'South', 'VT': 'Northeast', 'WA': 'West',
+   'WI': 'Midwest', 'WV': 'South', 'WY': 'West'}
+
+
+
 
 def preprocessCSV(
     infile: str, 
@@ -125,6 +145,10 @@ def merge_raw_datasets(rawfile1: str, rawfile2: str, mergeCols: List[str], outfi
     mergedDf = df1.merge(df2, how='inner', on=mergeCols)
     mergedDf.set_index(df1.columns[0], inplace=True)
     mergedDf.to_csv(outfile)
+
+
+
+
 
 
 
