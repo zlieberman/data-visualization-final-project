@@ -4,28 +4,28 @@ from typing import List
 import pandas as pd
 import numpy as np
 
+
 SUPPORTED_DATA_INTERPRETATIONS = ['real values', 'percent change']
+PLOT_TYPE_TO_GEOPANDAS_MAP = {
+    'world countries': 'naturalearth_lowres',
+}
 
 
-def input_to_geodata(input_file: str, dataInterpretation: str = 'real values'):
+def input_to_geodata(input_file: str, dataInterpretation: str = 'real values', mapType: str = 'world countries'):
     # get the input data
     inputDf = pd.read_csv(input_file)
-
-    # get geographic data from geopandas so we know where to draw each country
-    world = geopandas.read_file(geopandas.datasets.get_path('naturalearth_lowres'))
-    """
-    for i in range(world.shape[0]):
-        print(world.loc[i]['name'])
-    return
-    """
 
     # get the first timestamp, for plots we assume the dataframe has a single value that 
     # varies each timestamp and has columns order chronologically labled with their timestamp
     timestamps = [col for col in inputDf.columns if col.isdigit()]
 
-    # merge the two dataframes so we have the data we want as well as each country's shape
-    inputDf = world.merge(inputDf, how='left', left_on=['name'], right_on=['name'])
-    inputDf = inputDf.dropna(subset=['geometry', timestamps[0]])
+    if mapType in PLOT_TYPE_TO_GEOPANDAS_MAP:
+        # get geographic data from geopandas so we know where to draw each country
+        world = geopandas.read_file(geopandas.datasets.get_path())
+
+        # merge the two dataframes so we have the data we want as well as each country's shape
+        inputDf = world.merge(inputDf, how='left', left_on=['name'], right_on=['name'])
+        inputDf = inputDf.dropna(subset=['geometry', timestamps[0]])
 
     if dataInterpretation == 'percent change':
         # calculate percent change from previous timestamp for each row
