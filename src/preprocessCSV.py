@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 from typing import Optional, Callable
-from config.constants import RAW_DATA_FILE_PATH, PROCESSED_DATA_FILE_PATH
+from config.constants import RAW_DATA_FILE_PATH, PROCESSED_DATA_FILE_PATH, WTO_TO_GEOPANDAS_COUNTRY_NAMES
 
 
 def preprocessCSV(infile: str, outfile: str, numHeaderRows: int=0, indexCol: Optional[str]=None, customFilter: Optional[Callable[[pd.DataFrame], None]]=None):
@@ -24,7 +24,12 @@ def preprocessCSV(infile: str, outfile: str, numHeaderRows: int=0, indexCol: Opt
         if countryName in outputCSV.index:
             outputCSV.loc[countryName][year] = value
 
-    outputCSV.name = "Reporting_Economy"
+    for inputName, outputName in WTO_TO_GEOPANDAS_COUNTRY_NAMES.items():
+        if inputName in outputCSV.index:
+            #outputCSV[inputName].name = outputName
+            outputCSV.rename(index={inputName: outputName}, inplace=True)
+
+    headers = ['name'] + outputCSV.columns.tolist()
     outputCSV.to_csv(outfile)
 
 

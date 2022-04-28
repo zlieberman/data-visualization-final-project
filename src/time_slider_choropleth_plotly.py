@@ -35,8 +35,8 @@ def dynamic_node_graph_plotly(data_path: str, connections_path: str, plotType: s
     minY = inputDf['rankx'].min()
 
     fig = px.scatter(
-        inputDf, x="Value", y="rankx", animation_frame="Year", animation_group="Reporting_Economy",
-        size="Value", color="Reporting_Economy", hover_name="Reporting_Economy",
+        inputDf, x="Value", y="rankx", animation_frame="Year", animation_group="name",
+        size="Value", color="name", hover_name="name",
         log_x=True, size_max=55, range_x=[minX,maxX], range_y=[minY,maxY]
     )
 

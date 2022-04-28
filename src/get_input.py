@@ -19,21 +19,26 @@ def input_to_geodata(input_file: str, dataInterpretation: str = 'real values'):
     return
     """
 
-    # merge the two dataframes so we have the data we want as well as each country's shape
-    inputDf = world.merge(inputDf, how='left', left_on=['name'], right_on=['Reporting_Economy'])
-    inputDf = inputDf.dropna(subset=['Reporting_Economy'])
-    inputDf = inputDf.drop(['Reporting_Economy'], axis=1)
-
     # get the first timestamp, for plots we assume the dataframe has a single value that 
     # varies each timestamp and has columns order chronologically labled with their timestamp
     timestamps = [col for col in inputDf.columns if col.isdigit()]
+
+    # merge the two dataframes so we have the data we want as well as each country's shape
+    inputDf = world.merge(inputDf, how='left', left_on=['name'], right_on=['name'])
+    inputDf = inputDf.dropna(subset=['geometry', timestamps[0]])
 
     if dataInterpretation == 'percent change':
         # calculate percent change from previous timestamp for each row
         def percentChangeApplier(row: pd.Series):
             new_vals = []
             for j, timestamp in enumerate(timestamps[1:]):
-                new_vals.append(abs(row[timestamp] - row[timestamps[j-1]]) / row[timestamps[j-1]])
+                change = (row[timestamp] - row[timestamps[j-1]]) / row[timestamps[j-1]]
+                if change > 0:
+                    new_vals.append((change - 1) * 100)
+                elif change < 0:
+                    new_vals.append((1 - change) * 100)
+                else:
+                    new_vals.append(change)
 
             for i, val in enumerate(new_vals):
                 row[timestamps[i+1]] = new_vals[i]
