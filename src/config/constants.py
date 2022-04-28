@@ -2,8 +2,8 @@ import os
 
 
 ROOT_PATH = os.path.abspath('.')
-RAW_DATA_FILE = "data/covid.csv"
-PROCESSED_DATA_FILE = "data/visualization_inputs/covid_input.csv"
+RAW_DATA_FILE = "data/merged_gdp_mortality_new.csv"
+PROCESSED_DATA_FILE = "data/visualization_inputs/globalGDPInput.csv"
 NODES_FILE = 'data/connections/top5Manufacturing.csv'
 RAW_DATA_FILE_PATH = os.path.join(ROOT_PATH, RAW_DATA_FILE)
 PROCESSED_DATA_FILE_PATH = os.path.join(ROOT_PATH, PROCESSED_DATA_FILE)
@@ -15,6 +15,13 @@ PLOT_TYPE = 'scatter' # 'country names', 'scatter', 'USA-states'
 DATA_INTERPRETATION = 'real values' # 'percent change'
 
 # preproccessing constants
+DATASET1 = 'data/gdp-per-capita-maddison-2020.csv'
+DATASET2 = 'data/child-mortality-igme.csv'
+DATASET1_PATH = os.path.join(ROOT_PATH, DATASET1)
+DATASET2_PATH = os.path.join(ROOT_PATH, DATASET2)
+MERGED_FILE_PATH = os.path.join(ROOT_PATH, 'data/merged_gdp_mortality.csv')
+
+
 WTO_TO_GEOPANDAS_COUNTRY_NAMES = {
     'Russian Federation': 'Russia',
     'Saudi Arabia, Kingdom of': 'Saudi Arabia',

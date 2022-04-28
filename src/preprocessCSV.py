@@ -3,7 +3,7 @@ import os
 import pandas as pd
 from typing import Optional, Callable, List
 import datetime
-from config.constants import RAW_DATA_FILE_PATH, PROCESSED_DATA_FILE_PATH, US_STATE_TO_ABREV, WTO_TO_GEOPANDAS_COUNTRY_NAMES
+from config.constants import DATASET1_PATH, DATASET2_PATH, MERGED_FILE_PATH, RAW_DATA_FILE_PATH, PROCESSED_DATA_FILE_PATH, US_STATE_TO_ABREV, WTO_TO_GEOPANDAS_COUNTRY_NAMES
 import pycountry_convert as pc
 
 
@@ -108,12 +108,23 @@ def getContinentFromCountry(row):
     continent_name = pc.country_alpha2_to_continent_code(country_code)
     return continent_name
 
-def addContinentCol(file: str, numHeaderRows: int):
+
+def addContinentCol(file: str, numHeaderRows: int = 0):
     csv = pd.read_csv(file, skiprows=numHeaderRows)
-    temp = csv.apply (lambda row: getContinentFromCountry(row), axis=1)
-    csv.insert(0,'Continent',temp)
+    temp = csv.apply(lambda row: getContinentFromCountry(row), axis=1)
+    csv.insert(1,'Continent',temp)
+    csv.set_index(csv.columns[0], inplace=True)
     outfile = file[0:file.index('.csv')] + '_new.csv'
     csv.to_csv(outfile)
+
+
+def merge_raw_datasets(rawfile1: str, rawfile2: str, mergeCols: List[str], outfile: str):
+    df1 = pd.read_csv(rawfile1)
+    df2 = pd.read_csv(rawfile2)
+
+    mergedDf = df1.merge(df2, how='inner', on=mergeCols)
+    mergedDf.set_index(df1.columns[0], inplace=True)
+    mergedDf.to_csv(outfile)
 
 
 
@@ -132,5 +143,7 @@ if __name__ == '__main__':
 
     #base = datetime.datetime.strptime('1/21/20', '%m/%d/%y')
     #date_list = [datetime.datetime.strftime(base + datetime.timedelta(days=x), '%-m/%-d/%-y') for x in range(52)]
-    dropRows = ['AS', 'GU', 'MP', 'Virgin Islands', 'PR']
-    drop_cols_from_CSV(PROCESSED_DATA_FILE_PATH, [], dropRows)
+    #dropRows = ['AS', 'GU', 'MP', 'Virgin Islands', 'PR']
+    #drop_cols_from_CSV(PROCESSED_DATA_FILE_PATH, [], dropRows)
+    addContinentCol(MERGED_FILE_PATH)
+    #merge_raw_datasets(DATASET1_PATH, DATASET2_PATH, ['Country', 'Year'], MERGED_FILE_PATH)

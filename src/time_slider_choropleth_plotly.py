@@ -59,11 +59,12 @@ def dynamic_node_graph_plotly(
         # connectionsDf = get_connections_data(connections_path, inputDf['name'])
         pass
 
-    xCol = 'cases_avg'
-    yCol = 'deaths_avg'
-    sizeCol = 'cases_avg'
-    indexCol = 'state'
-    dateCol = 'date'
+    xCol = 'Mortality'
+    yCol = 'GDP per capita'
+    sizeCol = 'GDP per capita'
+    indexCol = 'Country'
+    dateCol = 'Year'
+    colorCol = 'Continent'
 
     inputDf[xCol].fillna(0, inplace=True)
     inputDf[yCol].fillna(0, inplace=True)
@@ -78,7 +79,7 @@ def dynamic_node_graph_plotly(
 
     fig = px.scatter(
         inputDf, x=xCol, y=yCol, animation_frame=dateCol, animation_group=indexCol,
-        size=sizeCol, color=indexCol, hover_name=indexCol,
+        size=sizeCol, color=colorCol, hover_name=indexCol,
         log_x=False, size_max=55, range_x=[minX,maxX], range_y=[minY,maxY]
     )
 
