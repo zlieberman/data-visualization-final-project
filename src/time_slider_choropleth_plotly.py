@@ -15,17 +15,43 @@ MAP_TYPE_TO_SCOPE = {
 }
 
 
-def draw_plot(data_path: str, plotType: str, connections_path: Optional[str] = None, dataInterpretation: str = 'real values'):
+def draw_plot(
+    data_path: str, 
+    plotType: str, 
+    plotTitle: str,
+    colorbarTitle: Optional[str] = '',
+    connections_path: Optional[str] = None, 
+    dataInterpretation: str = 'real values'
+):
     if plotType in SUPPORTED_MAP_TYPES:
-        time_slider_choropleth_plotly(data_path, plotType, connections_path, dataInterpretation)
+        time_slider_choropleth_plotly(
+            data_path, 
+            plotType, 
+            plotTitle, 
+            colorbarTitle, 
+            connections_path, 
+            dataInterpretation
+        )
     elif plotType in SUPPORTED_PLOT_TYPES:
-        dynamic_node_graph_plotly(data_path, connections_path, plotType, dataInterpretation)
+        dynamic_node_graph_plotly(
+            data_path, 
+            plotTitle,
+            connections_path,
+            plotType, 
+            dataInterpretation
+        )
     else:
         raise ValueError(f'type {plotType} is not in {SUPPORTED_MAP_TYPES} or {SUPPORTED_PLOT_TYPES}, please enter a supported type and try again')
         
 
-def dynamic_node_graph_plotly(data_path: str, connections_path: str, plotType: str, dataInterpretation: str = 'real values'):
-    inputDf = pd.read_csv(RAW_DATA_FILE)
+def dynamic_node_graph_plotly(
+    data_path: str, 
+    plotTitle: str,
+    connections_path: str, 
+    plotType: str, 
+    dataInterpretation: str = 'real values'
+):
+    inputDf = pd.read_csv(data_path)
 
     # read in connections data
     if connections_path is not None:
@@ -59,7 +85,14 @@ def dynamic_node_graph_plotly(data_path: str, connections_path: str, plotType: s
     fig.show()
 
 
-def time_slider_choropleth_plotly(data_path: str, mapType: str, connections_path: Optional[str] = None, dataInterpretation: str = 'real values'):
+def time_slider_choropleth_plotly(
+    data_path: str, 
+    mapType: str, 
+    plotTitle: str,
+    colorbarTitle: str,
+    connections_path: Optional[str] = None, 
+    dataInterpretation: str = 'real values'
+):
     inputDf, times = input_to_geodata(data_path, dataInterpretation, mapType)
 
     # read in connections data
@@ -93,7 +126,7 @@ def time_slider_choropleth_plotly(data_path: str, mapType: str, connections_path
             zmax=allTimeMax,
             locationmode=mapType,
             colorscale = 'reds',
-            colorbar= {'title':'Petroleum Exports Value in USD'},
+            colorbar= {'title':colorbarTitle},
             text=inputDf[f'{year}_text'],
         )
 
@@ -116,13 +149,13 @@ def time_slider_choropleth_plotly(data_path: str, mapType: str, connections_path
     for i in range(len(data_slider)):
         step = dict(method='restyle',
                     args=['visible', [False] * len(data_slider)],
-                    label=f'Year {times[i]}')
+                    label=f'{times[i]}')
         step['args'][1][i] = True
         steps.append(step)
 
     sliders = [dict(active=0, pad={"t": 1}, steps=steps)]
 
-    layout = dict(title ='Petroleum exports by country since 2000', geo=dict(scope=MAP_TYPE_TO_SCOPE[mapType]),
+    layout = dict(title =plotTitle, geo=dict(scope=MAP_TYPE_TO_SCOPE[mapType]),
                 sliders=sliders)
 
     fig = dict(data=data_slider, layout=layout)
