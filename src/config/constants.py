@@ -2,7 +2,7 @@ import os
 
 
 ROOT_PATH = os.path.abspath('.')
-RAW_DATA_FILE = "data/merged_gdp_mortality_new.csv"
+RAW_DATA_FILE = "data/covid.csv"
 PROCESSED_DATA_FILE = "data/visualization_inputs/globalGDPInput.csv"
 NODES_FILE = 'data/connections/top5Manufacturing.csv'
 RAW_DATA_FILE_PATH = os.path.join(ROOT_PATH, RAW_DATA_FILE)

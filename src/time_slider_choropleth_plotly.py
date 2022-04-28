@@ -59,18 +59,26 @@ def dynamic_node_graph_plotly(
         # connectionsDf = get_connections_data(connections_path, inputDf['name'])
         pass
 
+    """
     xCol = 'Mortality'
     yCol = 'GDP per capita'
     sizeCol = 'GDP per capita'
     indexCol = 'Country'
     dateCol = 'Year'
     colorCol = 'Continent'
+    """
 
-    inputDf[xCol].fillna(0, inplace=True)
-    inputDf[yCol].fillna(0, inplace=True)
-    inputDf[sizeCol].fillna(0, inplace=True)
+    xCol = 'cases_avg_per_100k'
+    yCol = 'deaths_avg_per_100k'
+    sizeCol = 'cases_avg'
+    indexCol = 'state'
+    dateCol = 'date'
+    colorCol = 'state'
 
-    print(inputDf.head())
+    # filter out invalid colorCol rows
+    inputDf.drop(inputDf[(inputDf[colorCol] == 'Invalid') | (inputDf[colorCol] == None)].index, inplace=True)
+
+    print(inputDf)
 
     maxX = inputDf[xCol].max()
     minX = inputDf[xCol].min()
@@ -80,7 +88,7 @@ def dynamic_node_graph_plotly(
     fig = px.scatter(
         inputDf, x=xCol, y=yCol, animation_frame=dateCol, animation_group=indexCol,
         size=sizeCol, color=colorCol, hover_name=indexCol,
-        log_x=False, size_max=55, range_x=[minX,maxX], range_y=[minY,maxY]
+        log_x=False, size_max=100, range_x=[minX,maxX], range_y=[minY,maxY]
     )
 
     fig["layout"].pop("updatemenus") # optional, drop animation buttons
@@ -118,7 +126,6 @@ def time_slider_choropleth_plotly(
 
     allTimeMax = np.log10(allTimeMax)
     allTimeMin = np.log10(allTimeMin) if allTimeMin > 0 else 0
-    print(allTimeMin, allTimeMax)
 
     # https://support.sisense.com/kb/en/article/plotly-choropleth-with-slider-map-charts-over-time
     data_slider = []

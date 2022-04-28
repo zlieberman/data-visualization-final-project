@@ -93,7 +93,7 @@ def state_names_to_abbreviation(inputFile: str, outputFile: str):
     outputDf.to_csv(outputFile)
 
 
-def drop_cols_from_CSV(filename: str, dropCols: List[str], dropRows: List[str]):
+def drop_entries_from_CSV(filename: str, dropCols: List[str], dropRows: List[str]):
     inputDf = pd.read_csv(filename, index_col=0)
     inputDf = inputDf.drop(dropCols, axis=1)
     inputDf = inputDf.drop(dropRows, axis=0)
@@ -141,9 +141,9 @@ if __name__ == '__main__':
     #    numHeaderRows=0,
     #)
 
-    #base = datetime.datetime.strptime('1/21/20', '%m/%d/%y')
-    #date_list = [datetime.datetime.strftime(base + datetime.timedelta(days=x), '%-m/%-d/%-y') for x in range(52)]
+    base = datetime.datetime.strptime('1/21/20', '%m/%d/%y')
+    date_list = [datetime.datetime.strftime(base + datetime.timedelta(days=x), '%-m/%-d/%-y') for x in range(51)]
     #dropRows = ['AS', 'GU', 'MP', 'Virgin Islands', 'PR']
-    #drop_cols_from_CSV(PROCESSED_DATA_FILE_PATH, [], dropRows)
-    addContinentCol(MERGED_FILE_PATH)
+    drop_entries_from_CSV(RAW_DATA_FILE_PATH, dropCols=[], dropRows=date_list)
+    #addContinentCol(MERGED_FILE_PATH)
     #merge_raw_datasets(DATASET1_PATH, DATASET2_PATH, ['Country', 'Year'], MERGED_FILE_PATH)
