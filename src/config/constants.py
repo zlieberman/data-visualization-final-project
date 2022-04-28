@@ -3,11 +3,11 @@ import os
 
 ROOT_PATH = os.path.abspath('.')
 RAW_DATA_FILE = "data/unemployment.csv"
-PROCESSED_DATA_FILE = "data/unemployment_input.csv"
+PROCESSED_DATA_FILE = "data/visualization_input/unemployment_input.csv"
 RAW_DATA_FILE_PATH = os.path.join(ROOT_PATH, RAW_DATA_FILE)
 PROCESSED_DATA_FILE_PATH = os.path.join(ROOT_PATH, PROCESSED_DATA_FILE)
 OUTPUT_HTML_PATH = os.path.join(ROOT_PATH, 'output')
-NODES_FILE_PATH = os.path.join(ROOT_PATH, 'data/top5Manufacturing.csv')
+NODES_FILE_PATH = os.path.join(ROOT_PATH, 'data/connections/top5Manufacturing.csv')
 
 # user controlled to determine how the data is visualized
 PLOT_TYPE = 'USA-states' # 'country names', 'scatter'
