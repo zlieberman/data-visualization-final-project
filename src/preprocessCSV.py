@@ -4,6 +4,7 @@ import pandas as pd
 from typing import Optional, Callable, List
 import datetime
 from config.constants import RAW_DATA_FILE_PATH, PROCESSED_DATA_FILE_PATH, US_STATE_TO_ABREV, WTO_TO_GEOPANDAS_COUNTRY_NAMES
+import pycountry_convert as pc
 
 
 def preprocessCSV(
