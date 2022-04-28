@@ -67,16 +67,15 @@ def dynamic_node_graph_plotly(
     indexCol = 'Country'
     dateCol = 'Year'
     colorCol = 'Continent'
-
-
     """ 
+
     # For Covid Data
     xCol = 'cases_avg_per_100k'
     yCol = 'deaths_avg_per_100k'
     sizeCol = 'cases_avg'
     indexCol = 'state'
     dateCol = 'date'
-    colorCol = 'state'
+    colorCol = 'Region'
 
 
     # filter out invalid colorCol rows

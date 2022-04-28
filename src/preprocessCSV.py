@@ -1,5 +1,6 @@
 from curses.ascii import US
 import os
+from site import addusersitepackages
 import pandas as pd
 from typing import Optional, Callable, List
 import datetime
@@ -110,12 +111,34 @@ def getContinentFromCountry(row):
 
 
 def addContinentCol(file: str, numHeaderRows: int = 0):
+    """
+    Add a column with the continent abbreviation for each country in the csv file
+    """
     csv = pd.read_csv(file, skiprows=numHeaderRows)
     temp = csv.apply(lambda row: getContinentFromCountry(row), axis=1)
     csv.insert(1,'Continent',temp)
     csv.set_index(csv.columns[0], inplace=True)
     outfile = file[0:file.index('.csv')] + '_new.csv'
     csv.to_csv(outfile)
+
+
+def addUSStateRegionCol(filename: str):
+    """
+    Add a column with the region in the US that a state is 
+    """
+    inputDf = pd.read_csv(filename)
+
+    regionCol = []
+    for i, row in inputDf.iterrows():
+        stateName = row['state']
+        if stateName in US_STATE_TO_ABREV:
+            regionCol.append(USA_STATES_TO_REGION[US_STATE_TO_ABREV[stateName]])
+        else:
+            regionCol.append('Invalid')
+
+    inputDf['Region'] = regionCol
+    inputDf.set_index(inputDf.columns[0], inplace=True)
+    inputDf.to_csv(filename)
 
 
 def merge_raw_datasets(rawfile1: str, rawfile2: str, mergeCols: List[str], outfile: str):
@@ -155,11 +178,8 @@ def fill_data(filename: str):
                 'deaths_avg_per_100k': 0,
             }
             inputDf = inputDf.append(newRow, ignore_index=True)
-    inputDf.set_index('date', inplace=True)
+    inputDf.set_index(inputDf.columns[0], inplace=True)
     inputDf.to_csv(filename)
-        
-
-
 
 
 if __name__ == '__main__':
@@ -181,4 +201,5 @@ if __name__ == '__main__':
     #drop_entries_from_CSV(RAW_DATA_FILE_PATH, dropCols=[], dropRows=date_list)
     #addContinentCol(MERGED_FILE_PATH)
     #merge_raw_datasets(DATASET1_PATH, DATASET2_PATH, ['Country', 'Year'], MERGED_FILE_PATH)
-    fill_data(RAW_DATA_FILE_PATH)
+    #fill_data(RAW_DATA_FILE_PATH)
+    addUSStateRegionCol(RAW_DATA_FILE_PATH)
