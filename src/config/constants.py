@@ -11,7 +11,7 @@ OUTPUT_HTML_PATH = os.path.join(ROOT_PATH, 'output')
 NODES_FILE_PATH = os.path.join(ROOT_PATH, NODES_FILE)
 
 # user controlled to determine how the data is visualized
-PLOT_TYPE = 'USA-states' # 'country names', 'scatter', 'USA-states'
+PLOT_TYPE = 'scatter' # 'country names', 'scatter', 'USA-states'
 DATA_INTERPRETATION = 'real values' # 'percent change'
 
 # preproccessing constants

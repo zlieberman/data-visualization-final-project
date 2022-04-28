@@ -59,8 +59,8 @@ def dynamic_node_graph_plotly(
         # connectionsDf = get_connections_data(connections_path, inputDf['name'])
         pass
 
-    xCol = 'cases'
-    yCol = 'deaths'
+    xCol = 'cases_avg'
+    yCol = 'deaths_avg'
     sizeCol = 'cases_avg'
     indexCol = 'state'
     dateCol = 'date'
@@ -79,7 +79,7 @@ def dynamic_node_graph_plotly(
     fig = px.scatter(
         inputDf, x=xCol, y=yCol, animation_frame=dateCol, animation_group=indexCol,
         size=sizeCol, color=indexCol, hover_name=indexCol,
-        log_x=True, size_max=55, range_x=[minX,maxX], range_y=[minY,maxY]
+        log_x=False, size_max=55, range_x=[minX,maxX], range_y=[minY,maxY]
     )
 
     fig["layout"].pop("updatemenus") # optional, drop animation buttons

@@ -10,7 +10,7 @@ from time_slider_choropleth_plotly import draw_plot
 
 def main():
     draw_plot(
-        data_path=PROCESSED_DATA_FILE_PATH, 
+        data_path=RAW_DATA_FILE_PATH, 
         plotType=PLOT_TYPE,
         plotTitle='COVID-19 spread across the USA',
         colorbarTitle='Number of cases',
