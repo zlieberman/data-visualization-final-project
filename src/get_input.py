@@ -1,4 +1,3 @@
-from curses.ascii import isdigit
 import geopandas
 from typing import List
 import pandas as pd
@@ -7,24 +6,25 @@ import numpy as np
 
 SUPPORTED_DATA_INTERPRETATIONS = ['real values', 'percent change']
 PLOT_TYPE_TO_GEOPANDAS_MAP = {
-    'world countries': 'naturalearth_lowres',
+    'country names': 'naturalearth_lowres',
 }
 
 
-def input_to_geodata(input_file: str, dataInterpretation: str = 'real values', mapType: str = 'world countries'):
+def input_to_geodata(input_file: str, dataInterpretation: str = 'real values', mapType: str = 'country names'):
     # get the input data
     inputDf = pd.read_csv(input_file)
 
     # get the first timestamp, for plots we assume the dataframe has a single value that 
     # varies each timestamp and has columns order chronologically labled with their timestamp
     timestamps = [col for col in inputDf.columns if col.isdigit()]
+    firstCol = inputDf.columns[0]
 
     if mapType in PLOT_TYPE_TO_GEOPANDAS_MAP:
         # get geographic data from geopandas so we know where to draw each country
-        world = geopandas.read_file(geopandas.datasets.get_path())
+        world = geopandas.read_file(geopandas.datasets.get_path(PLOT_TYPE_TO_GEOPANDAS_MAP[mapType]))
 
         # merge the two dataframes so we have the data we want as well as each country's shape
-        inputDf = world.merge(inputDf, how='left', left_on=['name'], right_on=['name'])
+        inputDf = world.merge(inputDf, how='left', left_on=['name'], right_on=[firstCol])
         inputDf = inputDf.dropna(subset=['geometry', timestamps[0]])
 
     if dataInterpretation == 'percent change':
@@ -59,6 +59,7 @@ def input_to_geodata(input_file: str, dataInterpretation: str = 'real values', m
 def get_connections_data(connections_file_path: str, countries: List[str]):
     inputDf = pd.read_csv(connections_file_path)
     connectionsDf = pd.DataFrame(index=countries)
+    firstCol = inputDf.columns[0]
 
     years = inputDf['Year'].unique()
     num_countries = len(countries)
@@ -71,9 +72,9 @@ def get_connections_data(connections_file_path: str, countries: List[str]):
 
         for i in range(yearDf.shape[0]):
             rowData = yearDf.iloc[i]
-            countryName = rowData['Reporting_Economy']
+            countryName = rowData[firstCol]
             if countryName in connectionsDf.index:
-                connectionsDf.loc[rowData['Reporting_Economy']][year].append(rowData['Partner_Economy'])
+                connectionsDf.loc[rowData[firstCol]][year].append(rowData['Partner_Economy'])
 
     print(connectionsDf.head())
     return connectionsDf

@@ -3,7 +3,7 @@ import os
 
 ROOT_PATH = os.path.abspath('.')
 RAW_DATA_FILE = "data/unemployment.csv"
-PROCESSED_DATA_FILE = "data/visualization_inputs/unemployment_input.csv"
+PROCESSED_DATA_FILE = "data/visualization_inputs/globalGDPInput.csv"
 NODES_FILE = 'data/connections/top5Manufacturing.csv'
 RAW_DATA_FILE_PATH = os.path.join(ROOT_PATH, RAW_DATA_FILE)
 PROCESSED_DATA_FILE_PATH = os.path.join(ROOT_PATH, PROCESSED_DATA_FILE)
@@ -11,7 +11,7 @@ OUTPUT_HTML_PATH = os.path.join(ROOT_PATH, 'output')
 NODES_FILE_PATH = os.path.join(ROOT_PATH, NODES_FILE)
 
 # user controlled to determine how the data is visualized
-PLOT_TYPE = 'USA-states' # 'country names', 'scatter'
+PLOT_TYPE = 'country names' # 'country names', 'scatter'
 DATA_INTERPRETATION = 'real values' # 'percent change'
 
 # preproccessing constants
