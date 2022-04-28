@@ -3,28 +3,8 @@ import os
 import pandas as pd
 from typing import Optional, Callable, List
 import datetime
-from config.constants import DATASET1_PATH, DATASET2_PATH, MERGED_FILE_PATH, RAW_DATA_FILE_PATH, PROCESSED_DATA_FILE_PATH, US_STATE_TO_ABREV, WTO_TO_GEOPANDAS_COUNTRY_NAMES
+from config.constants import DATASET1_PATH, DATASET2_PATH, MERGED_FILE_PATH, RAW_DATA_FILE_PATH, PROCESSED_DATA_FILE_PATH, US_STATE_TO_ABREV, USA_STATES_TO_REGION, WTO_TO_GEOPANDAS_COUNTRY_NAMES
 import pycountry_convert as pc
-
-state_map = {'AK': 'West', 'AL': 'South', 'AR': 'South',
- 'AZ': 'West', 'CA': 'West', 'CO': 'West', 
- 'CT': 'Northeast', 'DC': 'South', 'DE': 'South', 
- 'FL': 'South', 'GA': 'South', 'HI': 'West', 
- 'IA': 'Midwest', 'ID': 'West', 'IL': 'Midwest', 
- 'IN': 'Midwest', 'KS': 'Midwest', 'KY': 'South', 
- 'LA': 'South', 'MA': 'Northeast', 'MD': 'South', 
- 'ME': 'Northeast', 'MI': 'Midwest', 'MN': 'Midwest',
-  'MO': 'Midwest', 'MS': 'South', 'MT': 'West', 
-  'NC': 'South', 'ND': 'Midwest', 'NE': 'Midwest', 
-  'NH': 'Northeast', 'NJ': 'Northeast', 'NM': 'West', 
-  'NV': 'West', 'NY': 'Northeast', 'OH': 'Midwest', 
-  'OK': 'South', 'OR': 'West', 'PA': 'Northeast', 
-  'RI': 'Northeast', 'SC': 'South', 'SD': 'Midwest', 
-  'TN': 'South', 'TX': 'South', 'UT': 'West', 
-  'VA': 'South', 'VT': 'Northeast', 'WA': 'West',
-   'WI': 'Midwest', 'WV': 'South', 'WY': 'West'}
-
-
 
 
 def preprocessCSV(
@@ -147,7 +127,37 @@ def merge_raw_datasets(rawfile1: str, rawfile2: str, mergeCols: List[str], outfi
     mergedDf.to_csv(outfile)
 
 
+def fill_data(filename: str):
+    """
+    Fill tbe first timestamp with empty data for any entities that don't have
+    data for that timestamp. Necessary to dipslay properly with plotly.
 
+    NOTE: this needs to be modified, it is hard coded specifically for covid.csv
+    """
+    inputDf = pd.read_csv(filename)
+    timestamps = inputDf['date'].unique().tolist()
+    entities = inputDf['state'].unique().tolist()
+    earlestTime = timestamps[0]
+    segmentedDf = inputDf[inputDf['date'] == earlestTime]
+    missingEntities = list(set(entities) - set(segmentedDf['state'].unique().tolist()))
+    for entity in missingEntities:
+        if entity in US_STATE_TO_ABREV:
+            abrev = US_STATE_TO_ABREV[entity]
+            newRow = {
+                'date': earlestTime,
+                'state': entity,
+                #'region': USA_STATES_TO_REGION[abrev],
+                'cases': 0,
+                'cases_avg': 0,
+                'cases_avg_per_100k': 0,
+                'deaths': 0,
+                'deaths_avg': 0,
+                'deaths_avg_per_100k': 0,
+            }
+            inputDf = inputDf.append(newRow, ignore_index=True)
+    inputDf.set_index('date', inplace=True)
+    inputDf.to_csv(filename)
+        
 
 
 
@@ -165,9 +175,10 @@ if __name__ == '__main__':
     #    numHeaderRows=0,
     #)
 
-    base = datetime.datetime.strptime('1/21/20', '%m/%d/%y')
-    date_list = [datetime.datetime.strftime(base + datetime.timedelta(days=x), '%-m/%-d/%-y') for x in range(51)]
+    #base = datetime.datetime.strptime('1/21/20', '%m/%d/%y')
+    #date_list = [datetime.datetime.strftime(base + datetime.timedelta(days=x), '%-m/%-d/%-y') for x in range(51)]
     #dropRows = ['AS', 'GU', 'MP', 'Virgin Islands', 'PR']
-    drop_entries_from_CSV(RAW_DATA_FILE_PATH, dropCols=[], dropRows=date_list)
+    #drop_entries_from_CSV(RAW_DATA_FILE_PATH, dropCols=[], dropRows=date_list)
     #addContinentCol(MERGED_FILE_PATH)
     #merge_raw_datasets(DATASET1_PATH, DATASET2_PATH, ['Country', 'Year'], MERGED_FILE_PATH)
+    fill_data(RAW_DATA_FILE_PATH)
