@@ -120,7 +120,6 @@ def addContinentCol(file: str, numHeaderRows: int = 0):
 
     temp = csv.apply(lambda row: applyContinentFromCountry(row), axis=1)
     csv.insert(1,'Continent',temp)
-    csv['Continent'] = csv['Continent'].astype(str)
     csv.set_index(csv.columns[0], inplace=True)
     outfile = file[0:file.index('.csv')] + '_new.csv'
     csv.to_csv(outfile)
