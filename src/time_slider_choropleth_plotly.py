@@ -54,6 +54,7 @@ def dynamic_node_graph_plotly(
 ):
     inputDf = pd.read_csv(data_path)
 
+
     # read in connections data
     if connections_path is not None:
         # connectionsDf = get_connections_data(connections_path, inputDf['name'])
@@ -70,19 +71,26 @@ def dynamic_node_graph_plotly(
     """ 
 
     # For Covid Data
-    xCol = 'cases_avg_per_100k'
-    yCol = 'deaths_avg_per_100k'
-    sizeCol = 'cases_avg'
-    indexCol = 'state'
-    dateCol = 'date'
-    colorCol = 'Region'
+    # xCol = 'cases_avg_per_100k'
+    # yCol = 'deaths_avg_per_100k'
+    # sizeCol = 'cases_avg'
+    # indexCol = 'state'
+    # dateCol = 'date'
+    # colorCol = 'Region'
 
+
+    xCol = 'GDP per capita'
+    yCol = 'Mortality'
+    sizeCol = 'GDP'
+    indexCol = 'Country'
+    dateCol = 'Year'
+    colorCol = 'Continent'
 
     # filter out invalid colorCol rows
     inputDf.drop(inputDf[(inputDf[colorCol] == 'Invalid') | (inputDf[colorCol] == None)].index, inplace=True)
 
     print(inputDf)
-
+    inputDf = inputDf.dropna()
     maxX = inputDf[xCol].max()
     minX = inputDf[xCol].min()
     maxY = inputDf[yCol].max()
