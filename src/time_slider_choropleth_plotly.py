@@ -102,7 +102,6 @@ def dynamic_node_graph_plotly(
         log_x=False, size_max=100, range_x=[minX-50,maxX+50], range_y=[minY-50,maxY+50]
     )
 
-    fig["layout"].pop("updatemenus") # optional, drop animation buttons
     fig.show()
 
 
