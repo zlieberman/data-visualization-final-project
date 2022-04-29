@@ -149,7 +149,7 @@ def time_slider_choropleth_plotly(
             zmin=allTimeMin,
             zmax=allTimeMax,
             locationmode=mapType,
-            colorscale = 'reds',
+            colorscale = 'viridis',  # https://plotly.com/python/builtin-colorscales/
             colorbar= {'title': colorbarTitle},
             text=inputDf[f'{year}_text'],
         )
