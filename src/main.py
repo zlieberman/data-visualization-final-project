@@ -1,5 +1,7 @@
 from config.constants import (
+    COLORBAR_TITLE,
     DATA_INTERPRETATION,
+    PLOT_TITLE,
     PROCESSED_DATA_FILE_PATH, 
     NODES_FILE_PATH,
     PLOT_TYPE,
@@ -16,8 +18,8 @@ def main():
     draw_plot(
         data_path=data_path, 
         plotType=PLOT_TYPE,
-        plotTitle='COVID-19 spread across the USA',
-        colorbarTitle='Number of cases',
+        plotTitle=PLOT_TITLE,
+        colorbarTitle=COLORBAR_TITLE,
         dataInterpretation=DATA_INTERPRETATION,
     )
 

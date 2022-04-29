@@ -12,7 +12,7 @@ SUPPORTED_MAP_TYPES = ['country names', 'USA-states', 'ISO-3', 'geojson-id']
 SUPPORTED_PLOT_TYPES = ['scatter']
 MAP_TYPE_TO_SCOPE = {
     'country names': 'world',
-    'USA-states': 'usa'
+    'USA-states': 'usa',
 }
 
 
@@ -134,8 +134,8 @@ def time_slider_choropleth_plotly(
             allTimeMin = min(allTimeMin, row[time])
             allTimeMax = max(allTimeMax, row[time])
 
-    allTimeMax = np.log10(allTimeMax)
-    allTimeMin = np.log10(allTimeMin) if allTimeMin > 0 else 0
+    #allTimeMax = np.log10(allTimeMax)
+    #allTimeMin = np.log10(allTimeMin) if allTimeMin > 0 else 0
 
     # https://support.sisense.com/kb/en/article/plotly-choropleth-with-slider-map-charts-over-time
     data_slider = []
@@ -145,7 +145,7 @@ def time_slider_choropleth_plotly(
         data_each_yr = dict(
             type='choropleth',
             locations = inputDf['name'],
-            z=np.log10(inputDf[year]).astype(float),
+            z=inputDf[year].astype(float),
             zmin=allTimeMin,
             zmax=allTimeMax,
             locationmode=mapType,
@@ -155,6 +155,7 @@ def time_slider_choropleth_plotly(
         )
 
         """
+        # for drawing connections between countries in the future
         for i in range(connectionsDf.shape[0]):
             country = connectionsDf.iloc[i].name
             countryPartners = connectionsDf.iloc[i][year]

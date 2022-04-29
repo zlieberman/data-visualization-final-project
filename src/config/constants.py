@@ -11,8 +11,10 @@ OUTPUT_HTML_PATH = os.path.join(ROOT_PATH, 'output')
 NODES_FILE_PATH = os.path.join(ROOT_PATH, NODES_FILE)
 
 # user controlled to determine how the data is visualized
-PLOT_TYPE = 'scatter' # 'country names', 'scatter', 'USA-states'
+PLOT_TYPE = 'country names' # 'country names', 'scatter', 'USA-states'
 DATA_INTERPRETATION = 'real values' # 'percent change'
+PLOT_TITLE='COVID-19 spread across the USA'
+COLORBAR_TITLE='Number of cases'
 
 # preproccessing constants
 DATASET1 = 'data/gdp-per-capita-maddison-2020.csv'
