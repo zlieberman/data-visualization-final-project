@@ -9,8 +9,12 @@ from time_slider_choropleth_plotly import draw_plot
 
 
 def main():
+    data_path = PROCESSED_DATA_FILE_PATH
+    if PLOT_TYPE == 'scatter':
+        data_path = RAW_DATA_FILE_PATH
+
     draw_plot(
-        data_path=RAW_DATA_FILE_PATH, 
+        data_path=data_path, 
         plotType=PLOT_TYPE,
         plotTitle='COVID-19 spread across the USA',
         colorbarTitle='Number of cases',

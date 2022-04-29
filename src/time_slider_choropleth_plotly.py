@@ -99,7 +99,7 @@ def dynamic_node_graph_plotly(
     fig = px.scatter(
         inputDf, x=xCol, y=yCol, animation_frame=dateCol, animation_group=indexCol,
         size=sizeCol, color=colorCol, hover_name=indexCol,
-        log_x=False, size_max=100, range_x=[minX,maxX], range_y=[minY,maxY]
+        log_x=False, size_max=100, range_x=[minX-50,maxX+50], range_y=[minY-50,maxY+50]
     )
 
     fig["layout"].pop("updatemenus") # optional, drop animation buttons

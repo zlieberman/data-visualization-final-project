@@ -64,7 +64,7 @@ def input_to_geodata(input_file: str, dataInterpretation: str = 'real values', m
     elif dataInterpretation != 'real values':
         raise ValueError(f'Unsupported data interpretation method {dataInterpretation}, use one of {SUPPORTED_DATA_INTERPRETATIONS}')
 
-    print(inputDf.head())  
+    print(inputDf.head(), timestamps)  
     return inputDf, timestamps
 
 
