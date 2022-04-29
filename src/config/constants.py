@@ -111,6 +111,15 @@ USA_STATES_TO_REGION = {'AK': 'West', 'AL': 'South', 'AR': 'South',
     'WI': 'Midwest', 'WV': 'South', 'WY': 'West'
 }
 
+CONTINENT_ABREV_TO_NAME = {
+    'NA': 'North America',
+    'EU': 'Europe',
+    'OC': 'Oceania',
+    'AS': 'Asia',
+    'AF': 'Africa',
+    'SA': 'South America',
+}
+
 
 if __name__ == '__main__':
     print(RAW_DATA_FILE)

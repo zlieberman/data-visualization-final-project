@@ -4,7 +4,7 @@ from site import addusersitepackages
 import pandas as pd
 from typing import Optional, Callable, List
 import datetime
-from config.constants import DATASET1_PATH, DATASET2_PATH, MERGED_FILE_PATH, RAW_DATA_FILE_PATH, PROCESSED_DATA_FILE_PATH, US_STATE_TO_ABREV, USA_STATES_TO_REGION, WTO_TO_GEOPANDAS_COUNTRY_NAMES
+from config.constants import CONTINENT_ABREV_TO_NAME, DATASET1_PATH, DATASET2_PATH, MERGED_FILE_PATH, RAW_DATA_FILE_PATH, PROCESSED_DATA_FILE_PATH, US_STATE_TO_ABREV, USA_STATES_TO_REGION, WTO_TO_GEOPANDAS_COUNTRY_NAMES
 import pycountry_convert as pc
 
 
@@ -107,7 +107,7 @@ def getContinentFromCountry(countryName: str):
     except:
         return "Invalid"
     continent_name = pc.country_alpha2_to_continent_code(country_code)
-    return continent_name
+    return CONTINENT_ABREV_TO_NAME[continent_name]
 
 
 def addContinentCol(file: str, numHeaderRows: int = 0):
@@ -120,6 +120,7 @@ def addContinentCol(file: str, numHeaderRows: int = 0):
 
     temp = csv.apply(lambda row: applyContinentFromCountry(row), axis=1)
     csv.insert(1,'Continent',temp)
+    csv['Continent'] = csv['Continent'].astype(str)
     csv.set_index(csv.columns[0], inplace=True)
     outfile = file[0:file.index('.csv')] + '_new.csv'
     csv.to_csv(outfile)
@@ -199,7 +200,7 @@ if __name__ == '__main__':
     #date_list = [datetime.datetime.strftime(base + datetime.timedelta(days=x), '%-m/%-d/%-y') for x in range(51)]
     #dropRows = ['AS', 'GU', 'MP', 'Virgin Islands', 'PR']
     #drop_entries_from_CSV(RAW_DATA_FILE_PATH, dropCols=[], dropRows=date_list)
-    #addContinentCol(MERGED_FILE_PATH)
+    addContinentCol(MERGED_FILE_PATH)
     #merge_raw_datasets(DATASET1_PATH, DATASET2_PATH, ['Country', 'Year'], MERGED_FILE_PATH)
-    fill_data(RAW_DATA_FILE_PATH)
+    #fill_data(RAW_DATA_FILE_PATH)
     #addUSStateRegionCol(RAW_DATA_FILE_PATH)
