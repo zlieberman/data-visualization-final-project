@@ -101,9 +101,9 @@ def drop_entries_from_CSV(filename: str, dropCols: List[str], dropRows: List[str
     inputDf.to_csv(filename)
 
 
-def getContinentFromCountry(row):
+def getContinentFromCountry(countryName: str):
     try:
-        country_code = pc.country_name_to_country_alpha2(row.iloc[0], cn_name_format="default")
+        country_code = pc.country_name_to_country_alpha2(countryName, cn_name_format="default")
     except:
         return "Invalid"
     continent_name = pc.country_alpha2_to_continent_code(country_code)
@@ -115,7 +115,10 @@ def addContinentCol(file: str, numHeaderRows: int = 0):
     Add a column with the continent abbreviation for each country in the csv file
     """
     csv = pd.read_csv(file, skiprows=numHeaderRows)
-    temp = csv.apply(lambda row: getContinentFromCountry(row), axis=1)
+    def applyContinentFromCountry(row):
+        return getContinentFromCountry(row.iloc[0])
+
+    temp = csv.apply(lambda row: applyContinentFromCountry(row), axis=1)
     csv.insert(1,'Continent',temp)
     csv.set_index(csv.columns[0], inplace=True)
     outfile = file[0:file.index('.csv')] + '_new.csv'
@@ -158,26 +161,23 @@ def fill_data(filename: str):
     NOTE: this needs to be modified, it is hard coded specifically for covid.csv
     """
     inputDf = pd.read_csv(filename)
-    timestamps = inputDf['date'].unique().tolist()
-    entities = inputDf['state'].unique().tolist()
+    timestamps = inputDf['Year'].unique().tolist()
+    entities = inputDf['Country'].unique().tolist()
     earlestTime = timestamps[0]
-    segmentedDf = inputDf[inputDf['date'] == earlestTime]
-    missingEntities = list(set(entities) - set(segmentedDf['state'].unique().tolist()))
+    segmentedDf = inputDf[inputDf['Year'] == earlestTime]
+    missingEntities = list(set(entities) - set(segmentedDf['Country'].unique().tolist()))
     for entity in missingEntities:
         if entity in US_STATE_TO_ABREV:
             abrev = US_STATE_TO_ABREV[entity]
-            newRow = {
-                'date': earlestTime,
-                'state': entity,
-                #'region': USA_STATES_TO_REGION[abrev],
-                'cases': 0,
-                'cases_avg': 0,
-                'cases_avg_per_100k': 0,
-                'deaths': 0,
-                'deaths_avg': 0,
-                'deaths_avg_per_100k': 0,
-            }
-            inputDf = inputDf.append(newRow, ignore_index=True)
+        newRow = {
+            'Country': entity,
+            'Continent': getContinentFromCountry(entity),
+            #'region': USA_STATES_TO_REGION[abrev],
+            'Year': earlestTime,
+            'GDP per capita': 0,
+            'Mortality': 0,
+        }
+        inputDf = inputDf.append(newRow, ignore_index=True)
     inputDf.set_index(inputDf.columns[0], inplace=True)
     inputDf.to_csv(filename)
 
@@ -201,5 +201,5 @@ if __name__ == '__main__':
     #drop_entries_from_CSV(RAW_DATA_FILE_PATH, dropCols=[], dropRows=date_list)
     #addContinentCol(MERGED_FILE_PATH)
     #merge_raw_datasets(DATASET1_PATH, DATASET2_PATH, ['Country', 'Year'], MERGED_FILE_PATH)
-    #fill_data(RAW_DATA_FILE_PATH)
-    addUSStateRegionCol(RAW_DATA_FILE_PATH)
+    fill_data(RAW_DATA_FILE_PATH)
+    #addUSStateRegionCol(RAW_DATA_FILE_PATH)

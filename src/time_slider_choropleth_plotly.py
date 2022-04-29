@@ -60,15 +60,14 @@ def dynamic_node_graph_plotly(
         pass
 
     # For GDP data
-    """
-    xCol = 'Mortality'
-    yCol = 'GDP per capita'
+    xCol = 'GDP per capita'
+    yCol = 'Mortality'
     sizeCol = 'GDP per capita'
     indexCol = 'Country'
     dateCol = 'Year'
     colorCol = 'Continent'
-    """ 
 
+    """
     # For Covid Data
     xCol = 'cases_avg_per_100k'
     yCol = 'deaths_avg_per_100k'
@@ -76,10 +75,12 @@ def dynamic_node_graph_plotly(
     indexCol = 'state'
     dateCol = 'date'
     colorCol = 'Region'
+    """
 
 
     # filter out invalid colorCol rows
     inputDf.drop(inputDf[(inputDf[colorCol] == 'Invalid') | (inputDf[colorCol] == None)].index, inplace=True)
+    inputDf.dropna(inplace=True)
 
     print(inputDf)
 
